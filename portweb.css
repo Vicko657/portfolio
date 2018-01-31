@@ -68,9 +68,9 @@ h1 {
   font-size: 20px;
   color: #9F804A;
   cursor: pointer;
-  padding: 20px; }
-  .skip_part :hover {
-    transition: 0.5s;
+  padding: 20px;
+  transition: 0.5s; }
+  .skip_part:hover {
     color: silver; }
 
 .part1 {
@@ -100,9 +100,8 @@ h1 {
     width: 20px; }
 
 .ft3 {
-  color: #9F804A; }
-  .ft3 :hover {
-    transition: 0.5s; }
+  color: #9F804A;
+  z-index: 999; }
 
 .part4 {
   background: black;
@@ -211,10 +210,17 @@ h1 {
 .main-body {
   background: white; }
 
-#menuicon {
-  border-bottom: solid 3px #9F804A;
-  width: 27px;
-  margin-bottom: 5px; }
+a {
+  text-decoration: none; }
+
+.email {
+  color: silver;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 12px;
+  cursor: pointer; }
+  .email:hover {
+    color: #9F804A; }
 
 .nav {
   background: black;

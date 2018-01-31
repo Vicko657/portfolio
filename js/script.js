@@ -17,6 +17,7 @@ $(document).ready(function() {
     showNext();
 
 });
+
 var es = document.getElementById("enter");
 $(document).ready(function(){
   $('.main-body').css('display','none');
