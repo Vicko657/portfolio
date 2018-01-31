@@ -65,9 +65,10 @@ h1 {
 
 .skip_part {
   position: fixed;
-  font-size: 10px;
+  font-size: 20px;
   color: #9F804A;
-  cursor: pointer; }
+  cursor: pointer;
+  padding: 20px; }
 
 .part1 {
   background-color: white;
