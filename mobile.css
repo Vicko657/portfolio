@@ -83,7 +83,7 @@ h1 {
   background: black;
   height: 100vh; }
   .part2 h1 {
-    font-size: 30px;
+    font-size: 15px;
     color: #9F804A; }
   .part2 .ft1 {
     color: white; }
@@ -94,7 +94,7 @@ h1 {
   background: black;
   height: 100vh; }
   .part3 h1 {
-    font-size: 30px;
+    font-size: 20px;
     cursor: pointer;
     color: white;
     width: 20px; }
@@ -224,9 +224,8 @@ a {
 
 .nav {
   background: black;
-  padding: 10px 90px 10px 90px;
   position: fixed;
-  width: 90%; }
+  width: 100%; }
 
 .lg {
   color: white; }
@@ -242,7 +241,6 @@ li {
   border: solid 3px #9F804A; }
 
 .am {
-  padding-top: 50px;
   height: 100vh; }
 
 .toppt p {
