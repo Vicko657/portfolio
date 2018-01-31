@@ -6,8 +6,13 @@ body{
   font-weight: 900;
   background-color: black;
 }
+
 h1{
   margin: 0px;
+}
+.skip_part{
+  position: fixed;
+  font-size: 10px;
 }
 .part1{
   background-color: white;
