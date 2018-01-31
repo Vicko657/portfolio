@@ -572,6 +572,25 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/mobile.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/mobile.html",
+		"oF": 0
+		},
+	"\/mobile.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/mobile.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/portweb.css": {
 		"aP": 1,
 		"bl": 0,
