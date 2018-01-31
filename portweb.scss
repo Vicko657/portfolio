@@ -16,6 +16,10 @@ h1{
   color: #9F804A;
   cursor: pointer;
   padding: 20px;
+  :hover{
+    transition: 0.5s;
+    color: silver;
+  }
 }
 .part1{
   background-color: white;
@@ -51,6 +55,9 @@ height: 100vh;
 }
 .ft3{
   color: #9F804A;
+  :hover{
+      transition: 0.5s;
+  }
 }
 .part4{
   background: black;
