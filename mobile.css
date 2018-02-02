@@ -77,7 +77,7 @@ h1 {
   background-color: white;
   height: 100vh; }
   .part1 h1 {
-    font-size: 30px; }
+    font-size: 15px; }
 
 .part2 {
   background: black;
@@ -94,7 +94,7 @@ h1 {
   background: black;
   height: 100vh; }
   .part3 h1 {
-    font-size: 20px;
+    font-size: 15px;
     cursor: pointer;
     color: white;
     width: 20px; }
@@ -107,7 +107,7 @@ h1 {
   background: black;
   height: 100vh; }
   .part4 h1 {
-    font-size: 30px;
+    font-size: 15px;
     cursor: pointer;
     color: white;
     width: 20px; }
@@ -118,7 +118,7 @@ h1 {
   .part5 a {
     text-decoration: none; }
   .part5 h1 {
-    font-size: 30px;
+    font-size: 15px;
     cursor: pointer;
     color: black; }
 
@@ -240,14 +240,11 @@ li {
   padding: 15px 8px;
   border: solid 3px #9F804A; }
 
-.am {
-  height: 100vh; }
-
 .toppt p {
   letter-spacing: 2px; }
 
 .infopart {
-  padding: 50px 90px 30px 90px; }
+  padding: 60px 14px 30px 5px; }
 
 a {
   text-decoration: none; }
@@ -330,41 +327,40 @@ button {
   margin-left: 5px; }
 
 .t1 {
-  position: absolute; }
+  position: absolute;
+  font-size: 10px; }
 
 .t2 {
-  position: absolute; }
+  position: absolute;
+  font-size: 10px; }
 
 .t3 {
-  position: absolute; }
+  position: absolute;
+  font-size: 10px; }
 
 .t4 {
-  position: absolute; }
+  position: absolute;
+  font-size: 10px; }
 
 .food1 {
-  width: 640px;
-  height: 351.75px;
-  opacity: 0.5; }
+  width: 320px;
+  height: 175.875px; }
 
 .shop1 {
-  width: 625.75px;
-  height: 352px;
-  opacity: 0.5; }
+  width: 312.875px;
+  height: 176px; }
 
 .law1 {
-  width: 640px;
-  height: 351.75px;
-  opacity: 0.5; }
+  width: 320px;
+  height: 175.875px; }
 
 .vy1 {
-  width: 621px;
-  height: 351.75px;
-  opacity: 0.5; }
+  width: 310.5px;
+  height: 175.875px; }
 
 .aik1 {
-  width: 640px;
-  height: 351.25px;
-  opacity: 0.5; }
+  width: 320px;
+  height: 175.625px; }
 
 .moreworkkk {
   height: 100vh;
@@ -378,32 +374,32 @@ img {
   cursor: pointer; }
 
 .sea1 {
-  width: 484px;
-  height: 324px; }
+  width: 363px;
+  height: 243px; }
 
 .sea2 {
-  width: 484px;
-  height: 324px; }
+  width: 363px;
+  height: 243px; }
 
 .sea3 {
-  width: 484px;
-  height: 324px; }
+  width: 363px;
+  height: 243px; }
 
 .sea4 {
-  width: 484px;
-  height: 324px; }
+  width: 363px;
+  height: 243px; }
 
 .sea5 {
-  width: 484px;
-  height: 324px; }
+  width: 363px;
+  height: 243px; }
 
 .sea6 {
-  width: 484px;
-  height: 324px; }
+  width: 363px;
+  height: 243px; }
 
 .sea7 {
-  width: 484px;
-  height: 324px; }
+  width: 363px;
+  height: 243px; }
 
 .vib1 {
   width: 250px;
