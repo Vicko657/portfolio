@@ -172,6 +172,7 @@ cursor: pointer;
   padding: 10px 90px 10px 90px;
   position:fixed;
   width:90%;
+  z-index: 1;
 }
 .lg{
   color: white;
@@ -303,10 +304,17 @@ button{
   position: absolute;
 }
 .t3{
+  color: black;
   position: absolute;
 }
 .t4{
   position: absolute;
+}
+a{
+  cursor:pointer;
+}
+.link_web{
+  cursor: pointer;
 }
 .food1{
   width:640px;
