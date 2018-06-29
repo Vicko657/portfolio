@@ -2,339 +2,579 @@
 <head>
   <meta charset="utf-8">
   <title>Home</title>
-  <link rel="stylesheet" href="portweb.css">
+  <link rel="stylesheet" href="kscss.css">
   <link rel="stylesheet" href="animate.css">
+  <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://use.fontawesome.com/5a3a7fdc30.js"></script>
-  <script src="https://use.typekit.net/cgm7mfp.js"></script>
-<script>try{Typekit.load({ async: true });}catch(e){}</script>
-<link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+<link rel="stylesheet" href="https://use.typekit.net/qjc4xqb.css">
+<link rel="stylesheet" href="https://use.typekit.net/cgm7mfp.css">
+<link href="https://fonts.googleapis.com/css?family=Gaegu" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
 </head>
+
 <body>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript" src="js/script.js"></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+
+	<script type="text/javascript" src="js/scrolloverflow.js"></script>
+
+	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+	<script type="text/javascript" src="js/examples.js"></script>
+
 <div class="enter-site" id="window">
     <section class="part1 flex flex--space-around align-center columns">
-    <h1 class="anim-typewriter1 o">Hello</h1>
-  </section>
+    <h1 class="anim-typewriter1 o">Hello it's <span class="ft1">Victoria</span> here</h1>
+    </section>
   <section class='part2 flex flex--space-around align-center'>
-    <h1 class="anim-typewriter2 o">I'm <span class="ft1">Victoria Olusegun</span>, an aspiring <span class="ft2">Front End Developer.</span></h1>
+    <h1 class="anim-typewriter2 o">I'm an aspiring <span class="ft2">Front End Developer.</span></h1>
   </section>
   <section class='part3 flex flex--space-around align-center'>
-    <h1 class="anim-typewriter5 o">I also have other <span class="ft3">projects</span> in development...</h1>
+    <h1 class="anim-typewriter5 o">I also do <span class="ft5">UX &amp; UI designs</span> and have different <span class="ft3">projects</span> in development...</h1>
   </section>
   <section class="part4 flex flex--space-around align-center">
     <h1 class="anim-typewriter3 o">Welcome to My Portfolio</h1>
   </section>
   <section id="skip" class="part5 flex flex--space-around align-center">
-    <a id="enter"><h1 class="anim-typewriter4 o">Click to <span class="ft3">enter</span> <i class="fa fa-long-arrow-right" aria-hidden="true"></i></h1></a>
+    <a id="enter"><h1 class="anim-typewriter4 o">Click to <span class="ft3">Enter</span> <i class="fas fa-arrow-circle-right"></i></h1></a>
   </section>
+  <div class="skip" id="skip">
+    skip to my portfolio
+  </div>
 </div>
+
     <div id="main-body" class="main-body">
+      <script type="text/javascript">
+        $(document).ready(function() {
+          $('#fullpage').fullpage({
+            anchors:['firstPage', 'secondPage', 'thirdPage', 'fourthpage', 'fifthpage'],
+            menu: '#menu',
+            verticalCentered: true,
+            sectionsColor: ['#00000', '#fff', '#fff', '#604f24','#968130'],
+          });
+        });
+      </script>
+
       <div class="nav flex flex--space-between align-center">
         <div class="lg flex flex--start align-start">
-          <p>Victoria Olusegun</p>
+          <div class="boxlogo">
+            VICTORIAOLUSEGUN
         </div>
-        <div class="flex flex--space-between align-end">
-          <div class="">
-          <a href="mailto:victoriaolusegun@googlemail.com?Subject=Enquires"><p class="email" >contact me</p></a>
+        </div>
+        <div class="top flex flex--space-between align-center">
+          <div class="mi">
+            <a class="r1" href="#firstPage">aboutme</a>
+            <a class="r2" href="#secondPage">myskills</a>
+            <a class="r3" href="#thirdPage">website designs &amp; app development</a>
+            <a class="r4" href="#fourthpage">photography</a>
+            <a class="r5" href="#fifthpage">ux &amp; design</a>
+          </div>
+        </div>
+        <div class=" flex flex--space-between align-end">
+          <div class="cm">
+            <a>contact me</a>
+          </div>
         </div>
       </div>
+      <div id="fullpage">
+      	<div class="section flex flex--space-around align-center" id="section-0" data-anchor="page1">
+
+          <div class="main_txt flex flex--space-around align-center columns">
+            <h1 class="amt">About Me</h1>
+            <br>
+         <h1 class="smallerh1">I currently study BSc Digital Design
+        at Brunel University London</h1>
+        <h2>Some of the coding languages I have learnt are html, css and javascript.</h2><h2>Also accompanied with
+other softwares such as Adobe Photoshop, Adobe Illustrator &amp; Adobe InDesign.</h2><h2>I also enjoy Photography and do other projects too.</h2>
+<p>I am also the co-founder for vyco which is freelance
+creative agency where we create affordable websites.</p>
+</div>
+</div>
+      	<div class="section" id="section-1" data-anchor="page2">
+
+        <div class="mid_sec flex flex--space-around align-center columns">
+          <div>
+        <h1 class="mst flex align-start">My Skills</h1>
       </div>
-      <div class="am">
-          <div class="infopart flex flex--space-around align-center rows">
-            <div class="about_me flex flex--start align-start columns">
-              <p class="amt">About Me</p>
-              <p class="big">I currently study BSc Digital Design <br>at Brunel University London <br>and I learnt how to code <br>websites<br> at the start of 2017.</p>
-              <p class="middle">I also enjoy Photography <br>and do other projects too.</p>
-              <p class="small">I am also the co-founder for <a href="https://vyco.github.io/vyco/"><span class="logo">vyco</span></a> which is freelance creative agency where we create affordable websites.</p>
-            </div>
-            <div class="skill_set flex flex--space-between align-end columns">
-              <p class="top_name">MY SKILL SET:</p>
-              <div class="html">
+        <br>
+<div class="flex flex--space-around align-center rows">
+<div class="wd flex flex--space-around align-center rows">
+
+        <div class="flex flex--space-around align-center columns">
+          <div class="wdt">
+            WEBSITE DEVELOPMENT
+          </div>
+          <br>
+          <br>
+        <div class="html">
                 <object>
-                <embed src="htmlbar.svg" style="width:354.28px; height:129.72px;">
+                <embed src="imgs/bars-01.svg" style="width:354.28px;">
                 </object>
-              </div>
+        </div>
               <div class="css">
                 <object>
-                <embed src="cssbar.svg" style="width:354.28px; height:129.72px;">
+                <embed src="imgs/bars-02.svg" style="width:354.28px;">
                 </object>
               </div>
               <div class="javascript">
                 <object>
-                <embed src="jsbar.svg" style="width:354.28px; height:129.72px;">
+                <embed src="imgs/bars-03.svg" style="width:354.28px;">
+                </object>
+              </div>
+              <div class="php">
+                <object>
+                <embed src="imgs/bars-04.svg" style="width:354.28px; ">
+                </object>
+              </div>
+              <div class="sql">
+                <object>
+                <embed src="imgs/bars-05.svg" style="width:354.28px; ">
                 </object>
               </div>
             </div>
-            </div>
-            <div class="flex flex--space-around align-center">
-            <p>Scroll for Work</p>
           </div>
+
+            <div class="UX flex flex--space-around align-center rows">
+              <div class="flex flex--space-around align-center columns">
+              <div class="UXT">
+                UX DESIGN
+              </div>
+              <br>
+              <br>
+              <div class="ap">
+                      <object>
+                      <embed src="imgs/bars-06.svg" style="width:354.28px; ">
+                      </object>
+              </div>
+              <div class="ai">
+                      <object>
+                      <embed src="imgs/bars-07.svg" style="width:354.28px; ">
+                      </object>
+              </div>
+              <div class="ain">
+                      <object>
+                      <embed src="imgs/bars-08.svg" style="width:354.28px; ">
+                      </object>
+              </div>
+              <div class="app">
+                      <object>
+                      <embed src="imgs/bars-09.svg" style="width:354.28px; ">
+                      </object>
+              </div>
+            </div>
+
+            </div>
         </div>
-          <div class="work">
-              <div class="top_work flex flex--space-around align-center">
-                <p>Work</p>
-              </div>
-              <div class="categories flex flex--space-around rows">
-                  <button class="tablinks" onclick="openCity(event, 'Websites')"> Websites</button>
-                  <button class="tablinks" onclick="openCity(event, 'Photography')"> Photography</button>
-                  <button class="tablinks" onclick="openCity(event, 'MoreWork')"> More Work</button>
-                  <button class="tablinks" onclick="openCity(event, 'Uniwork')">UniWork &amp; UX</button>
-              </div>
-              <div id="Websites" class="tabcontent tp1 flex flex--space-around align-center columns">
-              <p class="title flex flex--space-around align-center">Websites</p>
-              <div class="jfp flex flex--space-around align-center">
-                  <div class="vyco flex flex--space-around align-center">
-                    <p>vyco</p>
-                  </div>
-              </div>
-                <p class="flex flex--space-around align-center">Website Designs</p>
+      </div>
+  </div>
+
+      	<div class="section" id="section-2" data-anchor="page3">
+          <div class="slide" id="s3slide1">
+            <div class="top_work flex flex--space-around align-center">
+                  <h1 class="wdadt">Website Designs and App Development</h1>
+                </div>
+              <div class=" flex flex--space-around align-center columns">
+              <p class="title flex flex--space-around align-center">MUNI EATS</p>
+            </div>
                 <div class="flex flex--space-around rows">
                   <div class="box flex flex--space-around align-center columns">
-                    <img class="food1"src="images/muni1.png" alt="img">
-                    <p class="t1">MUNI EATS now changed to Aisha's kitchen</p>
+                    <img class="food1"src="imgs/muni1.png" alt="img">
+                    <p class="t1">MUNI EATS now changed to Aisha's kitchen
+                    <br>
+                    Click for Overview
+                    </p>
                   </div>
-                  <div id="myModal" class="modal">
-                  <span class="close">&times;</span>
-                  <img class="modal-content" id="img01">
-                  <div id="caption"></div>
+              </div>
+              <p class="flex flex--space-around align-center">1/8</p>
+            </div>
+              <div class="slide" id="s3slide2">
+                <div class="top_work flex flex--space-around align-center">
+                      <h1 class="wdadt">Website Designs and App Development</h1>
+                    </div>
+                    <div class=" flex  align-center columns">
+                    <p class="title flex flex--space-around align-center">PNEUMA</p>
                   </div>
-                  <div class="box  flex flex--space-around align-center">
-                    <img class="shop1"src="images/pneuma1.png" alt="img">
-                    <p class="t2">PNEUMA</p>
+                  <a href="pneuma.html" target="_blank"><div class="box  flex flex--space-around align-center">
+                    <img class="shop1"src="imgs/pneuma1.png" alt="img">
+                    <p class="t2" style="color:black;">PNEUMA</p>
                   </div>
+                </a>
+                  <p class="flex flex--space-around align-center">2/8</p>
                 </div>
-                <br>
-                <div class="flex flex--space-around rows">
+                <div class="slide" id="s3slide3">
+                  <div class="top_work flex flex--space-around align-center">
+                        <h1 class="wdadt">Website Designs and App Development</h1>
+                      </div>
+                      <div class=" flex flex--space-around align-center columns">
+                      <p class="title flex flex--space-around align-center">Margaret Olusegun</p>
+                    </div>
                   <a href="http://www.msegun.com"><div class="box flex flex--space-around align-center">
-                    <img  class="law1"src="images/mo1.png" alt="img"></a>
+                    <img  class="law1"src="imgs/mo1.png" alt="img">
                     <p class="t3">Margaret Olusegun <br>
                     <span class="link_web flex flex--space-around align-center">Click to view</span></p>
                   </div></a>
+                  <p class="flex flex--space-around align-center">3/8</p>
+                </div>
+              <div class="slide" id="s3slide4">
+                <div class="top_work flex flex--space-around align-center">
+                      <h1 class="wdadt">Website Designs and App Development</h1>
+                    </div>
+                    <div class=" flex flex--space-around align-center columns">
+                    <p class="title flex flex--space-around align-center">Vyco</p>
+                  </div>
+                <div class="flex flex--space-around rows">
                   <div class="box flex flex--space-around align-center">
-                    <img class="vy1"src="images/vy1.png" alt="img">
-                    <p class="t4">Initial Design for vyco</p>
+                    <img class="vy1"src="imgs/vy1.png" alt="img">
+                    <p class="t4">Initial Design for Vyco</p>
                   </div>
                 </div>
-                <br>
-                <div class="flex flex--space-around rows">
+                <p class="flex flex--space-around align-center">4/8</p>
+              </div>
+                <div class="slide" id="s3slide5">
+                  <div class="top_work flex flex--space-around align-center">
+                        <h1 class="wdadt">Website Designs and App Development</h1>
+                      </div>
+                      <div class=" flex flex--space-around align-center columns">
+                      <p class="title flex flex--space-around align-center">Aisha's Kitchen</p>
+                    </div>
                   <a href="https://vyco.github.io/ak/"><div class="box flex flex--space-around align-center">
-                    <img class="aik1"src="images/ak1.png" alt="img">
+                    <img class="aik1"src="imgs/ak1.png" alt="img">
                     <p class="t3">Initial Design for Aisha's Kitchen <br><span class="link_web flex flex--space-around align-center">Click to view</span></p>
                   </div>
-                </div>
-              </div>
-              <div id="Photography" class="tabcontent flex flex--space-around align-center">
-              <p class="title flex flex--space-around align-center">Photography</p>
-              <div class="flex flex--space-around align-center">
-                <p>In Italy</p>
-              </div>
-              <div class="row1 flex flex--space-around rows">
-                <div class="box">
-                  <img class="sea1"src="images/pic1.png" alt="img">
-                </div>
-                <div class="box">
-                  <img class="sea2"src="images/pic2.png" alt="img">
-                </div>
-              </div>
-              <div class="row2 flex flex--space-around rows">
-                <div class="box">
-                  <img class="sea3"src="images/pic3.png" alt="img">
-                </div>
-                <div class="box">
-                  <img class="sea4"src="images/pic4.png" alt="img">
-                </div>
-              </div>
-              <div class="row3 flex flex--space-around rows">
-                <div class="box">
-                  <img class="sea5"src="images/pic5.png" alt="img">
-                </div>
-                <div class="box">
-                  <img class="sea6"src="images/pic6.png" alt="img">
-                </div>
-              </div>
-              <div class="row4 flex flex--space-around rows">
-                <div class="box">
-                  <img class="sea7"src="images/pic7.png" alt="img">
-                </div>
-              </div>
-              <div class="flex flex--space-around align-center">
-                <p>In London</p>
-              </div>
-              <div class="row5 flex flex--space-around rows">
-                <div class="box">
-                  <img class="sea1"src="images/LONDON5.png" alt="img">
-                </div>
-                <div class="box">
-                  <img class="sea2"src="images/london2.png" alt="img">
-                </div>
-              </div>
-              <div class="row6 flex flex--space-around rows">
-                <div class="box">
-                  <img class="sea3"src="images/london4.png" alt="img">
-                </div>
-                <div class="box">
-                  <img class="sea4"src="images/london3.png" alt="img">
-                </div>
-              </div>
-              <div class="flex flex--space-around align-center">
-                <p>Diversity</p>
-              </div>
-              <div class="row7 flex flex--space-around rows">
-                <div class="box">
-                  <img class="sea1"src="images/DIVERSITY2.png" alt="img">
-                </div>
-                <div class="box">
-                  <img class="sea2"src="images/diversity10.png" alt="img">
-                </div>
-              </div>
-              <div class="row8 flex flex--space-around rows">
-                <div class="box">
-                  <img class="sea3"src="images/Color geld1.png" alt="img">
-                </div>
-                <div class="box">
-                  <img class="sea4"src="images/diversity9.png" alt="img">
-                </div>
-              </div>
-              <div class="row9 flex flex--space-around rows">
-                <div class="box">
-                  <img class="sea5"src="images/diversity4.png" alt="img">
-                </div>
-              </div>
-              <div class="flex flex--space-around align-center">
-                <p>In Brighton</p>
-              </div>
-              <div class="row10 flex flex--space-around rows">
-                <div class="box">
-                  <img class="sea1"src="images/SEASIDE1.png" alt="img">
-                </div>
-                <div class="box">
-                  <img class="sea2"src="images/SEASIDE2.png" alt="img">
-                </div>
-              </div>
-              <div class="row11 flex flex--space-around rows">
-                <div class="box">
-                  <img class="sea3"src="images/SEASIDE3.png" alt="img">
-                </div>
-                <div class="box">
-                  <img class="sea4"src="images/SEASIDE4.png" alt="img">
-                </div>
-              </div>
-              <div class="row12 flex flex--space-around rows">
-                <div class="box">
-                  <img class="sea5"src="images/SEASIDE5.png" alt="img">
-                </div>
-                <div class="box">
-                  <img class="sea6"src="images/SEASIDE6.png" alt="img">
-                </div>
-              </div>
-              </div>
-              <div id="MoreWork" class="tabcontent">
-              <p class="title flex flex--space-around align-center">More Designs</p>
-              <div class="flex flex--space-around align-center">
-                <p class="flex flex--space-around align-center">Logos</p>
-              </div>
-              <div class="flex flex--space-around align-center">
-                <p>VIBE ROOMS</p>
-                <div class="flex flex--space-around columns">
-                <img class="vib1" src="images/silversmall.png" alt="img">
-                <img class="vib2" src="images/b&amp;wsmall.png" alt="img">
-              </div>
-              </div>
-              <div class="flex flex--space-around align-center">
-                <p class="flex flex--space-around align-center">Business Cards</p>
-              </div>
-              <div class="flex flex--space-around align-center">
-                <p>VYCO</p>
-                <div class="flex flex--space-around columns">
-                <img class="vyy" src="images/vycobusinesscard.png" alt="img">
-              </div>
-              </div>
-              <br>
-              <div class="flex flex--space-around align-center">
-                <p>ia2i</p>
-                <div class="flex flex--space-around align-end columns">
-                <img class="ia2i1" src="images/ia2ibc1.png" alt="img">
-                <img class="ia2i2" src="images/ia2ip.png" alt="img">
-              </div>
-              </div>
+                </a>
+                <p class="flex flex--space-around align-center">5/8</p>
               </div>
 
-              <div id="Uniwork" class="tabcontent flex flex--space-around align-center">
-              <h3 class="title flex flex--space-around align-center">Uni Work</h3>
-              <div class="flex flex--space-around align-center">
-                    <p>Hallowen Poster</p>
+            <div class="slide" id="s3slide6">
+              <div class="top_work flex flex--space-around align-center">
+                    <h1 class="wdadt">Website Designs and App Development</h1>
+                  </div>
+                  <div class=" flex flex--space-around align-center columns">
+                  <p class="title flex flex--space-around align-center">Kill Smoking</p>
+                </div>
+              <a href="killsmoking.html" target="_blank"><div class="box flex flex--space-around align-center">
+                <img class="aik1"src="imgs/sk.png" alt="img">
+                <p class="t3">Design for Smoking Kills Website for an Assignment <br><span class="link_web flex flex--space-around align-center">Click to view</span></p>
+              </div>
+            </a>
+            <p class="flex flex--space-around align-center">6/8</p>
+          </div>
+
+          <div class="slide" id="s3slide7">
+            <div class="top_work flex flex--space-around align-center">
+                  <h1 class="wdadt">Website Designs and App Development</h1>
+                </div>
+                <div class=" flex flex--space-around align-center columns">
+                <p class="title flex flex--space-around align-center">Pocket Learner App</p>
+              </div>
+            <a href="pocketlearner.html" target="_blank"><div class="box flex flex--space-around align-center">
+              <img class="aik1"src="imgs/pllogo.png" alt="img" style="width:50%;">
+              <p class="t3">Design process for making the app design for Pocket Learner <br><span class="link_web flex flex--space-around align-center">Click to view</span></p>
+            </div>
+          </a>
+          <p class="flex flex--space-around align-center">7/8</p>
+        </div>
+
+        <div class="slide" id="s3slide8">
+          <div class="top_work flex flex--space-around align-center">
+                <h1 class="wdadt">Website Designs and App Development</h1>
+              </div>
+              <div class=" flex flex--space-around align-center columns">
+              <p class="title flex flex--space-around align-center">Clinical Trials App</p>
+            </div>
+          <a href="gaia.html" target="_blank"><div class="box flex flex--space-around align-center">
+            <img class="aik1"src="imgs/sk.png" alt="img">
+            <p class="t3">Design process for making the app design for Gaia App <br><span class="link_web flex flex--space-around align-center">Click to view</span></p>
+          </div>
+        </a>
+        <p class="flex flex--space-around align-center">8/8</p>
+        </div>
+
+              </div>
+
+
+      <div class="section" id="section-3" data-anchor="page4">
+      <h1 style="color:white;" class="photot flex flex--space-around align-center">Photography</h1>
+      <br>
+      <div class="flex flex--space-around align-center columns">
+      <div class="categories flex flex--space-around rows">
+                  <button class="tablinks" onclick="openCity(event, 'InItaly')"> In Italy</button>
+                  <button class="tablinks" onclick="openCity(event, 'InLondon')"> In London</button>
+                  <button class="tablinks" onclick="openCity(event, 'Diversity')"> Diversity</button>
+                  <button class="tablinks" onclick="openCity(event, 'InBrighton')">In Brighton</button>
+              </div>
+              <br>
+
+      <div id="InItaly" class="tabcontent tp1 flex flex--space-around align-center columns">
+        <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides1 fade">
+          <img src="imgs/pic1.png" style="width:100%">
+        </div>
+
+        <div class="mySlides1 fade">
+          <img src="imgs/pic2.png" style="width:100%">
+        </div>
+
+        <div class="mySlides1 fade">
+          <img src="imgs/pic3.png" style="width:100%">
+        </div>
+
+        <div class="mySlides1 fade">
+          <img src="imgs/pic4.png" style="width:100%">
+        </div>
+
+        <div class="mySlides1 fade">
+          <img src="imgs/pic5.png" style="width:100%">
+        </div>
+
+        <div class="mySlides1 fade">
+          <img src="imgs/pic6.png" style="width:100%">
+        </div>
+
+        <div class="mySlides1 fade">
+          <img src="imgs/pic7.png" style="width:100%">
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+  </div>
+
+    <div id="InLondon" class="tabcontent flex flex--space-around align-center">
+      <div class="slideshow-container">
+
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides2 fade">
+        <img src="imgs/LONDON5.png" style="width:100%">
+      </div>
+
+      <div class="mySlides2 fade">
+        <img src="imgs/london2.png" style="width:100%">
+      </div>
+
+      <div class="mySlides2 fade">
+        <img src="imgs/london3.png" style="width:100%">
+      </div>
+
+      <div class="mySlides2 fade">
+        <img src="imgs/london4.png" style="width:100%">
+      </div>
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+
+    </div>
+    <div id="Diversity" class="tabcontent flex flex--space-around align-center">
+      <div class="slideshow-container">
+
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides3 fade">
+        <img src="imgs/DIVERSITY2.png" style="width:100%">
+      </div>
+
+      <div class="mySlides3 fade">
+        <img src="imgs/diversity10.png" style="width:100%">
+      </div>
+
+      <div class="mySlides3 fade">
+        <img src="imgs/Color geld1.png" style="width:100%">
+      </div>
+
+      <div class="mySlides3 fade">
+        <img src="imgs/diversity9.png" style="width:100%">
+      </div>
+
+      <div class="mySlides3 fade">
+        <img src="imgs/diversity4.png" style="width:100%">
+      </div>
+
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+
+    </div>
+
+  </div>
+    <div id="InBrighton" class="tabcontent flex flex--space-around align-center">
+      <div class="slideshow-container">
+
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides4 fade">
+        <img src="imgs/SEASIDE1.png" style="width:100%">
+      </div>
+
+      <div class="mySlides4 fade">
+        <img src="imgs/SEASIDE2.png" style="width:100%">
+      </div>
+
+      <div class="mySlides4 fade">
+        <img src="imgs/SEASIDE3.png" style="width:100%">
+      </div>
+
+      <div class="mySlides4 fade">
+        <img src="imgs/SEASIDE4.png" style="width:100%">
+      </div>
+
+      <div class="mySlides4 fade">
+        <img src="imgs/SEASIDE5.png" style="width:100%">
+      </div>
+
+      <div class="mySlides4 fade">
+        <img src="imgs/SEASIDE6.png" style="width:100%">
+      </div>
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+      </div>
+
+      </div>
+
+      <div class="section" id="section-4"
+      data-anchor="page5">
+<h1 class="UXt flex flex--space-around align-center">UX &amp; Design</h1>
+<br>
+      <div class="flex flex--space-around align-center columns">
+          <div class="difcategories flex flex--space-around rows">
+                      <button class="tablinks" onclick="openCity(event, 'UX')">Logos &amp; UX</button>
+                      <button class="tablinks" onclick="openCity(event, 'Level1')"> Posters and Illustrations</button>
+                      <button class="tablinks" onclick="openCity(event, 'Level2')"> 3D Animation</button>
+                  </div>
+          <div id="UX" class="tabcontent flex flex--space-around align-center">
+
+          <div class="flex flex--space-around align-center">
+          <div class="flex flex--space-around rows">
+              <img class="vib1" src="imgs/silversmall.png" alt="img">
+              <img class="vib2" src="imgs/b&amp;wsmall.png" alt="img">
+          </div>
+
+          <div class="flex flex--space-around align-center">
+            <div class="flex flex--space-around columns">
+                <img class="vyy" src="imgs/vycobusinesscard.png" alt="img">
+            </div>
+          </div>
+        </div>
+
+            <div class="flex flex--space-around align-center">
+              <div class="flex flex--space-around align-end rows">
+                  <img class="ia2i1" src="imgs/ia2ibc1.png" alt="img">
+                  <img class="ia2i2" src="imgs/ia2ip.png" alt="img">
+              </div>
+            </div>
+          </div>
+          <div id="Level1" class="tabcontent flex flex--space-around align-center rows">
+            <div class="flex flex--space-around rows">
+          <div class="flex flex--space-around align-center">
                     <div class="flex flex--space-around align-center columns">
-                    <img class="po2" src="images/hwp.png" alt="img">
+                    <img class="po2" src="imgs/hwp.png" alt="img">
+                    <p>Hallowen Poster</p>
                   </div>
               </div>
-              <br>
-              <br>
               <div class="flex flex--space-around align-center">
-                <p>Christmas Illustration</p>
-                <div class="flex flex--space-around align-center">
-                <img class="ch1" src="images/christmass3.png"
-                alt="img">
-              </div>
-              </div>
-              <div class="flex flex--space-around align-center">
-                <div class="flex flex--space-around columns">
-                <p>Pocket Learner App</p>
-                <p>(Logo &amp; UX Preview)</p>
-              </div>
                 <div class="flex flex--space-around align-center columns">
-                <img class="pl1 flex align-end" src="images/pllogo.png"
-                alt="img">
-                <br>
-                <div class="flex flex--space-around rows">
-                  <img class="pl2" src="images/moreapp-01.png"
+                  <img class="ch1" src="imgs/christmass3.png"
                   alt="img">
-                <img class="pl2" src="images/newapplayout-02.png"
-                alt="img">
-                <img class="pl2" src="images/menu-03.png"
-                alt="img">
-                <img class="pl2" src="images/transportpocket-02.png"
-                alt="img">
-                <img class="pl2" src="images/clothespocket-05.png"
-                alt="img">
-                <img class="pl2" src="images/vegetablepocket-02.png"
-                alt="img">
-                <img class="pl2" src="images/newapp2-06.png"
-                alt="img">
+                  <p>Christmas Illustration</p>
+                </div>
               </div>
+              <div class="flex flex--space-around align-center">
+                <div class="flex flex--space-around align-center columns">
+                  <img class="ch1" src="imgs/OurManinHavana.png"
+                  alt="img">
+                  <p>Book Cover</p>
+                </div>
               </div>
-              </div>
-              </div>
-          </div>
-          <div class="moreworkkk">
-          </div>
-          </div>
+            </div>
+            </div>
 
-          <script>
-          // Get the modal
-          var modal = document.getElementById('myModal');
+            <div id="Level2" class="tabcontent flex flex--space-around align-center rows">
+              <div class="3da flex flex--space-around align-center columns">
+              <h3>Year 2 Project</h3>
+              <p>The Software Maya was used</p>
+            </div>
 
-          // Get the image and insert it inside the modal - use its "alt" text as a caption
-          var img = document.getElementsByClassName('food1');
-          var modalImg = document.getElementById("img01");
-          var captionText = document.getElementById("caption");
-          img.onclick = function(){
-              modal.style.display = "block";
-              modalImg.src = this.src;
-              captionText.innerHTML = this.alt;
-          }
+              <video width="320" height="240" controls>
+  <source src="imgs/arobotbowling.mp4" type="video/mp4">
+</video>
 
-          // Get the <span> element that closes the modal
-          var span = document.getElementsByClassName("close")[0];
+            </div>
 
-          // When the user clicks on <span> (x), close the modal
-          span.onclick = function() {
-              modal.style.display = "none";
-          }
-          </script>
+            </div>
+    </div>
 
-          <script>
+    <footer>
+    </footer>
+  </div>
+        <script>
+      function openNav() {
+          document.getElementById("menu").style.width = "250px";
+          // document.getElementById("main-body").style.marginRight = "250px";
+          document.getElementById("fp-nav").style.marginRight = "250px";
+      }
+      function closeNav() {
+          document.getElementById("menu").style.width = "0";
+          // document.getElementById("main-body").style.marginRight= "0";
+          document.getElementById("fp-nav").style.marginRight = "0";
+      }
+      </script>
+
+        <script>
+        $('.count').each(function () {
+            $(this).prop('Counter',0).animate({
+                Counter: $(this).text()
+            }, {
+                duration: 8000,
+                easing: 'swing',
+                step: function (now) {
+                    $(this).text(Math.ceil(now));
+                }
+            });
+        });
+        </script>
+
+        <script>
           function openCity(evt, cityName) {
               var i, tabcontent, tablinks;
               tabcontent = document.getElementsByClassName("tabcontent");
@@ -351,8 +591,120 @@
           document.getElementById("defaultOpen").click();
           </script>
 
-    <footer>
-    </footer>
-  </div>
+          <script>
+          var slideIndex = 1;
+          showSlides(slideIndex);
+
+          function plusSlides(n) {
+            showSlides(slideIndex += n);
+          }
+
+          function currentSlide(n) {
+            showSlides(slideIndex = n);
+          }
+
+          function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides1");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].className += " active";
+          }
+          </script>
+
+          <script>
+          var slideIndex = 1;
+          showSlides(slideIndex);
+
+          function plusSlides(n) {
+            showSlides(slideIndex += n);
+          }
+
+          function currentSlide(n) {
+            showSlides(slideIndex = n);
+          }
+
+          function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides2");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].className += " active";
+          }
+          </script>
+
+          <script>
+          var slideIndex = 1;
+          showSlides(slideIndex);
+
+          function plusSlides(n) {
+            showSlides(slideIndex += n);
+          }
+
+          function currentSlide(n) {
+            showSlides(slideIndex = n);
+          }
+
+          function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides3");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].className += " active";
+          }
+          </script>
+
+          <script>
+          var slideIndex = 1;
+          showSlides(slideIndex);
+
+          function plusSlides(n) {
+            showSlides(slideIndex += n);
+          }
+
+          function currentSlide(n) {
+            showSlides(slideIndex = n);
+          }
+
+          function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides4");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].className += " active";
+          }
+          </script>
 </body>
 </html>

@@ -25,9 +25,8 @@ $(document).ready(function() {
 var es = document.getElementById("enter");
 $(document).ready(function(){
   $('.main-body').css('display','none');
-  $('#enter').click(function(){
-  $("#window").css('opacity','0');
-  $('#window').css('display','none');
+  $('#enter, #skip').click(function(){
+  $("#window").fadeOut("slow");
   $('.main-body').css('opacity','1');
   $('.main-body').css('display','block');
   });
