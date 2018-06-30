@@ -1022,6 +1022,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/imgs\/biglogo1.png": {
+		"ft": 32768,
+		"iS": 32450,
+		"oA": 0,
+		"oAP": "\/imgs\/biglogo1.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/imgs\/christmass3.png": {
 		"ft": 32768,
 		"iS": 197746,
@@ -1275,6 +1283,14 @@
 		"iS": 146928,
 		"oA": 0,
 		"oAP": "\/imgs\/muni1.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/imgs\/newlogotp.png": {
+		"ft": 32768,
+		"iS": 26527,
+		"oA": 0,
+		"oAP": "\/imgs\/newlogotp.png",
 		"oF": 0,
 		"opt": 0
 		},

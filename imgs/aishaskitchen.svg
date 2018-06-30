@@ -21,7 +21,7 @@
 	.st15{fill:#FFFFFF;}
 </style>
 <rect class="st0" width="1920" height="1080"/>
-<image style="overflow:visible;" width="1202" height="984" xlink:href="../../Aisha&apos;s Kitchen/AKimages/biglogo1.png"  transform="matrix(0.1905 0 0 0.1905 1421 74)">
+<image style="overflow:visible;" width="1202" height="1171" xlink:href="biglogo1.png"  transform="matrix(0.1764 0 0 0.1764 1429.5088 64.4761)">
 </image>
 <g>
 	<path d="M1626.9,311H750.8c-23.2,0-42,18.8-42,42v590.4h960.2V353C1668.9,329.8,1650.1,311,1626.9,311z"/>
