@@ -292,7 +292,7 @@
 		},
 	"\/imgs\/4A0B407F25584DD1.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 22882,
 		"oA": 0,
 		"oAP": "\/imgs\/4A0B407F25584DD1.png",
 		"oF": 0,
@@ -836,7 +836,7 @@
 		},
 	"\/imgs\/AC000B43E5BF4FEB.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 233516,
 		"oA": 0,
 		"oAP": "\/imgs\/AC000B43E5BF4FEB.png",
 		"oF": 0,
@@ -871,6 +871,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/imgs\/aishaskitchen.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/imgs\/aishaskitchen1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/imgs\/aishaskitchen1.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -1210,6 +1220,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/imgs\/killsmoking1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/imgs\/killsmoking1.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/imgs\/londonpic.mp4": {
 		"ft": 8192,
 		"oA": 2,
@@ -1227,6 +1247,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/imgs\/margaretolusegun.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/imgs\/margaretolusegun1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/imgs\/margaretolusegun1.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -1299,6 +1329,36 @@
 		"oA": 2,
 		"oAP": "\/imgs\/Pneuma.ai",
 		"oF": 0
+		},
+	"\/imgs\/Pneuma1-01.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/imgs\/Pneuma1-01.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/imgs\/Pneuma1-02.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/imgs\/Pneuma1-02.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/imgs\/Pneuma1-03.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/imgs\/Pneuma1-03.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/imgs\/pneuma1.png": {
 		"ft": 32768,

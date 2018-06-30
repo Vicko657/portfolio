@@ -8,13 +8,13 @@
 	.st2{fill:#E6E6E6;}
 	.st3{fill:#ACACAC;}
 	.st4{fill:none;}
-	.st5{fill:#8D581E;cursor:pointer;}
-	.st6{font-family:'KomuB';cursor:pointer;}
+	.st5{fill:#8D581E;}
+	.st6{font-family:'KomuB';}
 	.st7{font-size:33px;}
 	.st8{font-size:56px;}
 	.st9{font-family:'BrandonGrotesque-Light';}
 	.st10{font-size:19px;}
-	.st11{font-size:25px;cursor:pointer;}
+	.st11{font-size:25px;}
 	.st12{fill:none;stroke:#8D581E;stroke-width:4;stroke-miterlimit:10;}
 	.st13{fill:#B3B3B3;}
 	.st14{fill:#931111;}
@@ -35,10 +35,9 @@
 <text transform="matrix(1 0 0 1 46.7773 272.1997)" class="st5 st6 st8">Web Design</text>
 <text transform="matrix(1 0 0 1 49 385)"><tspan x="0" y="0" class="st5 st9 st10">This was my attempt at designing and coding a catering </tspan><tspan x="0" y="22.8" class="st5 st9 st10">website.</tspan><tspan x="0" y="68.4" class="st5 st9 st10">I also created the logo using Adobe Illustrator.</tspan><tspan x="0" y="114" class="st5 st9 st10">The font that I used was ff prater sans and Europa.</tspan></text>
 <rect x="70.3" y="570.1" class="st4" width="288.2" height="19.7"/>
-<a class="linkp" href="https://vyco.github.io/ak/" target="_blank">
 <text transform="matrix(1 0 0 1 70.2773 587.6172)" class="st5 st6 st11">Click for Website</text>
 <path class="st12" d="M217.2,604H68.8C56.2,604,46,593.8,46,581.2v-8.4c0-12.6,10.2-22.8,22.8-22.8h148.4
-	c12.6,0,22.8,10.2,22.8,22.8v8.4C240,593.8,229.8,604,217.2,604z"/></a>
+	c12.6,0,22.8,10.2,22.8,22.8v8.4C240,593.8,229.8,604,217.2,604z"/>
 <image style="overflow:visible;" width="2560" height="1405" xlink:href="ak1.png"  transform="matrix(0.343 0 0 0.343 750 423)">
 </image>
 <rect x="750" y="355" class="st13" width="878" height="32"/>

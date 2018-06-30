@@ -8,8 +8,8 @@
 	.st2{fill:#999999;}
 	.st3{font-family:'Mina-Bold';}
 	.st4{font-size:94px;}
-	.st5{fill:#B5B5B5;cursor:pointer;}
-	.st6{font-family:'KomuB';cursor:pointer;}
+	.st5{fill:#B5B5B5;}
+	.st6{font-family:'KomuB';}
 	.st7{font-size:33px;}
 	.st8{font-size:56px;}
 	.st9{font-family:'BrandonGrotesque-Light';}
@@ -20,7 +20,7 @@
 	.st14{fill:#B3B3B3;}
 	.st15{fill:#931111;}
 	.st16{fill:#FFFFFF;}
-	.st17{font-size:24px;cursor:pointer;}
+	.st17{font-size:24px;}
 	.st18{fill:none;stroke:#B5B5B5;stroke-width:3;stroke-miterlimit:10;}
 </style>
 <rect class="st0" width="1920" height="1080"/>
@@ -40,14 +40,13 @@
 	<path d="M1398.4,1022.7h-294c-2.6,0-5.1-1.5-5.9-3.9c-1.7-4.6,1.5-9,5.6-9h294c2.6,0,5.1,1.5,5.9,3.9
 		C1405.7,1018.3,1402.6,1022.7,1398.4,1022.7z"/>
 </g>
-<image style="overflow:visible;" width="2560" height="1403" xlink:href="AC000B43E5BF4FEB.png"  transform="matrix(0.3605 0 0 0.3586 789 308.452)">
+<image style="overflow:visible;" width="2564" height="1400" xlink:href="AC000B43E5BF4FEB.png"  transform="matrix(0.3603 0 0 0.3583 788.6063 309.1677)">
 </image>
 <rect x="794" y="238" class="st14" width="916" height="32"/>
 <circle class="st15" cx="811" cy="254" r="10"/>
 <rect x="860" y="280" class="st16" width="695" height="17"/>
 <rect x="172.8" y="883.6" class="st1" width="288.2" height="19.7"/>
-<a class="linkp" href="https://killsmoking.github.io/website" target="_blank">
 <text transform="matrix(1 0 0 1 172.7773 900.417)" class="st5 st6 st17">Click FOR WEBSITE</text>
 <path class="st18" d="M364.7,920.5H130.3c-12.6,0-22.8-10.2-22.8-22.8v-8.4c0-12.6,10.2-22.8,22.8-22.8h234.4
-	c12.6,0,22.8,10.2,22.8,22.8v8.4C387.5,910.3,377.3,920.5,364.7,920.5z"/></a>
+	c12.6,0,22.8,10.2,22.8,22.8v8.4C387.5,910.3,377.3,920.5,364.7,920.5z"/>
 </svg>

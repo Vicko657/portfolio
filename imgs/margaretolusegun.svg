@@ -5,8 +5,8 @@
 <style type="text/css">
 	.st0{fill:#8D8D8D;}
 	.st1{fill:none;}
-	.st2{fill:#FFFFFF;cursor:pointer;}
-	.st3{font-family:'KomuB';cursor:pointer;}
+	.st2{fill:#FFFFFF;}
+	.st3{font-family:'KomuB';}
 	.st4{font-size:33px;}
 	.st5{font-size:56px;}
 	.st6{font-family:'BrandonGrotesque-Light';}
@@ -21,7 +21,7 @@
 	.st15{fill:#E6E6E6;}
 	.st16{fill:#B3B3B3;}
 	.st17{fill:#931111;}
-	.st18{font-size:26px;cursor:pointer;}
+	.st18{font-size:26px;}
 	.st19{fill:none;stroke:#FFFFFF;stroke-width:3;stroke-miterlimit:10;}
 </style>
 <g>
@@ -45,14 +45,13 @@
 	<path d="M751.4,1010.7h-294c-2.6,0-5.1-1.5-5.9-3.9c-1.7-4.6,1.5-9,5.6-9h294c2.6,0,5.1,1.5,5.9,3.9
 		C758.7,1006.3,755.6,1010.7,751.4,1010.7z"/>
 </g>
-<image style="overflow:visible;" width="2560" height="1405" xlink:href="../../Screen Shot 2018-05-25 at 01.10.55.png"  transform="matrix(0.3578 0 0 0.3578 147 295.1641)">
+<image style="overflow:visible;" width="2560" height="1407" xlink:href="mo1.png"  transform="matrix(0.3577 0 0 0.3577 147.151 294.8892)">
 </image>
 <rect x="147" y="226" class="st16" width="916" height="32"/>
 <circle class="st17" cx="164" cy="242" r="10"/>
 <rect x="213" y="268" class="st2" width="695" height="17"/>
 <rect x="1268.8" y="610.6" class="st1" width="288.2" height="19.7"/>
-<a class="linkp" href="http://www.msegun.com/" target="_blank">
 <text transform="matrix(1 0 0 1 1268.7773 628.8174)" class="st2 st3 st18">Click for Website</text>
 <path class="st19" d="M1417.7,644.5h-148.4c-12.6,0-22.8-10.2-22.8-22.8v-8.4c0-12.6,10.2-22.8,22.8-22.8h148.4
-	c12.6,0,22.8,10.2,22.8,22.8v8.4C1440.5,634.3,1430.3,644.5,1417.7,644.5z"/></a>
+	c12.6,0,22.8,10.2,22.8,22.8v8.4C1440.5,634.3,1430.3,644.5,1417.7,644.5z"/>
 </svg>
