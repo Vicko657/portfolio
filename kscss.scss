@@ -724,11 +724,13 @@ img.hover-shadow {
     font-size: 10px;
   }
 }
-
+.po{
+  opacity: 0.5;
+}
 //media queries//
 //Iphone//
 @media only screen and (max-width: 600px) {
-
+//aboutme//
   .main_txt{
     text-align: center;
     padding: 0px 20px;
@@ -749,6 +751,84 @@ img.hover-shadow {
     font-size: 18px;
   }
   }
+  //myskills//
+    .mst{
+      font-size: 30px;
+    }
+    .wdt{
+      padding: 5px 10px;
+    }
+    .UXT{
+      padding: 5px 10px;
+    }
+    .whole{
+      flex-direction: column;
+    }
 
+    //websitedevelopment//
+    .wdadt{
+      font-size: 30px;
+    }
+    .food1{
+      width:320px;
+      height:175.875px;
+      opacity: 0.5;
+    }
+    .shop1{
+      width:312.875px;
+      height:176px;
+      opacity: 0.5;
+    }
+    .law1{
+      width:320px;
+      height:175.875px;
+      opacity: 0.5;
+    }
+    .vy1{
+      width:310.5px;
+      height:175.875px;
+      opacity: 0.5;
+    }
+    .aik1{
+      width:320px;
+      height:175.625px;
+      opacity: 0.5;
+    }
+    .t3{
+      font-size: 12px;
+    }
+    .t1{
+      font-size: 12px;
+    }
+    .t2{
+      font-size: 12px;
+    }
+    .t4{
+      font-size: 12px;
+    }
 
+      //photography//
+      .categories{
+        text-align: center;
+        flex-direction: column;
+        button{
+          margin-bottom: 5px;
+          padding: 10px 20px;
+        }
+
+      }
+
+      //UX and Design//
+      .UXt{
+          text-align: center;
+      }
+      .difcategories{
+        text-align: center;
+        flex-direction: column;
+
+      }
+#section-4 button{
+  margin-bottom: 5px;
+  padding: 10px 20px;
+}
 }
