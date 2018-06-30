@@ -727,12 +727,16 @@ img.hover-shadow {
   .3da h2 {
     font-size: 10px; }
 
-@media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
+@media only screen and (max-width: 600px) {
   .main_txt {
+    align-items: center;
+    padding: 0px 20px;
     color: white; }
     .main_txt h1 {
-      font-size: 10px; }
+      font-size: 30px; }
     .main_txt h2 {
-      font-size: 8px; }
+      font-size: 13px; }
     .main_txt p {
-      font-size: 5px; } }
+      font-size: 10px; }
+    .main_txt .smallerh1 {
+      font-size: 18px; } }
