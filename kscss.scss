@@ -726,3 +726,23 @@ img.hover-shadow {
 }
 
 //media queries//
+//Iphone//
+@media only screen and (min-device-width : 414px) and (max-device-width : 736px) {
+
+#section-0{
+  padding-top: 50px;
+}
+  .main_txt{
+    color: white;
+  h1{
+    font-size: 20px;
+  }
+  h2{
+    font-size: 10px;
+  }
+  p{
+    font-size: 5px;
+  }
+  }
+
+}

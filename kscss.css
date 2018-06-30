@@ -726,3 +726,15 @@ img.hover-shadow {
     font-size: 20px; }
   .3da h2 {
     font-size: 10px; }
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
+  #section-0 {
+    padding-top: 50px; }
+  .main_txt {
+    color: white; }
+    .main_txt h1 {
+      font-size: 20px; }
+    .main_txt h2 {
+      font-size: 10px; }
+    .main_txt p {
+      font-size: 5px; } }
