@@ -730,17 +730,20 @@ img.hover-shadow {
 @media only screen and (max-width: 600px) {
 
   .main_txt{
-    align-items: center;
+    text-align: center;
     padding: 0px 20px;
     color: white;
   h1{
     font-size: 30px;
+
   }
   h2{
     font-size: 13px;
+    font-weight: 300;
   }
   p{
     font-size: 10px;
+    font-weight: 100;
   }
   .smallerh1{
     font-size: 18px;
