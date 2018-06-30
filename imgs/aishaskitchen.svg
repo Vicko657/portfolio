@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1920 1080" style="enable-background:new 0 0 1920 1080;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#DBD5B9;}
+	.st1{fill:#C3C3C3;}
+	.st2{fill:#E6E6E6;}
+	.st3{fill:#ACACAC;}
+	.st4{fill:none;}
+	.st5{fill:#8D581E;cursor:pointer;}
+	.st6{font-family:'KomuB';cursor:pointer;}
+	.st7{font-size:33px;}
+	.st8{font-size:56px;}
+	.st9{font-family:'BrandonGrotesque-Light';}
+	.st10{font-size:19px;}
+	.st11{font-size:25px;cursor:pointer;}
+	.st12{fill:none;stroke:#8D581E;stroke-width:4;stroke-miterlimit:10;}
+	.st13{fill:#B3B3B3;}
+	.st14{fill:#931111;}
+	.st15{fill:#FFFFFF;}
+</style>
+<rect class="st0" width="1920" height="1080"/>
+<image style="overflow:visible;" width="1202" height="984" xlink:href="../../Aisha&apos;s Kitchen/AKimages/biglogo1.png"  transform="matrix(0.1905 0 0 0.1905 1421 74)">
+</image>
+<g>
+	<path d="M1626.9,311H750.8c-23.2,0-42,18.8-42,42v590.4h960.2V353C1668.9,329.8,1650.1,311,1626.9,311z"/>
+	<path class="st1" d="M612.1,943.4c0,22.6,18.8,41,42,41H1722c23.2,0,42-18.4,42-41H612.1z"/>
+	<rect x="749.7" y="354.5" class="st2" width="878.2" height="550.5"/>
+	<path class="st3" d="M1085.5,943.4c0,9.9,7.7,17.9,17.1,17.9h170.8c9.4,0,17.1-8,17.1-17.9H1085.5z"/>
+</g>
+<rect x="48.8" y="293" class="st4" width="541.2" height="32"/>
+<text transform="matrix(1 0 0 1 48.7773 316.1001)" class="st5 st6 st7">Aisha’s Kitchen Website Initial Design</text>
+<rect x="46.8" y="233" class="st4" width="437.7" height="41"/>
+<text transform="matrix(1 0 0 1 46.7773 272.1997)" class="st5 st6 st8">Web Design</text>
+<text transform="matrix(1 0 0 1 49 385)"><tspan x="0" y="0" class="st5 st9 st10">This was my attempt at designing and coding a catering </tspan><tspan x="0" y="22.8" class="st5 st9 st10">website.</tspan><tspan x="0" y="68.4" class="st5 st9 st10">I also created the logo using Adobe Illustrator.</tspan><tspan x="0" y="114" class="st5 st9 st10">The font that I used was ff prater sans and Europa.</tspan></text>
+<rect x="70.3" y="570.1" class="st4" width="288.2" height="19.7"/>
+<a class="linkp" href="https://vyco.github.io/ak/" target="_blank">
+<text transform="matrix(1 0 0 1 70.2773 587.6172)" class="st5 st6 st11">Click for Website</text>
+<path class="st12" d="M217.2,604H68.8C56.2,604,46,593.8,46,581.2v-8.4c0-12.6,10.2-22.8,22.8-22.8h148.4
+	c12.6,0,22.8,10.2,22.8,22.8v8.4C240,593.8,229.8,604,217.2,604z"/></a>
+<image style="overflow:visible;" width="2560" height="1405" xlink:href="ak1.png"  transform="matrix(0.343 0 0 0.343 750 423)">
+</image>
+<rect x="750" y="355" class="st13" width="878" height="32"/>
+<ellipse class="st14" cx="766.3" cy="371" rx="9.6" ry="10"/>
+<rect x="813.3" y="397" class="st15" width="666.2" height="17"/>
+</svg>
