@@ -34,11 +34,3 @@ $(document).ready(function(){
 es.onclick = function(){
   $('#window').fadeOut("slow");
 };
-
-
-function redirect(){
-  if(screen.width <= 680){
-    document.location = "mobile.html";
-
-  }
-}
