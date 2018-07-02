@@ -990,3 +990,255 @@ img.hover-shadow {
   width: 20%;
 }
 }
+@media only screen
+and (min-device-width : 414px)
+and (max-device-width : 736px)
+and (orientation : landscape) {
+
+  //aboutme//
+    .main_txt{
+      text-align: center;
+      padding: 0px 20px;
+      color: white;
+    h1{
+      font-size: 30px;
+
+    }
+    h2{
+      font-size: 13px;
+      font-weight: 300;
+    }
+    p{
+      font-size: 10px;
+      font-weight: 100;
+    }
+    .smallerh1{
+      font-size: 18px;
+    }
+    }
+    //myskills//
+      .mst{
+        font-size: 30px;
+      }
+      .wdt{
+        padding: 5px 10px;
+        margin: 0px;
+        border: none;
+        cursor: pointer;
+      }
+      .UXT{
+        padding: 5px 10px;
+        margin: 0px;
+        border: none;
+        cursor: pointer;
+      }
+      .UXT .show {
+        display:inline;
+        text-align: center;
+      }
+      .wdt .show {
+        display:inline;
+        text-align: center;
+      }
+      .bars1.responsive {position: relative;}
+      .bars1.responsive .wdt {
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      .bars1.responsive object {
+        float: none;
+        display: block;
+        text-align: left;
+      }
+      .bars2.responsive {position: relative;}
+      .bars2.responsive .UXT {
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      .bars2.responsive object {
+        float: none;
+        display: block;
+        text-align: left;
+      }
+      .bars1 object{display: none;}
+      .bars2 object{display: none;}
+      .whole{
+        flex-direction: column;
+      }
+
+      //websitedevelopment//
+      .wdadt{
+        font-size: 30px;
+      }
+      .food1{
+        width:240px;
+        height:131.90625px;
+        opacity: 0.5;
+      }
+      .shop1{
+        width:234.65625px;
+        height:132px;
+        opacity: 0.5;
+      }
+      .law1{
+        width:240px;
+        height:131.90625px;
+        opacity: 0.5;
+      }
+      .vy1{
+        width:232.875px;
+        height:131.90625px;
+        opacity: 0.5;
+      }
+      .aik1{
+        width:240px;
+        height:131.90625px;
+        opacity: 0.5;
+      }
+      .t3{
+        font-size: 12px;
+      }
+      .t1{
+        font-size: 12px;
+      }
+      .t2{
+        font-size: 12px;
+      }
+      .t4{
+        font-size: 12px;
+      }
+
+        //photography//
+        .categories{
+          text-align: center;
+          flex-direction: column;
+          button{
+            margin-bottom: 5px;
+            padding: 10px 20px;
+          }
+
+        }
+
+        //UX and Design//
+        .UXt{
+            text-align: center;
+        }
+        .difcategories{
+          text-align: center;
+          flex-direction: column;
+
+        }
+  #section-4 button{
+    margin-bottom: 5px;
+    padding: 10px 20px;
+  }
+
+  .mi a{display: none;}
+    .mi a.icon {
+      display: block;
+    }
+
+    .mi.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+
+      top: 0;
+    }
+    .mi.responsive a {
+      float: none;
+      display: block;
+      text-align: center;
+
+    }
+    .sizemw{
+      text-align: center;
+      font-family: "komu-b",sans-serif;
+      font-size: 15px;
+      letter-spacing: 2px;
+      font-weight: 400;
+    }
+
+    .logoo{
+
+      }
+
+      .vib1{
+        width:140.75px;
+        height:84.375px;
+      }
+      .vib2{
+        width:140.75px;
+        height:84.375px;
+      }
+      .vyy{
+        width:137.285156px;
+        height:87.3632812px;
+      }
+      .ia2i1{
+        width:128.8125px;
+        height:73.125px;
+      }
+      .ia2i2{
+        width:112.5px;
+      }
+      .po2{
+        width:77.088541px;
+        height:110.273488px;
+      }
+      .ch1{
+        width:89.16667px;
+        height:119.333333px;
+      }
+      #Level1 p{
+        font-size: 10px;
+      }
+      #Level2 p{
+        font-size: 10px;
+          margin: 0;
+      }
+      #Level2 h3{
+        font-size: 12px;
+        margin: 0;
+      }
+      #Level2 video{
+        width: 240px;
+        height: 180px;
+      }
+      .UXt{
+        text-align: center;
+      }
+      .pl1{
+        width:234.5px;
+        height:129.25px;
+      }
+      .pl2{
+        width: 156.534724px;
+        height: 277.777778px;
+      }
+      .part1{
+      h1{
+        font-size: 14px;
+      }
+    }
+    .part2{
+    h1{
+      font-size: 14px;
+    }
+  }
+      .part3{
+      h1{
+        font-size: 14px;
+      }
+    }
+    .part4{
+    h1{
+      font-size: 14px;
+    }
+  }
+  .po{
+    width: 20%;
+  }
+
+  }
