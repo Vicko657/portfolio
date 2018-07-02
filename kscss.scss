@@ -197,6 +197,15 @@ to{width: 26em;}
   color: #968130;
   font-weight: 100;
 }
+.mi .icon {
+  display: none;
+}
+.UXT .show {
+  display: none;
+}
+.wdt .show {
+  display: none;
+}
 a{
   margin-left: 5px;
   text-decoration: none;
@@ -458,6 +467,10 @@ a{
   width:640px;
   height:351.25px;
   opacity: 0.5;
+}
+
+.md{
+  margin:0;
 }
 
 img:hover{
@@ -727,6 +740,7 @@ img.hover-shadow {
 .po{
   opacity: 0.5;
 }
+
 //media queries//
 //Iphone//
 @media only screen and (max-width: 600px) {
@@ -757,10 +771,48 @@ img.hover-shadow {
     }
     .wdt{
       padding: 5px 10px;
+      margin: 0px;
+      border: none;
+      cursor: pointer;
     }
     .UXT{
       padding: 5px 10px;
+      margin: 0px;
+      border: none;
+      cursor: pointer;
     }
+    .UXT .show {
+      display:inline;
+      text-align: center;
+    }
+    .wdt .show {
+      display:inline;
+      text-align: center;
+    }
+    .bars1.responsive {position: relative;}
+    .bars1.responsive .wdt {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .bars1.responsive object {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .bars2.responsive {position: relative;}
+    .bars2.responsive .UXT {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .bars2.responsive object {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .bars1 object{display: none;}
+    .bars2 object{display: none;}
     .whole{
       flex-direction: column;
     }
@@ -770,28 +822,28 @@ img.hover-shadow {
       font-size: 30px;
     }
     .food1{
-      width:320px;
-      height:175.875px;
+      width:240px;
+      height:131.90625px;
       opacity: 0.5;
     }
     .shop1{
-      width:312.875px;
-      height:176px;
+      width:234.65625px;
+      height:132px;
       opacity: 0.5;
     }
     .law1{
-      width:320px;
-      height:175.875px;
+      width:240px;
+      height:131.90625px;
       opacity: 0.5;
     }
     .vy1{
-      width:310.5px;
-      height:175.875px;
+      width:232.875px;
+      height:131.90625px;
       opacity: 0.5;
     }
     .aik1{
-      width:320px;
-      height:175.625px;
+      width:240px;
+      height:131.90625px;
       opacity: 0.5;
     }
     .t3{
@@ -831,4 +883,88 @@ img.hover-shadow {
   margin-bottom: 5px;
   padding: 10px 20px;
 }
+
+.mi a{display: none;}
+  .mi a.icon {
+    display: block;
+  }
+
+  .mi.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+
+    top: 0;
+  }
+  .mi.responsive a {
+    float: none;
+    display: block;
+    text-align: center;
+
+  }
+  .sizemw{
+    text-align: center;
+    font-family: "komu-b",sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: 400;
+  }
+
+  .logoo{
+
+    }
+
+    .vib1{
+      width:140.75px;
+      height:84.375px;
+    }
+    .vib2{
+      width:140.75px;
+      height:84.375px;
+    }
+    .vyy{
+      width:137.285156px;
+      height:87.3632812px;
+    }
+    .ia2i1{
+      width:128.8125px;
+      height:73.125px;
+    }
+    .ia2i2{
+      width:112.5px;
+    }
+    .po2{
+      width:77.088541px;
+      height:110.273488px;
+    }
+    .ch1{
+      width:89.16667px;
+      height:119.333333px;
+    }
+    #Level1 p{
+      font-size: 10px;
+    }
+    #Level2 p{
+      font-size: 10px;
+        margin: 0;
+    }
+    #Level2 h3{
+      font-size: 12px;
+      margin: 0;
+    }
+    #Level2 video{
+      width: 240px;
+      height: 180px;
+    }
+    .UXt{
+      text-align: center;
+    }
+    .pl1{
+      width:234.5px;
+      height:129.25px;
+    }
+    .pl2{
+      width: 156.534724px;
+      height: 277.777778px;
+    }
+
 }
