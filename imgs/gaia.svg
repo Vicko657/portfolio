@@ -42,6 +42,7 @@
 	.st36{opacity:0.15;fill:url(#SVGID_18_);}
 	.st37{fill:none;stroke:#FFFFFF;stroke-width:4;stroke-miterlimit:10;}
 	.st38{opacity:0.15;fill:url(#SVGID_19_);}
+	.click{cursor:pointer;}
 </style>
 <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="2760" y1="540" x2="4680" y2="540" gradientTransform="matrix(-1 0 0 1 4680 0)">
 	<stop  offset="0" style="stop-color:#29ABE2"/>
@@ -1057,7 +1058,7 @@
 		C414,682.6,414.4,682.3,414.8,682.3z"/>
 </g>
 <g>
-	
+
 		<image style="overflow:visible;opacity:0.15;" width="617" height="1005" xlink:href="4A0B407F25584DD4.png"  transform="matrix(1 0 0 1 729 57)">
 	</image>
 	<g>
@@ -1171,7 +1172,7 @@
 		C1008.1,539.3,1009.2,537.6,1011.1,537.2z"/>
 </g>
 <g>
-	
+
 		<image style="overflow:visible;opacity:0.75;" width="365" height="153" xlink:href="4A0B407F25584DD7.png"  transform="matrix(1 0 0 1 880 625)">
 	</image>
 	<g>
@@ -1403,14 +1404,14 @@
 <image style="overflow:visible;" width="256" height="256" xlink:href="../../../Downloads/settings.png"  transform="matrix(8.602221e-02 -1.621035e-02 1.621035e-02 8.602221e-02 1197.8969 830.889)">
 </image>
 <g>
-	
+
 		<rect x="1195.8" y="859.1" transform="matrix(0.9827 -0.1852 0.1852 0.9827 -140.559 244.8211)" class="st4" width="89" height="31.6"/>
 	<text transform="matrix(0.9827 -0.1852 0.1852 0.9827 1195.6202 878.3671)" class="st11 st25 st26">Settings</text>
 </g>
 <image style="overflow:visible;" width="256" height="256" xlink:href="../../../Downloads/exit.png"  transform="matrix(7.598628e-02 -1.431914e-02 1.431914e-02 7.598628e-02 1256.1907 825.6049)">
 </image>
 <g>
-	
+
 		<image style="overflow:visible;opacity:0.15;" width="521" height="953" xlink:href="B3A0526065C33F4C.png"  transform="matrix(1 0 0 1 1172 79)">
 	</image>
 	<g>
@@ -1491,6 +1492,7 @@
 </linearGradient>
 <path class="st36" d="M1549.8,1022.5L1549.8,1022.5L1315.1,84.4l310.5,25.8c35.8,3,62.7,34.7,59.8,70.6l-64.9,782
 	C1617.4,998.6,1585.6,1025.5,1549.8,1022.5z"/>
+<a class="click" href="https://projects.invisionapp.com/share/VJHDCEICEX2#/screens/293101513_Loading_Page">
 <g>
 	<path class="st1" d="M175,781.7c0,0.5,0.1,1.4,1.1,1.4c0.9,0,1.1-0.8,1.1-1.4v-0.9c0-0.1,0.1-0.2,0.2-0.2h2.2c0.1,0,0.2,0,0.2,0.2
 		v1.1c0,2.2-1.2,3.7-3.6,3.7c-2.4,0-3.6-1.7-3.6-3.7v-9.7c0-2,1.2-3.7,3.6-3.7c2.6,0,3.6,1.6,3.6,3.7v0.9c0,0.1-0.1,0.2-0.2,0.2
@@ -1540,6 +1542,7 @@
 </g>
 <path class="st37" d="M322.7,802.5H174.3c-12.6,0-22.8-10.2-22.8-22.8v-8.4c0-12.6,10.2-22.8,22.8-22.8h148.4
 	c12.6,0,22.8,10.2,22.8,22.8v8.4C345.5,792.3,335.3,802.5,322.7,802.5z"/>
+</a>
 <linearGradient id="SVGID_19_" gradientUnits="userSpaceOnUse" x1="901.4927" y1="542.7769" x2="1289.0518" y2="542.7769" gradientTransform="matrix(0.9827 -0.1852 0.1852 0.9827 -106.7337 220.9594)">
 	<stop  offset="0" style="stop-color:#FFFFFF"/>
 	<stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0"/>

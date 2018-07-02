@@ -13,6 +13,7 @@
 	.st7{fill:#931111;}
 	.st8{fill:#FFFFFF;}
 	.st9{fill:none;stroke:#B5B5B5;stroke-width:3;stroke-miterlimit:10;}
+	.click{cursor:pointer;}
 </style>
 <rect class="st0" width="1920" height="1080"/>
 <g>
@@ -1765,6 +1766,7 @@
 <rect x="794" y="238" class="st6" width="916" height="32"/>
 <circle class="st7" cx="811" cy="254" r="10"/>
 <rect x="860" y="280" class="st8" width="695" height="17"/>
+<a class="click" href="https://killsmoking.github.io/website">
 <g>
 	<path class="st2" d="M176,896.7c0,0.5,0.1,1.4,1.1,1.4c0.9,0,1.1-0.8,1.1-1.4v-0.9c0-0.1,0.1-0.2,0.2-0.2h2.2c0.1,0,0.2,0,0.2,0.2
 		v1.1c0,2.2-1.2,3.7-3.6,3.7c-2.4,0-3.6-1.7-3.6-3.7v-9.7c0-2,1.2-3.7,3.6-3.7c2.6,0,3.6,1.6,3.6,3.7v0.9c0,0.1-0.1,0.2-0.2,0.2
@@ -1811,4 +1813,5 @@
 </g>
 <path class="st9" d="M364.7,920.5H130.3c-12.6,0-22.8-10.2-22.8-22.8v-8.4c0-12.6,10.2-22.8,22.8-22.8h234.4
 	c12.6,0,22.8,10.2,22.8,22.8v8.4C387.5,910.3,377.3,920.5,364.7,920.5z"/>
+</a>
 </svg>

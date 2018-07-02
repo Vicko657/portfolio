@@ -7,8 +7,8 @@
 	.st1{fill:#C3C3C3;}
 	.st2{fill:#E6E6E6;}
 	.st3{fill:#ACACAC;}
-	.st4{fill:#8D581E;}
-	.st5{fill:none;stroke:#8D581E;stroke-width:4;stroke-miterlimit:10;}
+	.st4{fill:#8D581E;cursor:pointer;}
+	.st5{fill:none;stroke:#8D581E;stroke-width:4;stroke-miterlimit:10;cursor:pointer;}
 	.st6{fill:#B3B3B3;}
 	.st7{fill:#931111;}
 	.st8{fill:#FFFFFF;}
@@ -22,6 +22,7 @@
 	<rect x="749.7" y="354.5" class="st2" width="878.2" height="550.5"/>
 	<path class="st3" d="M1085.5,943.4c0,9.9,7.7,17.9,17.1,17.9h170.8c9.4,0,17.1-8,17.1-17.9H1085.5z"/>
 </g>
+<a class="click" href="https://vyco.github.io/ak/">
 <g>
 	<path class="st4" d="M55.8,293c0.2,0,0.3,0.2,0.3,0.3l4.3,22.6c0,0.2-0.1,0.3-0.3,0.3h-3c-0.1,0-0.3-0.1-0.3-0.3l-0.7-4.1h-3.5
 		l-0.7,4.1c0,0.2-0.1,0.3-0.3,0.3h-3c-0.2,0-0.3-0.1-0.3-0.3l4.4-22.6c0-0.1,0.1-0.3,0.3-0.3H55.8z M53.2,308.5h2.4l-1.2-6.9
@@ -649,6 +650,7 @@
 </g>
 <path class="st5" d="M217.2,604H68.8C56.2,604,46,593.8,46,581.2v-8.4c0-12.6,10.2-22.8,22.8-22.8h148.4c12.6,0,22.8,10.2,22.8,22.8
 	v8.4C240,593.8,229.8,604,217.2,604z"/>
+</a>
 <image style="overflow:visible;" width="2560" height="1405" xlink:href="ak1.png"  transform="matrix(0.343 0 0 0.343 750 423)">
 </image>
 <rect x="750" y="355" class="st6" width="878" height="32"/>

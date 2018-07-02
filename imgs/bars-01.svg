@@ -3,15 +3,12 @@
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 703.2 88.2" style="enable-background:new 0 0 703.2 88.2;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:none;}
-	.st1{font-family:'BrandonGrotesque-Regular';}
-	.st2{font-size:17px;}
-	.st3{fill:none;stroke:#F7F5EC;stroke-width:8;stroke-miterlimit:10;}
-	.st4{fill:none;stroke:#DDC23A;stroke-width:8;stroke-miterlimit:10;}
+	.st0{fill:none;stroke:#F7F5EC;stroke-width:8;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#DDC23A;stroke-width:8;stroke-miterlimit:10;}
 </style>
 <defs>
 	<style>
-	.st4 {
+	.st1 {
 	stroke-dasharray: 2000;
 	stroke-dashoffset:0;
 	-webkit-animation:dash 30s linear forwards;
@@ -32,15 +29,26 @@
 	</style>
 </defs>
 <g id="Layer_1">
-	<rect x="634.6" y="60.6" class="st0" width="45.1" height="27.5"/>
-	<text transform="matrix(1 0 0 1 634.6485 72.5299)" class="st1 st2">HTML</text>
+	<g>
+		<path d="M636.4,61c0-0.2,0.2-0.3,0.3-0.3h0.7c0.2,0,0.3,0.2,0.3,0.3v5h6.9v-5c0-0.2,0.1-0.3,0.3-0.3h0.7c0.2,0,0.3,0.2,0.3,0.3
+			v11.3c0,0.2-0.2,0.3-0.3,0.3h-0.7c-0.2,0-0.3-0.2-0.3-0.3v-5.2h-6.9v5.2c0,0.2-0.1,0.3-0.3,0.3h-0.7c-0.2,0-0.3-0.2-0.3-0.3V61z"
+			/>
+		<path d="M651.1,61.8h-3c-0.2,0-0.3-0.2-0.3-0.3V61c0-0.2,0.1-0.3,0.3-0.3h7.2c0.2,0,0.3,0.2,0.3,0.3v0.5c0,0.2-0.1,0.3-0.3,0.3h-3
+			v10.4c0,0.2-0.2,0.3-0.3,0.3h-0.6c-0.2,0-0.3-0.2-0.3-0.3V61.8z"/>
+		<path d="M658.6,60.7c0-0.1,0.2-0.2,0.3-0.2h0.3c0.1,0,0.3,0.1,0.3,0.2l3.4,9.4c0,0,0.1,0,0.1,0l3.3-9.4c0-0.1,0.2-0.2,0.3-0.2h0.3
+			c0.1,0,0.3,0.1,0.3,0.2l2.2,11.4c0.1,0.2-0.1,0.4-0.3,0.4h-0.7c-0.1,0-0.3-0.1-0.3-0.2l-1.5-8.8c0,0-0.1,0-0.1,0l-3.1,9
+			c0,0.1-0.2,0.2-0.3,0.2h-0.3c-0.1,0-0.3-0.1-0.3-0.2l-3.2-9c0,0-0.1,0-0.1,0l-1.5,8.8c0,0.1-0.2,0.2-0.3,0.2h-0.7
+			c-0.3,0-0.4-0.2-0.3-0.4L658.6,60.7z"/>
+		<path d="M671.9,61c0-0.2,0.1-0.3,0.3-0.3h0.7c0.2,0,0.3,0.2,0.3,0.3v10.4h4.9c0.2,0,0.3,0.2,0.3,0.3v0.5c0,0.2-0.1,0.3-0.3,0.3
+			h-5.9c-0.2,0-0.3-0.2-0.3-0.3V61z"/>
+	</g>
 </g>
 <g id="html">
 	<g id="_x31_00_1_">
-		<line class="st3" x1="24.5" y1="31.3" x2="679.7" y2="31.3"/>
+		<line class="st0" x1="24.5" y1="31.3" x2="679.7" y2="31.3"/>
 	</g>
 	<g id="_x36_0_1_">
-		<line class="st4" x1="24.5" y1="31.3" x2="578.1" y2="31.3"/>
+		<line class="st1" x1="24.5" y1="31.3" x2="578.1" y2="31.3"/>
 	</g>
 </g>
 <g id="css">
