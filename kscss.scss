@@ -195,7 +195,7 @@ to{width: 26em;}
 .mi{
   cursor:pointer;
   color: #968130;
-  font-weight: 100;
+  font-weight: 300;
 }
 .mi .icon {
   display: none;
@@ -355,7 +355,7 @@ p{
   background: white;
   color: black;
 }
-#section-5{
+#section-4{
   color: white;
 }
 .top_work{
@@ -529,8 +529,8 @@ img{
   height:441.09375px;
 }
 .ch1{
-  width:356.666667px;
-  height:477.333333px;
+  width:274.75;
+  height:416.666667px;
 }
 .pl1{
   width:234.5px;
@@ -1242,3 +1242,7 @@ and (orientation : landscape) {
   }
 
   }
+div.main_txt.animated{
+  animation-delay: 5s;
+  animation-iteration-count: infinite;
+}

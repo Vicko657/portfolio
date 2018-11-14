@@ -22,6 +22,12 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/AK.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/AK.html",
+		"oF": 0
+		},
 	"\/animate.css": {
 		"aP": 1,
 		"bl": 0,
@@ -32,13 +38,13 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"\/animate0.css": {
+	"\/animate.min.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/animate0-min.css",
+		"oAP": "\/animate.min-min.css",
 		"oF": 0,
 		"oS": 0
 		},
@@ -84,6 +90,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/CNAME",
+		"oF": 0
+		},
+	"\/gaia.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/gaia.html",
 		"oF": 0
 		},
 	"\/imgs\/2BA5D340B7BA8540.png": {
@@ -1126,6 +1138,16 @@
 		"oAP": "\/imgs\/aishaskitchen.ai",
 		"oF": 0
 		},
+	"\/imgs\/aishaskitchen.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/imgs\/aishaskitchen.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/imgs\/aishaskitchen1.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1181,6 +1203,96 @@
 		"oAP": "\/imgs\/B3A0526065C33F4F.png",
 		"oF": 0,
 		"opt": 0
+		},
+	"\/imgs\/bars-01.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/imgs\/bars-01.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/imgs\/bars-02.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/imgs\/bars-02.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/imgs\/bars-03.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/imgs\/bars-03.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/imgs\/bars-04.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/imgs\/bars-04.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/imgs\/bars-05.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/imgs\/bars-05.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/imgs\/bars-06.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/imgs\/bars-06.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/imgs\/bars-07.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/imgs\/bars-07.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/imgs\/bars-08.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/imgs\/bars-08.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/imgs\/bars-09.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/imgs\/bars-09.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/imgs\/BC5632C4A54A5B04.png": {
 		"ft": 32768,
@@ -1238,11 +1350,27 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/imgs\/canonposter.png": {
+		"ft": 32768,
+		"iS": 16364313,
+		"oA": 0,
+		"oAP": "\/imgs\/canonposter.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/imgs\/christmass3.png": {
 		"ft": 32768,
 		"iS": 197746,
 		"oA": 0,
 		"oAP": "\/imgs\/christmass3.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/imgs\/churchposter.png": {
+		"ft": 32768,
+		"iS": 1091375,
+		"oA": 0,
+		"oAP": "\/imgs\/churchposter.png",
 		"oF": 0,
 		"opt": 0
 		},
@@ -1370,6 +1498,16 @@
 		"oAP": "\/imgs\/gaia.ai",
 		"oF": 0
 		},
+	"\/imgs\/gaia.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/imgs\/gaia.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/imgs\/hghv.png": {
 		"ft": 32768,
 		"iS": 127706,
@@ -1440,6 +1578,16 @@
 		"oAP": "\/imgs\/killsmoking.ai",
 		"oF": 0
 		},
+	"\/imgs\/killsmoking.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/imgs\/killsmoking.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/imgs\/killsmoking1.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1461,6 +1609,16 @@
 		"oA": 2,
 		"oAP": "\/imgs\/margaretolusegun.ai",
 		"oF": 0
+		},
+	"\/imgs\/margaretolusegun.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/imgs\/margaretolusegun.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/imgs\/margaretolusegun1.svg": {
 		"ft": 2097152,
@@ -1586,6 +1744,16 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/imgs\/pocketlearner-01.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/imgs\/pocketlearner-01.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/imgs\/pocketlearner.ai": {
 		"ft": 8192,
 		"oA": 2,
@@ -1651,6 +1819,28 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/imgs\/Retreat.pdf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/imgs\/Retreat.pdf",
+		"oF": 0
+		},
+	"\/imgs\/RetreatItenaries-01.png": {
+		"ft": 32768,
+		"iS": 1497567,
+		"oA": 0,
+		"oAP": "\/imgs\/RetreatItenaries-01.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/imgs\/RosettaInvestmentsflyer.png": {
+		"ft": 32768,
+		"iS": 447957,
+		"oA": 0,
+		"oAP": "\/imgs\/RosettaInvestmentsflyer.png",
+		"oF": 0,
+		"opt": 0
 		},
 	"\/imgs\/Screen Shot 2017-06-13 at 04.20.14.png": {
 		"ft": 32768,
@@ -1868,6 +2058,12 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/index.html",
+		"oF": 0
+		},
 	"\/jquery.fullPage-min.css": {
 		"aP": 1,
 		"bl": 0,
@@ -1991,6 +2187,53 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/js\/scrolloverflow.min.js.map",
+		"oF": 0
+		},
+	"\/killsmoking.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/killsmoking.html",
+		"oF": 0
+		},
+	"\/kscss.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/kscss-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/kscss.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/kscss.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/mo.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/mo.html",
+		"oF": 0
+		},
+	"\/pneuma.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/pneuma.html",
+		"oF": 0
+		},
+	"\/pocketlearner.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/pocketlearner.html",
 		"oF": 0
 		},
 	"\/README.md": {

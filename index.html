@@ -3,7 +3,7 @@
   <meta charset="utf-8">
   <title>Home</title>
   <link rel="stylesheet" href="kscss.css">
-  <link rel="stylesheet" href="animate.css">
+  <link rel="stylesheet" type="text/css" href="animate.css">
   <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://use.fontawesome.com/5a3a7fdc30.js"></script>
@@ -29,7 +29,7 @@
     <h1 class="anim-typewriter1 o">Hello it's <span class="ft1">Victoria</span></h1>
     </section>
   <section class='part2 flex flex--space-around align-center'>
-    <h1 class="anim-typewriter2 o">I'm an aspiring <span class="ft2">Front End Developer.</span></h1>
+    <h1 class="anim-typewriter2 o">I make<span class="ft2">websites.</span></h1>
   </section>
   <section class='part3 flex flex--space-around align-center'>
     <h1 class="anim-typewriter5 o">I also do <span class="ft5">UX &amp; UI designs</span> and have different <span class="ft3">projects</span> in development...</h1>
@@ -49,7 +49,7 @@
       <script type="text/javascript">
         $(document).ready(function() {
           $('#fullpage').fullpage({
-            anchors:['firstPage', 'secondPage', 'thirdPage', 'fourthpage', 'fifthpage'],
+            anchors:['aboutme', 'myskills', 'websiteanddevelopment', 'uxanddesign'],
             menu: '#menu',
             verticalCentered: true,
             sectionsColor: ['#00000', '#fff', '#fff', '#604f24','#968130'],
@@ -68,11 +68,10 @@
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <h1 class="sizemw">My Work <i class="fas fa-angle-down"></i></h1>
             </a>
-            <a class="r1" href="#firstPage">aboutme</a>
-            <a class="r2" href="#secondPage">myskills</a>
-            <a class="r3" href="#thirdPage">website designs &amp; app development</a>
-            <a class="r4" href="#fourthpage">photography</a>
-            <a class="r5" href="#fifthpage">ux &amp; design</a>
+            <a class="r1" href="#aboutme">aboutme</a>
+            <a class="r2" href="#myskills">myskills</a>
+            <a class="r3" href="#websiteanddevelopment">website designs &amp; app development</a>
+            <a class="r4" href="#uxanddesign">ux &amp; design</a>
           </div>
         </div>
         <div class=" flex flex--space-between align-end">
@@ -85,12 +84,12 @@
       	<div class="section flex flex--space-around flex align-center" id="section-0" data-anchor="page1">
 
           <div class="main_txt flex flex--space-around align-center columns">
-            <h1 class="amt">About Me</h1>
+            <h1 class="amt animated bounceInDown">About Me</h1>
             <br>
-         <h1 class="smallerh1">I currently study BSc Digital Design
+         <h1 class="smallerh1 animated bounceInDown">I currently study BSc Digital Design
         at Brunel University London</h1>
-        <h2>Some of the coding languages I have learnt are html, css and javascript.</h2><h2>Also accompanied with
-other softwares such as Adobe Photoshop, Adobe Illustrator &amp; Adobe InDesign.</h2><h2>I also enjoy Photography and do other projects too.</h2>
+        <h2 class="animated bounceInDown">Some of the coding languages I have learnt are html, css and javascript.</h2><h2 class="animated bounceInDown">
+Other software I have used are Adobe Photoshop, Adobe Illustrator &amp; Adobe InDesign.</h2>
 </div>
 </div>
       	<div class="section" id="section-1" data-anchor="page2">
@@ -103,8 +102,8 @@ other softwares such as Adobe Photoshop, Adobe Illustrator &amp; Adobe InDesign.
 <div class="whole flex flex--space-around align-center rows">
 <div class="wd flex flex--space-around align-center rows">
 
-        <div class="flex flex--space-around align-center columns">
-          <div class="wdt" href="javascript:void(0);" onclick="myFunction2()">
+        <div class="flex flex--space-around align-center columns scroll-animations">
+          <div class="wdt animated" href="javascript:void(0);" onclick="myFunction2()">
             WEBSITE DEVELOPMENT <i class="show fas fa-angle-down"></i>
           </div>
           <br>
@@ -140,7 +139,7 @@ other softwares such as Adobe Photoshop, Adobe Illustrator &amp; Adobe InDesign.
 
             <div class="UX flex flex--space-around align-center rows">
               <div class="flex flex--space-around align-center columns">
-              <div class="UXT" href="javascript:void(0);" onclick="myFunction3()">
+              <div class="UXT animated" href="javascript:void(0);" onclick="myFunction3()">
                 UX DESIGN <i class="show fas fa-angle-down"></i>
               </div>
               <br>
@@ -298,122 +297,83 @@ other softwares such as Adobe Photoshop, Adobe Illustrator &amp; Adobe InDesign.
 
 
       <div class="section" id="section-3" data-anchor="page4">
-      <h1 style="color:white;" class="photot flex flex--space-around align-center">Photography</h1>
-      <br>
-      <div class="flex flex--space-around align-center columns">
-      <div class="categories flex flex--space-around rows">
-                  <button class="tablinks" onclick="openCity(event, 'InItaly')"> In Italy</button>
-                  <button class="tablinks" onclick="openCity(event, 'InLondon')"> In London</button>
-                  <button class="tablinks" onclick="openCity(event, 'Diversity')"> Diversity</button>
-                  <button class="tablinks" onclick="openCity(event, 'InBrighton')">In Brighton</button>
-              </div>
-              <br>
+        <h1 class="UXt flex flex--space-around align-center">UX &amp; Design</h1>
+        <br>
+              <div class="flex flex--space-around align-center columns">
+                  <div class="difcategories flex flex--space-around rows">
+                              <button class="tablinks" onclick="openCity(event, 'UX')">Logos &amp; UX</button>
+                              <button class="tablinks" onclick="openCity(event, 'Level1')"> Posters and Illustrations</button>
+                              <button class="tablinks" onclick="openCity(event, 'Level2')"> 3D Animation</button>
+                          </div>
+                  <div id="UX" class="tabcontent flex flex--space-around align-center">
+                  <div class="flex flex--space-around align-center">
+                  <div class="logoo flex flex--space-around rows">
+                      <img class="vib1" src="imgs/silversmall.png" alt="img">
+                      <img class="vib2" src="imgs/b&amp;wsmall.png" alt="img">
+                  </div>
 
-    <div id="InItaly" class="tabcontent tp1 flex flex--space-around align-center columns">
+                  <div class="flex flex--space-around align-center">
+                    <div class="logoo flex flex--space-around columns">
+                        <img class="vyy" src="imgs/vycobusinesscard.png" alt="img">
+                    </div>
+                  </div>
+                </div>
+        <br>
+                    <div class="flex flex--space-around align-center">
+                      <div class="flex flex--space-around align-end rows">
+                          <img class="ia2i1" src="imgs/ia2ibc1.png" alt="img">
+                          <img class="ia2i2" src="imgs/ia2ip.PNG" alt="img">
+                      </div>
+                    </div>
+                  </div>
+                  <div id="Level1" class="tabcontent flex flex--space-around align-center rows">
+                    <div class="flex flex--space-around rows">
+                  <div class="flex flex--space-around align-center">
+                            <div class="flex flex--space-around align-center columns">
+                            <img class="po2" src="imgs/canonposter.png" alt="img">
+                            <p>Canon Poster</p>
+                          </div>
+                      </div>
+                      <div class="flex flex--space-around align-center">
+                        <div class="flex flex--space-around align-center columns">
+                          <img class="ch1" src="imgs/churchposter.png"
+                          alt="img">
+                          <p>Church Poster</p>
+                        </div>
+                      </div>
+                      <div class="flex flex--space-around align-center">
+                        <div class="flex flex--space-around align-center columns">
+                          <img class="ch1" src="imgs/RosettaInvestmentsflyer.png"
+                          alt="img">
+                          <p>Rosetta</p>
+                        </div>
+                      </div>
+                      <div class="flex flex--space-around align-center">
+                        <div class="flex flex--space-around align-center columns">
+                          <img class="ch1" src="imgs/RetreatItenaries-01.png"
+                          alt="img">
+                          <a href="imgs/Retreat.pdf"><p>Retreat Flyer<br>Click To See</p></a>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
 
-      <video width="320" height="240" controls>
-      <source src="imgs/initaly.mp4" type="video/mp4">
-      </video>
+                    <div id="Level2" class="tabcontent flex flex--space-around align-center rows">
+                      <div class="3da flex flex--space-around align-center columns">
+                      <h3>Year 2 Project</h3>
 
-    </div>
+                      <p>The Software Maya was used</p>
+                    </div>
 
-    <div id="InLondon" class="tabcontent flex flex--space-around align-center">
+                      <video width="320" height="240" controls>
+                      <source src="imgs/arobotbowling.mp4" type="video/mp4">
+                      </video>
 
-      <video width="320" height="240" controls>
-      <source src="imgs/londonpic.mp4" type="video/mp4">
-      </video>
+                    </div>
 
-    </div>
-
-    <div id="Diversity" class="tabcontent flex flex--space-around align-center">
-
-      <video width="320" height="240" controls>
-      <source src="imgs/diversitypic.mp4" type="video/mp4">
-      </video>
-
-    </div>
-
-    <div id="InBrighton" class="tabcontent flex flex--space-around align-center">
-
-      <video width="320" height="240" controls>
-      <source src="imgs/inbrighton.mp4" type="video/mp4">
-      </video>
-
-    </div>
-
-  </div>
+                    </div>
 </div>
 
-      <div class="section" id="section-4"
-      data-anchor="page5">
-<h1 class="UXt flex flex--space-around align-center">UX &amp; Design</h1>
-<br>
-      <div class="flex flex--space-around align-center columns">
-          <div class="difcategories flex flex--space-around rows">
-                      <button class="tablinks" onclick="openCity(event, 'UX')">Logos &amp; UX</button>
-                      <button class="tablinks" onclick="openCity(event, 'Level1')"> Posters and Illustrations</button>
-                      <button class="tablinks" onclick="openCity(event, 'Level2')"> 3D Animation</button>
-                  </div>
-          <div id="UX" class="tabcontent flex flex--space-around align-center">
-          <div class="flex flex--space-around align-center">
-          <div class="logoo flex flex--space-around rows">
-              <img class="vib1" src="imgs/silversmall.png" alt="img">
-              <img class="vib2" src="imgs/b&amp;wsmall.png" alt="img">
-          </div>
-
-          <div class="flex flex--space-around align-center">
-            <div class="logoo flex flex--space-around columns">
-                <img class="vyy" src="imgs/vycobusinesscard.png" alt="img">
-            </div>
-          </div>
-        </div>
-<br>
-            <div class="flex flex--space-around align-center">
-              <div class="flex flex--space-around align-end rows">
-                  <img class="ia2i1" src="imgs/ia2ibc1.png" alt="img">
-                  <img class="ia2i2" src="imgs/ia2ip.PNG" alt="img">
-              </div>
-            </div>
-          </div>
-          <div id="Level1" class="tabcontent flex flex--space-around align-center rows">
-            <div class="flex flex--space-around rows">
-          <div class="flex flex--space-around align-center">
-                    <div class="flex flex--space-around align-center columns">
-                    <img class="po2" src="imgs/hwp.png" alt="img">
-                    <p>Hallowen Poster</p>
-                  </div>
-              </div>
-              <div class="flex flex--space-around align-center">
-                <div class="flex flex--space-around align-center columns">
-                  <img class="ch1" src="imgs/christmass3.png"
-                  alt="img">
-                  <p>Christmas Illustration</p>
-                </div>
-              </div>
-              <div class="flex flex--space-around align-center">
-                <div class="flex flex--space-around align-center columns">
-                  <img class="ch1" src="imgs/OurManinHavana.png"
-                  alt="img">
-                  <p>Book Cover</p>
-                </div>
-              </div>
-            </div>
-            </div>
-
-            <div id="Level2" class="tabcontent flex flex--space-around align-center rows">
-              <div class="3da flex flex--space-around align-center columns">
-              <h3>Year 2 Project</h3>
-
-              <p>The Software Maya was used</p>
-            </div>
-
-              <video width="320" height="240" controls>
-              <source src="imgs/arobotbowling.mp4" type="video/mp4">
-              </video>
-
-            </div>
-
-            </div>
     </div>
 
     <footer>
