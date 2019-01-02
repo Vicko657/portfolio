@@ -153,13 +153,13 @@ h1 {
 
 .anim-typewriter2 {
   border-right: 3px solid white;
-  animation: typewriter2 2s steps(23) 1s 1 normal both, blinkTextCursor2 500ms steps(23) infinite normal; }
+  animation: typewriter2 2s steps(10) 1s 1 normal both, blinkTextCursor2 500ms steps(10) infinite normal; }
 
 @keyframes typewriter2 {
   from {
     width: 0; }
   to {
-    width: 13em; } }
+    width: 6em; } }
 
 @keyframes blinkTextCursor2 {
   from {
@@ -249,7 +249,8 @@ h1 {
 .mi {
   cursor: pointer;
   color: #968130;
-  font-weight: 300; }
+  font-weight: 500 !important;
+  -webkit-font-smoothing: antialiased; }
 
 .mi .icon {
   display: none; }
