@@ -3,7 +3,7 @@
   <meta charset="utf-8">
   <title>Home</title>
   <link rel="stylesheet" href="kscss.css">
-  <link rel="stylesheet" type="text/css" href="animate.css">
+  <link rel="stylesheet" href="animate.css">
   <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://use.fontawesome.com/5a3a7fdc30.js"></script>
@@ -11,57 +11,17 @@
   <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 <link rel="stylesheet" href="https://use.typekit.net/qjc4xqb.css">
 <link rel="stylesheet" href="https://use.typekit.net/cgm7mfp.css">
-<link href="https://fonts.googleapis.com/css?family=Gaegu" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script type="text/javascript" src="js/script.js"></script>
-
-	<script type="text/javascript" src="js/scrolloverflow.js"></script>
-
-	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
-	<script type="text/javascript" src="js/examples.js"></script>
-  <script language="JavaScript"> document.addEventListener("contextmenu", function(e){ e.preventDefault(); }, false); </script>
-
-<div class="enter-site" id="window">
-    <section class="part1 flex flex--space-around align-center columns">
-    <h1 class="anim-typewriter1 o">Hello it's <span class="ft1">Victoria</span></h1>
-    </section>
-  <section class='part2 flex flex--space-around align-center'>
-    <h1 class="anim-typewriter2 o">I make <span class="ft2">websites.</span></h1>
-  </section>
-  <section class='part3 flex flex--space-around align-center'>
-    <h1 class="anim-typewriter5 o">I also do <span class="ft5">UX &amp; UI designs</span> and have different <span class="ft3">projects</span> in development...</h1>
-  </section>
-  <section class="part4 flex flex--space-around align-center">
-    <h1 class="anim-typewriter3 o">Welcome to My Portfolio</h1>
-  </section>
-  <section id="skip" class="part5 flex flex--space-around align-center">
-    <a id="enter"><h1 class="anim-typewriter4 o">Click to <span class="ft3">Enter</span> <i class="fas fa-arrow-circle-right"></i></h1></a>
-  </section>
-  <div class="skip" id="skip">
-    skip to my portfolio
-  </div>
-</div>
-
+  <!--<script type="text/javascript" src="js/script.js"></script>-->
     <div id="main-body" class="main-body">
-      <script type="text/javascript">
-        $(document).ready(function() {
-          $('#fullpage').fullpage({
-            anchors:['aboutme', 'myskills', 'websiteanddevelopment', 'uxanddesign'],
-            menu: '#menu',
-            verticalCentered: true,
-            sectionsColor: ['#00000', '#fff', '#fff', '#604f24','#968130'],
-          });
-        });
-      </script>
-
       <div class="nav flex flex--space-between align-center">
         <div class="lg flex flex--start align-start">
           <div class="boxlogo">
-            VICTORIAOLUSEGUN
+            VICTORIA OLUSEGUN
         </div>
         </div>
         <div class="top flex flex--space-between align-center">
@@ -69,10 +29,9 @@
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <h1 class="sizemw">My Work <i class="fas fa-angle-down"></i></h1>
             </a>
-            <a class="r1" href="#aboutme">aboutme</a>
-            <a class="r2" href="#myskills">myskills</a>
-            <a class="r3" href="#websiteanddevelopment">website designs &amp; app development</a>
-            <a class="r4" href="#uxanddesign">ux &amp; design</a>
+            <a class="r2" href="#aboutme">aboutme</a>
+            <a class="r1" href="#web">website designs &amp; app development</a>
+            <a class="r3" href="#ux">ux &amp; design</a>
           </div>
         </div>
         <div class=" flex flex--space-between align-end">
@@ -81,305 +40,282 @@
           </div>
         </div>
       </div>
-      <div id="fullpage">
-      	<div class="section flex flex--space-around flex align-center" id="section-0" data-anchor="page1">
 
-          <div class="main_txt flex flex--space-around align-center columns">
-            <h1 class="amt animated bounceInDown">About Me</h1>
-            <br>
-         <h1 class="smallerh1 animated bounceInDown">I currently study BSc Digital Design
-        at Brunel University London</h1>
-        <h2 class="animated bounceInDown">Some of the coding languages I have learnt are html, css and javascript.</h2><h2 class="animated bounceInDown">
-Other software I have used are Adobe Photoshop, Adobe Illustrator &amp; Adobe InDesign.</h2>
-</div>
-</div>
-      	<div class="section" id="section-1" data-anchor="page2">
+      <section id="aboutme" class="aboutmeskills flex flex--space-around align-center">
 
-        <div class="mid_sec flex flex--space-around align-center columns">
-          <div>
-        <h1 class="mst flex align-start">My Skills</h1>
-      </div>
-        <br>
+      <div class="mid_sec flex flex--space-around align-center columns">
+        <div>
+    </div>
+      <br>
 <div class="whole flex flex--space-around align-center rows">
-<div class="wd flex flex--space-around align-center rows">
-
-        <div class="flex flex--space-around align-center columns scroll-animations">
-          <div class="wdt animated" href="javascript:void(0);" onclick="myFunction2()">
-            WEBSITE DEVELOPMENT <i class="show fas fa-angle-down"></i>
-          </div>
-          <br>
-      <div class="bars1" id="bar1">
-        <div class="html">
-                <object class="htmlb">
-                <embed src="imgs/bars-01.svg" style="width:354.28px;">
-                </object>
-        </div>
-              <div class="css">
-                <object>
-                <embed src="imgs/bars-02.svg" style="width:354.28px;">
-                </object>
-              </div>
-              <div class="javascript">
-                <object>
-                <embed src="imgs/bars-03.svg" style="width:354.28px;">
-                </object>
-              </div>
-              <div class="php">
-                <object>
-                <embed src="imgs/bars-04.svg" style="width:354.28px; ">
-                </object>
-              </div>
-              <div class="sql">
-                <object>
-                <embed src="imgs/bars-05.svg" style="width:354.28px; ">
-                </object>
-              </div>
-            </div>
-          </div>
-          </div>
-
-            <div class="UX flex flex--space-around align-center rows">
-              <div class="flex flex--space-around align-center columns">
-              <div class="UXT animated" href="javascript:void(0);" onclick="myFunction3()">
-                UX DESIGN <i class="show fas fa-angle-down"></i>
-              </div>
-              <br>
-            <div class="bars2" id="bar2">
-              <div class="ap">
-                      <object>
-                      <embed src="imgs/bars-06.svg" style="width:354.28px; ">
-                      </object>
-              </div>
-              <div class="ai">
-                      <object>
-                      <embed src="imgs/bars-07.svg" style="width:354.28px; ">
-                      </object>
-              </div>
-              <div class="ain">
-                      <object>
-                      <embed src="imgs/bars-08.svg" style="width:354.28px; ">
-                      </object>
-              </div>
-              <div class="app">
-                      <object>
-                      <embed src="imgs/bars-09.svg" style="width:354.28px; ">
-                      </object>
-              </div>
-            </div>
-          </div>
-
-            </div>
-        </div>
-      </div>
+  <div class="am flex flex--space-around align-center columns" style="margin-right:20px;">
+    <h1 class="as flex">About Me</h1>
+    <br>
+    <p class="aminfo">
+      Hello I'm Victoria Olusegun, a digital designer in London. I currently study BSc Digital Design at Brunel University London. Some of the coding languages I have learnt are HTML, CSS &amp; Javascript. The other software's I have used are Adobe Photoshop, Illustrator &amp; Adobe InDesign.
+    </p>
   </div>
-
-      	<div class="section" id="section-2" data-anchor="page3">
-          <div class="slide" id="s3slide1">
-            <div class="top_work flex flex--space-around align-center">
-                  <h1 class="wdadt">Website Designs and App Development</h1>
-                </div>
-              <div class=" flex flex--space-around align-center columns">
-              <p class="title flex flex--space-around align-center">MUNI EATS</p>
+  <br>
+  <br>
+  <div class="skillsett flex flex--space-around columns">
+  <br>
+<div class="wd flex flex--space-around align-center rows">
+      <div class="flex flex--space-around align-center columns">
+        <div class="wdt" href="javascript:void(0);" onclick="myFunction2()">
+          WEBSITE DEVELOPMENT <i class="show fas fa-angle-down"></i>
+        </div>
+        <br>
+    <div class="bars1" id="bar1">
+      <div class="html">
+              <object class="htmlb">
+              <embed src="imgs/bars-01.svg" style="width:354.28px;">
+              </object>
+      </div>
+            <div class="css">
+              <object>
+              <embed src="imgs/bars-02.svg" style="width:354.28px;">
+              </object>
             </div>
-                <div class="flex flex--space-around rows">
-                  <div class="box flex flex--space-around align-center columns">
-                    <img class="food1"src="imgs/muni1.png" alt="img">
-                    <p class="t1">MUNI EATS now changed to Aisha's kitchen
-                    </p>
-                  </div>
-              </div>
-              <p class="flex flex--space-around align-center">1/8</p>
+            <div class="javascript">
+              <object>
+              <embed src="imgs/bars-03.svg" style="width:354.28px;">
+              </object>
             </div>
-              <div class="slide" id="s3slide2">
-                <div class="top_work flex flex--space-around align-center">
-                      <h1 class="wdadt">Website Designs and App Development</h1>
-                    </div>
-                    <div class="flex flex flex--space-around align-center columns">
-                    <p class="title flex flex--space-around align-center">PNEUMA</p>
-                  </div>
-                  <a class="md" href="pneuma.html" target="_blank"><div class="box flex flex--space-around align-center">
-                    <img class="shop1"src="imgs/pneuma1.png" alt="img">
-                    <p class="t2" style="color:black;">PNEUMA <br>
-                    <span class="link_web flex flex--space-around align-center">Click to view</span></p>
-                  </div>
-                </a>
-                  <p class="flex flex--space-around align-center">2/8</p>
-                </div>
-                <div class="slide" id="s3slide3">
-                  <div class="top_work flex flex--space-around align-center">
-                        <h1 class="wdadt">Website Designs and App Development</h1>
-                      </div>
-                      <div class=" flex flex--space-around align-center columns">
-                      <p class="title flex flex--space-around align-center">Margaret Olusegun</p>
-                    </div>
-                  <a class="md" href="mo.html" target="_blank"><div class="box flex flex--space-around align-center">
-                    <img  class="law1"src="imgs/mo1.png" alt="img">
-                    <p class="t3">Margaret Olusegun <br>
-                    <span class="link_web flex flex--space-around align-center">Click to view</span></p>
-                  </div></a>
-                  <p class="flex flex--space-around align-center">3/8</p>
-                </div>
-              <div class="slide" id="s3slide4">
-                <div class="top_work flex flex--space-around align-center">
-                      <h1 class="wdadt">Website Designs and App Development</h1>
-                    </div>
-                    <div class=" flex flex--space-around align-center columns">
-                    <p class="title flex flex--space-around align-center">Vyco</p>
-                  </div>
-                <div class="flex flex--space-around rows">
-                  <div class="box flex flex--space-around align-center">
-                    <img class="vy1"src="imgs/vy1.png" alt="img">
-                    <p class="t4">Initial Design for Vyco</p>
-                  </div>
-                </div>
-                <p class="flex flex--space-around align-center">4/8</p>
-              </div>
-                <div class="slide" id="s3slide5">
-                  <div class="top_work flex flex--space-around align-center">
-                        <h1 class="wdadt">Website Designs and App Development</h1>
-                      </div>
-                      <div class=" flex flex--space-around align-center columns">
-                      <p class="title flex flex--space-around align-center">Aisha's Kitchen</p>
-                    </div>
-                  <a class="md" href="AK.html" target="_blank"><div class="box flex flex--space-around align-center">
-                    <img class="aik1"src="imgs/ak1.png" alt="img">
-                    <p class="t3">Initial Design for Aisha's Kitchen <br><span class="link_web flex flex--space-around align-center">Click to view</span></p>
-                  </div>
-                </a>
-                <p class="flex flex--space-around align-center">5/8</p>
-              </div>
-
-            <div class="slide" id="s3slide6">
-              <div class="top_work flex flex--space-around align-center">
-                    <h1 class="wdadt">Website Designs and App Development</h1>
-                  </div>
-                  <div class=" flex flex--space-around align-center columns">
-                  <p class="title flex flex--space-around align-center">Kill Smoking</p>
-                </div>
-              <a class="md" href="killsmoking.html" target="_blank"><div class="box flex flex--space-around align-center">
-                <img class="aik1"src="imgs/sk.png" alt="img">
-                <p class="t3">Design for Smoking Kills Website for an Assignment <br><span class="link_web flex flex--space-around align-center">Click to view</span></p>
-              </div>
-            </a>
-            <p class="flex flex--space-around align-center">6/8</p>
+            <div class="php">
+              <object>
+              <embed src="imgs/bars-04.svg" style="width:354.28px; ">
+              </object>
+            </div>
+            <div class="sql">
+              <object>
+              <embed src="imgs/bars-05.svg" style="width:354.28px; ">
+              </object>
+            </div>
           </div>
-
-          <div class="slide" id="s3slide7">
-            <div class="top_work flex flex--space-around align-center">
-                  <h1 class="wdadt">Website Designs and App Development</h1>
-                </div>
-                <div class=" flex flex--space-around align-center columns">
-                <p class="title flex flex--space-around align-center">Pocket Learner App</p>
-              </div>
-            <a class="md" href="pocketlearner.html" target="_blank"><div class="box flex flex--space-around align-center">
-              <img class="po" src="imgs/pllogo.png" alt="img" style="width:50%;">
-              <p class="t3">Design process for making the app design for Pocket Learner <br><span class="link_web flex flex--space-around align-center">Click to view</span></p>
-            </div>
-          </a>
-          <p class="flex flex--space-around align-center">7/8</p>
+        </div>
         </div>
 
-        <div class="slide" id="s3slide8">
-          <div class="top_work flex flex--space-around align-center">
-                <h1 class="wdadt">Website Designs and App Development</h1>
-              </div>
-              <div class=" flex flex--space-around align-center columns">
-              <p class="title flex flex--space-around align-center">Clinical Trials App</p>
+          <div class="UX flex flex--space-around align-center rows">
+            <div class="flex flex--space-around align-center columns">
+            <div class="UXT" href="javascript:void(0);" onclick="myFunction3()">
+              UX DESIGN <i class="show fas fa-angle-down"></i>
             </div>
-          <a class="md" href="gaia.html" target="_blank"><div class="box flex flex--space-around align-center">
-            <img class="po"src="imgs/ctlogo.svg" alt="img">
-            <p class="t3">Design process for making the app design for Gaia App <br><span class="link_web flex flex--space-around align-center">Click to view</span></p>
+            <br>
+          <div class="bars2" id="bar2">
+            <div class="ap">
+                    <object>
+                    <embed src="imgs/bars-06.svg" style="width:354.28px; ">
+                    </object>
+            </div>
+            <div class="ai">
+                    <object>
+                    <embed src="imgs/bars-07.svg" style="width:354.28px; ">
+                    </object>
+            </div>
+            <div class="ain">
+                    <object>
+                    <embed src="imgs/bars-08.svg" style="width:354.28px; ">
+                    </object>
+            </div>
+            <div class="app">
+                    <object>
+                    <embed src="imgs/bars-09.svg" style="width:354.28px; ">
+                    </object>
+            </div>
           </div>
-        </a>
-        <p class="flex flex--space-around align-center">8/8</p>
         </div>
 
+          </div>
+      </div>
+    </div>
+    </div>
+</section>
+
+      <section class="back">
+      	<div class="flex flex--space-around flex align-center">
+
+          <div id="web"class="websec flex flex--space-around align-center columns">
+            <!--<h1 class="wdadt ">Website Designs and App Development</h1>-->
+            <h1 class="as flex">Website Designs and App Development</h1>
+            <br>
+
+            <div class="flex flex--space-around rows">
+              <div class="wholesection">
+              <div class="imageofdesign">
+              <img class="food1"src="imgs/ME-09.png" alt="img">
+            </div>
+                <p class="t1">MUNI EATS
+                </p>
+            </div>
+
+            <div class="wholesection">
+              <a href="pneuma.html"><div>
+              <img class="shop1"src="imgs/pneuma-09.png" alt="img">
+            </div></a>
+                <p class="t2" >PNEUMA</p>
+            </div>
+
+            <div class="wholesection">
+              <div>
+              <img  class="law1"src="imgs/molo2-09-09.png" alt="img">
+            </div>
+                <p class="t3">Margaret Olusegun - COMING SOON</p>
+            </div>
+
+            <div class="wholesection">
+              <div>
+              <img class="vy1"src="imgs/vyco-09.png" alt="img">
+            </div>
+                <p class="t4">Initial Design for Vyco - COMING SOON</p>
+            </div>
+
+
+            </div>
+
+
+            <div class="flex flex--space-around rows">
+
+              <div class="wholesection">
+                <div>
+                <img class="aik1"src="imgs/ak-09.png" alt="img">
+              </div>
+                  <p class="t3">Initial Design for Aisha's Kitchen - COMING SOON</p>
               </div>
 
+              <div class="wholesection">
+                <div>
+                <img class="aik1"src="imgs/ks-09.png" alt="img">
+              </div>
+                  <p class="t3">Smoking Kills Design Process - COMING SOON</p>
+              </div>
 
-      <div class="section" id="section-3" data-anchor="page4">
-        <h1 class="UXt flex flex--space-around align-center">UX &amp; Design</h1>
-        <br>
-              <div class="flex flex--space-around align-center columns">
-                  <div class="difcategories flex flex--space-around rows">
-                              <button class="tablinks" onclick="openCity(event, 'UX')">Logos &amp; UX</button>
-                              <button class="tablinks" onclick="openCity(event, 'Level1')"> Posters and Illustrations</button>
-                              <button class="tablinks" onclick="openCity(event, 'Level2')"> 3D Animation</button>
-                          </div>
-                  <div id="UX" class="tabcontent flex flex--space-around align-center">
-                  <div class="flex flex--space-around align-center">
-                  <div class="logoo flex flex--space-around rows">
-                      <img class="vib1" src="imgs/silversmall.png" alt="img">
-                      <img class="vib2" src="imgs/b&amp;wsmall.png" alt="img">
-                  </div>
+              <div class="wholesection">
+                <div>
+                <img class="poo" src="imgs/pocketlearnlo-09.png" alt="img" width="240px">
+              </div>
+                  <p class="t3">Pocket Learner Design Process - COMING SOON</p>
+              </div>
 
-                  <div class="flex flex--space-around align-center">
-                    <div class="logoo flex flex--space-around columns">
-                        <img class="vyy" src="imgs/vycobusinesscard.png" alt="img">
-                    </div>
-                  </div>
-                </div>
-        <br>
-                    <div class="flex flex--space-around align-center">
-                      <div class="flex flex--space-around align-end rows">
-                          <img class="ia2i1" src="imgs/ia2ibc1.png" alt="img">
-                          <img class="ia2i2" src="imgs/ia2ip.PNG" alt="img">
-                      </div>
-                    </div>
-                  </div>
-                  <div id="Level1" class="tabcontent flex flex--space-around align-center rows">
-                    <div class="flex flex--space-around rows">
-                  <div class="flex flex--space-around align-center">
-                            <div class="flex flex--space-around align-center columns">
-                            <img class="po2" src="imgs/canonposter.png" alt="img">
-                            <p>Canon Poster</p>
-                          </div>
-                      </div>
-                      <div class="flex flex--space-around align-center">
-                        <div class="flex flex--space-around align-center columns">
-                          <img class="ch1" src="imgs/churchposter.png"
-                          alt="img">
-                          <p>Church Poster</p>
-                        </div>
-                      </div>
-                      <div class="flex flex--space-around align-center">
-                        <div class="flex flex--space-around align-center columns">
-                          <img class="ch1" src="imgs/RosettaInvestmentsflyer.png"
-                          alt="img">
-                          <p>Rosetta</p>
-                        </div>
-                      </div>
-                      <div class="flex flex--space-around align-center">
-                        <div class="flex flex--space-around align-center columns">
-                          <img class="ch1" src="imgs/RetreatItenaries-01.png"
-                          alt="img">
-                          <a href="imgs/Retreat.pdf"><p>Retreat Flyer<br>Click To See</p></a>
-                        </div>
-                      </div>
-                    </div>
-                    </div>
+            <div class="wholesection">
+              <a href="gaia.html"><div>
+              <img class="poo"src="imgs/gaialo-09.png" alt="img">
+            </div></a>
+                <p class="t3">Gaia App Design Process - COMING SOON</p>
+            </div>
 
-                    <div id="Level2" class="tabcontent flex flex--space-around align-center rows">
-                      <div class="3da flex flex--space-around align-center columns">
-                      <h3>Year 2 Project</h3>
 
-                      <p>The Software Maya was used</p>
-                    </div>
 
-                      <video width="320" height="240" controls>
-                      <source src="imgs/arobotbowling.mp4" type="video/mp4">
-                      </video>
+          </div>
 
-                    </div>
 
-                    </div>
+          <div class="flex flex--space-around rows">
+            <div class="wholesection">
+              <a href="outset.html"><div>
+              <img class="poo"src="imgs/outset-09.png" alt="img">
+            </div></a>
+                <p class="t3">Outset App</p>
+            </div>
+
+            <div class="wholesection">
+              <a href="pure.html"><div>
+              <img class="poo"src="imgs/pure-09.png" alt="img">
+            </div></a>
+                <p class="t3">360 Campaign</p>
+            </div>
+
+            <div class="wholesection">
+              <a href="digitalexperience.html"><div>
+              <img class="poo"src="imgs/drive-09.png" alt="img">
+            </div></a>
+                <p class="t3">Digital Experience</p>
+            </div>
+
+            <div class="wholesection">
+              <a href="hsbcmockup.html"><div>
+              <img class="poo"src="imgs/hsbc-09.png" alt="img">
+            </div></a>
+                <p class="t3">HSBC Mockup</p>
+            </div>
+          </div>
+          </div>
+
 </div>
+
+</section>
+<section class="back">
+  <div class="flex flex--space-around flex align-center">
+
+    <div id="ux"class="websec flex flex--space-around align-center columns">
+      <!--<h1 class="wdadt ">Website Designs and App Development</h1>-->
+    <h1 class="as flex">UX DESIGN</h1>
+    <br>
+
+      <div class="flex flex--space-around rows">
+        <div class="wholesection">
+        <a href="vb.html"><div class="imageofdesign">
+        <img class="food1"src="imgs/vb-09.png" alt="img">
+      </div></a>
+          <p class="t1">VIBE ROOMS LOGO
+          </p>
+      </div>
+
+      <div class="wholesection">
+        <a href="Ia2I.html"><div>
+        <img class="shop1"src="imgs/ia2ilg-09.png" alt="img">
+      </div></a>
+          <p class="t2" >IA2I BUSINESS CARD &amp; POSTER</p>
+      </div>
+
+      <div class="wholesection">
+        <a href="canon.html"><div>
+        <img  class="law1"src="imgs/canonlg-09.png" alt="img">
+      </div></a>
+          <p class="t3">Canon - Design Task</p>
+      </div>
+
+      <div class="wholesection">
+        <a href="3danimation.html"><div>
+        <img class="vy1"src="imgs/animationlogo-09.png" alt="img">
+      </div></a>
+          <p class="t4">3D ANIMATION - A ROBOT BOWLING</p>
+      </div>
+
+
+      </div>
+
+
+      <div class="flex flex--space-around rows">
+
+        <div class="wholesection">
+          <div>
+          <a href="rosetta.html"><img class="aik1"src="imgs/rose-09.png" alt="img">
+        </div></a>
+            <p class="t3">Rosetta Investments - Design Task</p>
+        </div>
+
+        <div class="wholesection">
+          <a href="retreatleaflet.html"><div>
+          <img class="aik1"src="imgs/inhispresence-09.png" alt="img">
+        </div></a>
+            <p class="t3">In His Presence Leaflet</p>
+        </div>
+
+        <div class="wholesection">
+          <a href="conferenceposter.html"><div>
+          <img class="poo" src="imgs/yotnlagf-09.png" alt="img" width="240px">
+        </div></a>
+            <p class="t3">YOTN Poster</p>
+        </div>
 
     </div>
+
+
+</section>
 
     <footer>
     </footer>
   </div>
+
         <script>
       function openNav() {
           document.getElementById("menu").style.width = "250px";

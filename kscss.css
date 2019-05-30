@@ -58,178 +58,13 @@ body {
   margin: 0;
   font-family: "brandon-grotesque",sans-serif;
   font-weight: 400;
-  background-color: black; }
+  background-color: #968130; }
+
+.aboutmeskills {
+  height: 100vh; }
 
 h1 {
   margin: 0px; }
-
-.enter-site {
-  z-index: 999; }
-
-.part1 {
-  background-color: white;
-  height: 100vh; }
-  .part1 h1 {
-    font-family: "brandon-grotesque",sans-serif;
-    font-weight: 900; }
-  .part1 .ft1 {
-    color: #9F804A;
-    font-family: "komu-b",sans-serif;
-    font-weight: 400; }
-
-.part2 {
-  background: black;
-  height: 100vh; }
-  .part2 h1 {
-    color: #9F804A;
-    font-family: "brandon-grotesque",sans-serif;
-    font-weight: 900; }
-  .part2 .ft2 {
-    color: white;
-    font-family: "komu-b",sans-serif;
-    font-weight: 400; }
-
-.part3 {
-  background: black;
-  height: 100vh; }
-  .part3 h1 {
-    font-family: "brandon-grotesque",sans-serif;
-    font-weight: 900;
-    cursor: pointer;
-    color: white;
-    width: 20px; }
-  .part3 .ft5 {
-    color: #9F804A;
-    font-family: "komu-b",sans-serif;
-    font-weight: 400; }
-
-.ft3 {
-  color: #9F804A;
-  z-index: 999;
-  font-family: "komu-b",sans-serif;
-  font-weight: 400; }
-
-.part4 {
-  background: black;
-  height: 100vh; }
-  .part4 h1 {
-    font-family: "brandon-grotesque",sans-serif;
-    font-weight: 900;
-    cursor: pointer;
-    color: white;
-    width: 20px; }
-
-.part5 {
-  background: white;
-  height: 100vh; }
-  .part5 a {
-    text-decoration: none; }
-  .part5 h1 {
-    font-family: "brandon-grotesque",sans-serif;
-    font-weight: 900;
-    cursor: pointer;
-    color: black; }
-
-.o {
-  white-space: nowrap;
-  overflow: hidden;
-  transform: translateY(-50%); }
-
-.anim-typewriter1 {
-  border-right: 3px solid black;
-  animation: typewriter1 2s steps(15) 1s 1 normal both, blinkTextCursor1 500ms steps(15) infinite normal; }
-
-@keyframes typewriter1 {
-  from {
-    width: 0; }
-  to {
-    width: 6.5em; } }
-
-@keyframes blinkTextCursor1 {
-  from {
-    border-color: transparent; }
-  to {
-    border-color: black; } }
-
-.anim-typewriter2 {
-  border-right: 3px solid white;
-  animation: typewriter2 2s steps(10) 1s 1 normal both, blinkTextCursor2 500ms steps(10) infinite normal; }
-
-@keyframes typewriter2 {
-  from {
-    width: 0; }
-  to {
-    width: 6em; } }
-
-@keyframes blinkTextCursor2 {
-  from {
-    border-color: transparent; }
-  to {
-    border-color: white; } }
-
-.anim-typewriter3 {
-  border-right: 3px solid white;
-  animation: typewriter3 2s steps(15) 1s 1 normal both, blinkTextCursor3 500ms steps(15) infinite normal; }
-
-@keyframes typewriter3 {
-  from {
-    width: 0; }
-  to {
-    width: 10em; } }
-
-@keyframes blinkTextCursor3 {
-  from {
-    border-color: transparent; }
-  to {
-    border-color: white; } }
-
-.anim-typewriter4 {
-  border-right: 3px solid black;
-  animation: typewriter4 2s steps(17) 1s 1 normal both, blinkTextCursor4 500ms steps(17) infinite normal; }
-
-@keyframes typewriter4 {
-  from {
-    width: 0; }
-  to {
-    width: 6.5em; } }
-
-@keyframes blinkTextCursor4 {
-  from {
-    border-color: transparent; }
-  to {
-    border-color: black; } }
-
-.anim-typewriter5 {
-  border-right: 3px solid white;
-  animation: typewriter5 2s steps(27) 1s 1 normal both, blinkTextCursor5 500ms steps(27) infinite normal; }
-
-@keyframes typewriter5 {
-  from {
-    width: 0; }
-  to {
-    width: 26em; } }
-
-@keyframes blinkTextCursor5 {
-  from {
-    border-color: transparent; }
-  to {
-    border-color: white; } }
-
-.skip {
-  color: #808080;
-  position: absolute;
-  font-family: "komu-b",sans-serif;
-  font-weight: 400;
-  bottom: 15px;
-  right: 15px;
-  cursor: pointer;
-  padding: 5px 16px;
-  border: 1px #808080 solid;
-  font-size: 16px !important; }
-
-.skip:hover {
-  color: #d3d3d3;
-  border-color: #d3d3d3; }
 
 .main-body {
   z-index: -1; }
@@ -249,8 +84,7 @@ h1 {
 .mi {
   cursor: pointer;
   color: #968130;
-  font-weight: 500 !important;
-  -webkit-font-smoothing: antialiased; }
+  font-weight: 100; }
 
 .mi .icon {
   display: none; }
@@ -283,15 +117,18 @@ a {
 .mst {
   font-family: "komu-b",sans-serif;
   font-weight: 400;
-  font-size: 40px; }
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: white; }
 
 .wdadt {
   font-family: "komu-b",sans-serif;
   font-weight: 400;
-  font-size: 40px; }
+  font-size: 40px;
+  color: #968130; }
 
 .photot {
-  font-family: "komu-b",sans-serif;
+  font-family: "brandon-grotesque",sans-serif;
   font-weight: 400;
   font-size: 40px; }
 
@@ -398,9 +235,6 @@ a {
   background: white;
   color: black; }
 
-#section-4 {
-  color: white; }
-
 .top_work {
   color: #968130; }
 
@@ -417,16 +251,15 @@ div.categories button.active {
   color: white; }
 
 button {
-  color: #968130;
+  color: white;
   text-decoration: none;
   font-size: 10px;
   font-family: "brandon-grotesque",sans-serif;
   font-weight: 900;
-  border: 3px solid #968130;
+  border: 3px solid white;
   padding: 20px 40px;
   margin-left: 10px;
   cursor: pointer;
-  text-transform: uppercase;
   letter-spacing: 2px;
   background: none; }
   button:hover {
@@ -461,19 +294,6 @@ button {
 .box {
   margin-left: 5px; }
 
-.t1 {
-  position: absolute; }
-
-.t2 {
-  position: absolute; }
-
-.t3 {
-  color: black;
-  position: absolute; }
-
-.t4 {
-  position: absolute; }
-
 a {
   cursor: pointer; }
 
@@ -481,28 +301,23 @@ a {
   cursor: pointer; }
 
 .food1 {
-  width: 640px;
-  height: 351.75px;
+  width: 240px;
   opacity: 0.5; }
 
 .shop1 {
-  width: 625.75px;
-  height: 352px;
+  width: 240px;
   opacity: 0.5; }
 
 .law1 {
-  width: 640px;
-  height: 351.75px;
+  width: 240px;
   opacity: 0.5; }
 
 .vy1 {
-  width: 621px;
-  height: 351.75px;
+  width: 240px;
   opacity: 0.5; }
 
 .aik1 {
-  width: 640px;
-  height: 351.25px;
+  width: 240px;
   opacity: 0.5; }
 
 .md {
@@ -556,12 +371,12 @@ img {
   width: 200px; }
 
 .po2 {
-  width: 308.354163px;
-  height: 441.09375px; }
+  width: 154.1770815px;
+  height: 220.546875px; }
 
 .ch1 {
-  width: 274.75;
-  height: 416.666667px; }
+  width: 178.3333335px;
+  height: 238.6666665px; }
 
 .pl1 {
   width: 234.5px;
@@ -571,23 +386,37 @@ img {
   width: 156.534724px;
   height: 277.777778px; }
 
-#section-4 button {
-  color: white;
-  text-decoration: none;
-  font-size: 10px;
-  border: 3px solid white;
-  padding: 20px 40px;
-  margin-left: 10px;
-  cursor: pointer;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  background: none; }
-  #section-4 button:hover {
-    border: 3px solid black;
-    color: black; }
+.wholesection {
+  margin-right: 10px;
+  margin-bottom: 20px; }
 
-#UX {
-  padding-top: 20px; }
+.t3 {
+  font-size: 10px;
+  font-family: "komu-b",sans-serif;
+  font-weight: 200;
+  letter-spacing: 2px;
+  color: white; }
+
+.t1 {
+  font-size: 10px;
+  font-family: "komu-b",sans-serif;
+  font-weight: 200;
+  letter-spacing: 2px;
+  color: white; }
+
+.t2 {
+  font-size: 10px;
+  font-family: "komu-b",sans-serif;
+  font-weight: 200;
+  letter-spacing: 2px;
+  color: white; }
+
+.t4 {
+  font-size: 10px;
+  font-family: "komu-b",sans-serif;
+  font-weight: 200;
+  letter-spacing: 2px;
+  color: white; }
 
 /* Slideshow container */
 .slideshow-container {
@@ -707,31 +536,43 @@ img.hover-shadow {
 .hover-shadow:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
 
+.as {
+  font-family: "komu-b",sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: white;
+  text-align: center; }
+
+.aminfo {
+  font-family: 'Lato', sans-serif;
+  font-weight: 200;
+  color: white;
+  font-size: 11px;
+  width: 300px;
+  text-align: center; }
+
 .wdt {
-  color: black;
+  color: white;
   text-decoration: none;
   font-size: 10px;
-  border: 3px solid black;
-  padding: 20px 40px;
+  font-family: "komu-b",sans-serif;
+  font-weight: 200;
   margin-left: 10px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  background: none;
-  font-family: "brandon-grotesque",sans-serif;
-  font-weight: 900; }
+  background: none; }
 
 .UXT {
-  color: black;
+  color: white;
   text-decoration: none;
   font-size: 10px;
-  border: 3px solid black;
-  padding: 20px 40px;
   margin-left: 10px;
   text-transform: uppercase;
   letter-spacing: 2px;
   background: none;
-  font-family: "brandon-grotesque",sans-serif;
-  font-weight: 900; }
+  font-family: "komu-b",sans-serif;
+  font-weight: 200; }
 
 .3da {
   font-weight: 400; }
@@ -740,8 +581,20 @@ img.hover-shadow {
   .3da h2 {
     font-size: 10px; }
 
-.po {
+.poo {
+  width: 240px;
   opacity: 0.5; }
+
+.po {
+  width: 80px;
+  opacity: 0.5; }
+
+p {
+  margin: 0px; }
+
+.back {
+  background: #604f27;
+  padding: 50px 0px 0px 0px; }
 
 @media only screen and (max-width: 600px) {
   .main_txt {
@@ -825,13 +678,25 @@ img.hover-shadow {
     height: 131.90625px;
     opacity: 0.5; }
   .t3 {
-    font-size: 12px; }
+    font-size: 10px;
+    font-family: "komu-b",sans-serif;
+    font-weight: 200;
+    letter-spacing: 2px; }
   .t1 {
-    font-size: 12px; }
+    font-size: 10px;
+    font-family: "komu-b",sans-serif;
+    font-weight: 200;
+    letter-spacing: 2px; }
   .t2 {
-    font-size: 12px; }
+    font-size: 10px;
+    font-family: "komu-b",sans-serif;
+    font-weight: 200;
+    letter-spacing: 2px; }
   .t4 {
-    font-size: 12px; }
+    font-size: 10px;
+    font-family: "komu-b",sans-serif;
+    font-weight: 200;
+    letter-spacing: 2px; }
   .categories {
     text-align: center;
     flex-direction: column; }
@@ -913,9 +778,14 @@ img.hover-shadow {
   .part4 h1 {
     font-size: 14px; }
   .po {
-    width: 20%; } }
+    width: 240px; }
+  .websec div {
+    display: flex;
+    flex-direction: column; }
+    .websec div p {
+      margin-top: 10px; } }
 
-@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) {
+@media only screen and (max-width: 600px) and (orientation: landscape) {
   .main_txt {
     text-align: center;
     padding: 0px 20px;
@@ -1087,6 +957,214 @@ img.hover-shadow {
   .po {
     width: 20%; } }
 
-div.main_txt.animated {
-  animation-delay: 5s;
-  animation-iteration-count: infinite; }
+.pneumabackground {
+  background-color: #FEFFF6; }
+
+.outsetbackground {
+  background-color: #191818; }
+
+.purebackground {
+  background-color: #A79BCA; }
+
+.plbackground {
+  background-color: #fff; }
+
+.debackground {
+  background-color: black; }
+
+.hsbcbackground {
+  background-color: #fff; }
+
+.info1 {
+  padding: 80px 0px; }
+
+.info2 h1 {
+  color: white;
+  font-family: "komu-b",sans-serif;
+  font-weight: 200;
+  font-size: 28px; }
+
+.outsetinfo {
+  color: white;
+  font-family: "komu-b",sans-serif;
+  font-weight: 200; }
+  .outsetinfo h1 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin: 0px; }
+  .outsetinfo h2 {
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin: 0px;
+    margin-bottom: 30px; }
+  .outsetinfo p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+    font-size: 11px;
+    width: 500px;
+    text-align: center; }
+
+a {
+  margin: 0px; }
+
+.info3 {
+  color: #3D3836;
+  padding: 80px 0px;
+  font-family: "komu-b",sans-serif; }
+
+.info4 {
+  font-family: "komu-b",sans-serif;
+  color: #3D3836; }
+
+.pneumainfo {
+  color: #3D3836;
+  font-family: "komu-b",sans-serif;
+  font-weight: 200; }
+  .pneumainfo h1 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin: 0px; }
+  .pneumainfo h2 {
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin: 0px;
+    margin-bottom: 30px; }
+  .pneumainfo p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+    font-size: 11px;
+    width: 500px;
+    text-align: center; }
+
+.info5 {
+  font-family: "komu-b",sans-serif;
+  color: #fff;
+  padding: 80px 0px; }
+
+.pureinfo {
+  color: #fff;
+  font-family: "komu-b",sans-serif;
+  font-weight: 200;
+  margin-left: 110px; }
+  .pureinfo h1 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin: 0px; }
+  .pureinfo h2 {
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin: 0px;
+    margin-bottom: 30px; }
+  .pureinfo p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+    font-size: 11px;
+    width: 500px; }
+
+.info6 {
+  font-family: "komu-b",sans-serif;
+  color: #fff;
+  margin: 0px; }
+  .info6 h3 {
+    font-size: 18px; }
+
+.info7 {
+  font-family: "komu-b",sans-serif;
+  color: #fff; }
+  .info7 h1 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin: 0px; }
+  .info7 h2 {
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin: 0px;
+    margin-bottom: 30px; }
+  .info7 p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+    font-size: 11px;
+    width: 500px;
+    text-align: center; }
+
+.info8 {
+  font-family: "komu-b",sans-serif;
+  color: black; }
+  .info8 h1 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin: 0px; }
+  .info8 h2 {
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin: 0px;
+    margin-bottom: 30px; }
+  .info8 p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+    font-size: 11px;
+    width: 500px;
+    text-align: center; }
+
+.plinfo {
+  color: black;
+  font-family: "komu-b",sans-serif;
+  font-weight: 200;
+  margin-left: 110px;
+  padding: 80px 0px; }
+  .plinfo h1 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin: 0px; }
+  .plinfo h2 {
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin: 0px;
+    margin-bottom: 30px; }
+  .plinfo p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+    font-size: 11px;
+    width: 500px; }
+
+.deinfo {
+  color: white;
+  font-family: "komu-b",sans-serif;
+  font-weight: 200; }
+  .deinfo h1 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin: 0px; }
+  .deinfo h2 {
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin: 0px;
+    margin-bottom: 30px; }
+  .deinfo p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+    font-size: 11px;
+    width: 500px;
+    text-align: center; }
+
+.HSBCinfo {
+  color: red !important;
+  font-family: "komu-b",sans-serif;
+  font-weight: 200; }
+  .HSBCinfo a.color {
+    color: red !important; }
+  .HSBCinfo h1 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin: 0px; }
+  .HSBCinfo h2 {
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin: 0px;
+    margin-bottom: 30px; }
+  .HSBCinfo p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+    font-size: 11px;
+    width: 500px;
+    text-align: center; }
