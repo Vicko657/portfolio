@@ -391,32 +391,32 @@ img {
   margin-bottom: 20px; }
 
 .t3 {
-  font-size: 10px;
+  font-size: 15px;
   font-family: "komu-b",sans-serif;
   font-weight: 200;
   letter-spacing: 2px;
-  color: white; }
+  color: #968130; }
 
 .t1 {
-  font-size: 10px;
+  font-size: 13px;
   font-family: "komu-b",sans-serif;
   font-weight: 200;
   letter-spacing: 2px;
-  color: white; }
+  color: #968130; }
 
 .t2 {
-  font-size: 10px;
+  font-size: 13px;
   font-family: "komu-b",sans-serif;
   font-weight: 200;
   letter-spacing: 2px;
-  color: white; }
+  color: #968130; }
 
 .t4 {
-  font-size: 10px;
+  font-size: 13px;
   font-family: "komu-b",sans-serif;
   font-weight: 200;
   letter-spacing: 2px;
-  color: white; }
+  color: #968130; }
 
 /* Slideshow container */
 .slideshow-container {
@@ -544,18 +544,28 @@ img.hover-shadow {
   color: white;
   text-align: center; }
 
-.aminfo {
-  font-family: 'Lato', sans-serif;
+.wu {
+  font-family: "komu-b",sans-serif;
   font-weight: 400;
-  color: white;
-  font-size: 11px;
-  width: 300px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #968130;
   text-align: center; }
 
-.wdt {
+.aminfo {
+  font-family: "komu-b",sans-serif;
+  font-weight: 200;
   color: white;
+  font-size: 13px;
+  width: 300px;
+  letter-spacing: 2px;
+  text-align: center;
+  line-height: 20px; }
+
+.wdt {
+  color: #fff;
   text-decoration: none;
-  font-size: 10px;
+  font-size: 12px;
   font-family: "komu-b",sans-serif;
   font-weight: 200;
   margin-left: 10px;
@@ -564,9 +574,9 @@ img.hover-shadow {
   background: none; }
 
 .UXT {
-  color: white;
+  color: #fff;
   text-decoration: none;
-  font-size: 10px;
+  font-size: 12px;
   margin-left: 10px;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -593,7 +603,7 @@ p {
   margin: 0px; }
 
 .back {
-  background: #604f27;
+  background: #fff;
   padding: 50px 0px 0px 0px; }
 
 @media only screen and (max-width: 600px) {
