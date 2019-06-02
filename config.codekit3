@@ -1776,6 +1776,14 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/imgs\/gaiact.png": {
+		"ft": 32768,
+		"iS": 29610,
+		"oA": 0,
+		"oAP": "\/imgs\/gaiact.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/imgs\/gaialo-09.png": {
 		"ft": 32768,
 		"iS": 58873,
@@ -2087,6 +2095,14 @@
 		"iS": 52779,
 		"oA": 0,
 		"oAP": "\/imgs\/pcolorscheme.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/imgs\/phonegaia.png": {
+		"ft": 32768,
+		"iS": 852430,
+		"oA": 0,
+		"oAP": "\/imgs\/phonegaia.png",
 		"oF": 0,
 		"opt": 0
 		},

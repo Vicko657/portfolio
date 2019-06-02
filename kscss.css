@@ -558,8 +558,7 @@ img.hover-shadow {
   color: white;
   font-size: 13px;
   letter-spacing: 2px;
-  text-align: center;
-  line-height: 20px; }
+  text-align: center; }
 
 .wdt {
   color: #fff;
@@ -982,6 +981,9 @@ p {
   background-color: black; }
 
 .hsbcbackground {
+  background-color: #fff; }
+
+.ctbackground {
   background-color: #fff; }
 
 .info1 {
