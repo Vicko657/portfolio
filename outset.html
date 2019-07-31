@@ -15,9 +15,9 @@
   <script type="text/javascript" src="js/script.js"></script>
   <div class="nav flex flex--space-between align-center">
     <div class="lg flex flex--start align-start">
-      <div class="boxlogo white">
+      <a href="index.html"><div class="boxlogo white">
         VICTORIA OLUSEGUN
-    </div>
+    </div></a>
     </div>
     <div class="top flex align-center">
     </div>
@@ -117,6 +117,38 @@
 
   <footer>
   </footer>
+  <script>
+  function myFunction() {
+      var x = document.getElementById("miTopnav");
+      if (x.className === "mi") {
+          x.className += " responsive";
+      } else {
+          x.className = "mi";
+      }
+  }
+  </script>
+
+  <script>
+  function myFunction2() {
+      var x = document.getElementById("bar1");
+      if (x.className === "bars1") {
+          x.className += " responsive";
+      } else {
+          x.className = "bars1";
+      }
+  }
+  </script>
+
+  <script>
+  function myFunction3() {
+      var x = document.getElementById("bar2");
+      if (x.className === "bars2") {
+          x.className += " responsive";
+      } else {
+          x.className = "bars2";
+      }
+  }
+  </script>
 </body>
 
 </html>
