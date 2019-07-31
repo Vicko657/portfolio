@@ -671,9 +671,9 @@ p {
 .lfa {
   font-family: "komu-b",sans-serif;
   font-size: 50px;
-  color: #ddc13a;
   letter-spacing: 30px;
-  padding-bottom: 30px; }
+  padding-bottom: 30px;
+  padding-top: 0px; }
 
 @media only screen and (max-width: 1280px) {
   .food1 {
@@ -715,7 +715,13 @@ p {
   .heightforbigscreen {
     height: 500px; }
   .ds {
-    height: 320px; } }
+    height: 320px; }
+  .lfa {
+    font-family: "komu-b",sans-serif;
+    font-size: 50px;
+    letter-spacing: 30px;
+    padding-bottom: 30px;
+    padding-top: 40px !important; } }
 
 @media only screen and (max-width: 600px) {
   .main_txt {
@@ -973,7 +979,19 @@ p {
     align-items: center;
     text-align: center; }
   .info3 {
-    padding-bottom: 300px; } }
+    padding-bottom: 300px; }
+  .lfa {
+    font-family: "komu-b",sans-serif;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    letter-spacing: 20px;
+    padding-bottom: 30px;
+    padding-top: 40px !important; }
+  .as {
+    font-size: 1.25rem; }
+  .aminfo {
+    font-size: 13px; } }
 
 @media only screen and (max-width: 600px) and (orientation: landscape) {
   .main_txt {
