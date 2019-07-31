@@ -547,7 +547,7 @@ img.hover-shadow {
 .as {
   font-family: "komu-b",sans-serif;
   font-weight: 400;
-  font-size: 1.125rem;
+  font-size: 1.50rem;
   letter-spacing: 4px;
   color: white;
   text-align: center; }
@@ -667,6 +667,13 @@ p {
   padding: 0px 0px;
   font-family: "komu-b",sans-serif;
   height: 100vh; }
+
+.lfa {
+  font-family: "komu-b",sans-serif;
+  font-size: 50px;
+  color: #ddc13a;
+  letter-spacing: 30px;
+  padding-bottom: 30px; }
 
 @media only screen and (max-width: 1280px) {
   .food1 {
@@ -1327,4 +1334,3 @@ a {
 
 .brown {
   color: #8D581E !important; }
-
