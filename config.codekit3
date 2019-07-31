@@ -28,10 +28,22 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/about.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/about.html",
+		"oF": 0
+		},
 	"\/AK.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/AK.html",
+		"oF": 0
+		},
+	"\/akindex.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/akindex.html",
 		"oF": 0
 		},
 	"\/animate.css": {
@@ -126,11 +138,35 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/images\/biglogo1.png": {
+		"ft": 32768,
+		"iS": 32450,
+		"oA": 0,
+		"oAP": "\/images\/biglogo1.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/biglogo2.png": {
+		"ft": 32768,
+		"iS": 32648,
+		"oA": 0,
+		"oAP": "\/images\/biglogo2.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/images\/downloadapp.png": {
 		"ft": 32768,
 		"iS": 67461,
 		"oA": 0,
 		"oAP": "\/images\/downloadapp.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/instal.png": {
+		"ft": 32768,
+		"iS": 159576,
+		"oA": 0,
+		"oAP": "\/images\/instal.png",
 		"oF": 0,
 		"opt": 0
 		},
@@ -163,6 +199,22 @@
 		"iS": 25729,
 		"oA": 0,
 		"oAP": "\/images\/mainlg.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/NEWLOGO.png": {
+		"ft": 32768,
+		"iS": 3039,
+		"oA": 0,
+		"oAP": "\/images\/NEWLOGO.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/nlh.png": {
+		"ft": 32768,
+		"iS": 2998,
+		"oA": 0,
+		"oAP": "\/images\/nlh.png",
 		"oF": 0,
 		"opt": 0
 		},
@@ -1338,6 +1390,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/imgs\/akim.png": {
+		"ft": 32768,
+		"iS": 19529,
+		"oA": 0,
+		"oAP": "\/imgs\/akim.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/imgs\/animationlogo-09.png": {
 		"ft": 32768,
 		"iS": 123999,
@@ -2018,6 +2078,12 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/imgs\/ndcprototype.mp4": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/imgs\/ndcprototype.mp4",
+		"oF": 0
+		},
 	"\/imgs\/newlogotp.png": {
 		"ft": 32768,
 		"iS": 26527,
@@ -2087,6 +2153,14 @@
 		"iS": 18241014,
 		"oA": 0,
 		"oAP": "\/imgs\/OUTSETMockup.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/imgs\/outsetweb-01.png": {
+		"ft": 32768,
+		"iS": 18885249,
+		"oA": 0,
+		"oAP": "\/imgs\/outsetweb-01.png",
 		"oF": 0,
 		"opt": 0
 		},
@@ -2446,6 +2520,12 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/imgs\/SUGARANIMATION.mp4": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/imgs\/SUGARANIMATION.mp4",
+		"oF": 0
+		},
 	"\/imgs\/typopure.png": {
 		"ft": 32768,
 		"iS": 50232,
@@ -2753,6 +2833,24 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/js\/script2-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/script2-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/script2.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/script2-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/js\/scrolloverflow.js": {
 		"ft": 64,
 		"mi": 1,
@@ -2811,6 +2909,35 @@
 		"oA": 2,
 		"oAP": "\/mo.html",
 		"oF": 0
+		},
+	"\/mobile.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/mobile-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/mobile.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/mobile.html",
+		"oF": 0
+		},
+	"\/mobile.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/mobile.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		},
 	"\/outset.html": {
 		"ft": 8192,
@@ -2894,6 +3021,29 @@
 		"oA": 2,
 		"oAP": "\/rosetta.html",
 		"oF": 0
+		},
+	"\/T1.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/T1-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/T1.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/T1.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		},
 	"\/vb.html": {
 		"ft": 8192,

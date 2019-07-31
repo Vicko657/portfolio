@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Home | Aisha's Kitchen</title>
+  <link rel="stylesheet" href="mobile.css">
+  <script src="https://use.typekit.net/smi4fyb.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
+  <script src="https://use.typekit.net/hvd0xbp.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+<script src="https://use.fontawesome.com/5a3a7fdc30.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Lato|Oswald|Poppins:400,700,300,600,500|Raleway:300,400|Satisfy" rel="stylesheet">
+<script src="https://use.typekit.net/sov1tss.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+</head>
+
+<body>
+<div class="main-body">
+
+  <div class="top_h flex flex--space-around align-center rows">
+      <img src="images/biglogo2.png" class="lg"></img>
+      <div class="mini_nav flex flex--end align-end rows">
+        <a href="#" class="rnav" onclick="openNav()">
+          <div  id="lines">
+
+          </div>
+          <div  id="lines">
+
+          </div>
+          <div  id="lines">
+
+          </div>
+        </a>
+      </div>
+
+      <div id="mySidenav" class="sidenav flex flex--center align-center columns ">
+
+        <a href="javascript:void(0)" class="closebtn flex flex--center align-center columns" onclick="closeNav()">&times;</a>
+        <ul class="o flex flex--center align-center columns">
+          <li><a class="nav" href="index.html" >Home</a></li>
+          <li><a class="nav" href="#about" onclick="closeNav()" >About</a></li>
+          <li><a class="nav" href="#contact" onclick="closeNav()">Contact</a></li>
+          <li><a class="nav" href="#yellow" onclick="closeNav()">Menu</a></li>
+       </ul>
+      </div>
+</div>
+
+  <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "100%";
+        }
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+         }
+  </script>
+
+  <section class="intro_wrap">
+    <div class="flex flex--space-around align-center columns">
+    <h1> taste<br> the<br>best<br> from the west</h1>
+    <p> based in <span>uxbridge</span></p>
+    </div>
+    <br>
+    <br>
+    <div class="flex flex--center align-center columns">
+      <a href="mailto:aishaskitchen@mail.com?Subject=Further%20Enquires"><button >CONTACT ME</button></a>
+    </div>
+  </section>
+
+  <section class="options_wrap">
+
+    <div class="three_op tab flex flex--center align-center columns">
+      <a class="tablinks" onclick="openCity(event, 'Times')"><p>TIMES <i class="fa fa-angle-down" aria-hidden="true"></i></p></a>
+      <a class="tablinks" onclick="openCity(event, 'Menu')"><p>MENU <i class="fa fa-angle-down" aria-hidden="true"></i></p></a>
+      <a class="tablinks" onclick="openCity(event, 'Event')"><p>CATERING <i class="fa fa-angle-down" aria-hidden="true"></i></p></a>
+    </div>
+
+    <div id="Times" class="tabcontent">
+        <span  class="o" onclick="this.parentElement.style.display='none'">&times;</span>
+        <h1 class="flex flex--center align-center columns">Times</h1>
+        <div class="flex flex--center align-center columns">
+        <h2>OPENING TIMES</h2>
+        <p>Snapchat Mondays </p>
+        <p>Tuseday</p>
+        <p>Wednesday</p>
+        <p>Thursday</p>
+        <p>Friday</p>
+        <p>Saturday</p>
+        <p>Sunday</p>
+        </div>
+      </div>
+      <div id="Menu" class="tabcontent ">
+        <span  class="o" onclick="this.parentElement.style.display='none'">&times;</span>
+        <h1 class="flex flex--center align-center columns">Menu</h1>
+        <p class=" flex flex--end align-end rows">To order click <br><a href="mailto:aishaskitchen@mail.com?Subject=My%20Order" class="chere">here</a></p>
+        <div class="flex flex--center align-center columns">
+        <h2>MAIN MEALS</h2>
+        <p><strong>Item 01</strong> Fried Rice with Prawns <strong>£3.00</strong></p>
+        <p><strong>Item 02</strong> Plain Rice with Stew <strong>£3.00</strong> (served with either chicken or meat)</p>
+        <p><strong>Item 03</strong> Jollof Rice <strong>£3.50</strong> (served with chicken wings or drumstick)</p>
+        <p><strong>Item 04</strong> Plain Rice and Chicken with prawn <strong>£3.50</strong> (served with sauce containing chicken and prawn)</p>
+        <p style="border-bottom:none;"><strong>Item 05</strong> Spaghetti Jollof <strong>£3.00</strong> (served with chicken or meat)</p>
+        <br>
+        <h2>SIDE ORDERS</h2>
+        <p><strong>Item 06</strong> Plantain <strong>£2.00</strong></p>
+        <p><strong>Item 07</strong> Gizdodo <strong>£3.00</strong> (Fried in sauce served with bell peppers)</p>
+        <p style="border-bottom:none;"><strong>Item 08</strong> Suya <strong>£4.00</strong> (served with red onion and chopped tomatoes)</p>
+        <br>
+        <h2>Chicken &amp; Meat</h2>
+        <p><strong>Item 09</strong> Chicken / Meat in sauce <strong>£2.50</strong></p>
+        <p><strong>Item 10</strong> BBQ Chicken (drumstick or wings)</p>
+        <p><strong>a</strong> 4 for <strong>£2.50</strong></p>
+        <p><strong>b</strong> 8 for <strong>£4.50</strong></p>
+        <p><strong>Item 11</strong> Normal Chicken (drumsticks or wings)</p>
+        <p><strong>a</strong> 4 for <strong>£2.50</strong></p>
+        <p><strong>b</strong> 8 for <strong>£4.50</strong></p>
+        <p style="border-bottom:none;"><strong>Item 12</strong> Chicken in stew <strong>£2.50</strong></p>
+      </div>
+
+      </div>
+
+      <div id="Event" class="tabcontent flex flex--center align-center columns">
+        <span  class="o" onclick="this.parentElement.style.display='none'">&times;</span>
+        <h1 class="flex flex--center align-center columns">CATERING </h1>
+        <p class=" flex flex--end align-end rows">To book click <br><a href="mailto:aishaskitchen@mail.com?Subject=My%20Booking" class="chere"> here</a></p>
+        <div class="flex flex--center align-center columns">
+          <h2 style="text-align:center;">Due to the fact I will be predominately in Uxbridge<br> I am only able to cater for events which are based in Uxbridge<br> where the food can easily be picked up such as...</h2>
+          <p>Birthdays</p>
+          <p>Parties</p>
+          <p>Meetings</p>
+          <p>or any other Special Events</p>
+        </div>
+      </div>
+
+  </section>
+  <script>
+$('.tablinks').click(function(){
+    var h = parseInt($('#sec').css('height'), 10);
+    if(h != 300)
+    {
+        $('#sec').css('height', '500px');
+    }
+    else
+    {
+        $('#sec').css('height', '');
+    }
+});
+</script>
+
+<script>
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+document.getElementById("defaultOpen").click();
+</script>
+
+<section id="contact" class="mid_wrap flex flex--center align-center columns">
+  <div>
+    <h1> - keep in touch - </h1>
+    <br>
+  </div>
+  <div class="details flex flex--center align-center columns">
+    <p>CALL : 0000 - 000 - 000</p>
+    <p>OR</p>
+    <p>email : aishakitchen@gmail.co.uk</p>
+  </div>
+</section>
+
+<section class="message_wrap flex flex--space-around align-center columns">
+  <div class="group flex flex--center align-center columns">
+    <h1> - Message to customers - </h1>
+    <p class="flex flex--center align-center columns">Hi,<br> My name is Aisha,<br> For many years I have been told to create a Catering Service and I thought to myself there is not time like the present!<br> After asking all past Customers about their past experiences with my service they have given me the following<br> Feedback...</p>
+  </div>
+</section>
+
+  <section id="about" class="food flex flex--start align-start columns">
+    <div class="flex flex--center align-center columns">
+      <h1>- ABOUT &amp; GALLERY -</h1><br>
+      <div class="text_about"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et tellus vitae tortor dapibus scelerisque. Morbi ut tristique nisi. Duis tincidunt, eros eu egestas placerat, quam elit consectetur neque, at imperdiet odio elit ut est. Donec cursus lorem nulla, et scelerisque odio blandit id. Fusce ornare odio sit amet dolor accumsan dignissim. Aliquam et sem eu justo mattis ultricies. Morbi sagittis ipsum at mauris auctor, id interdum nisl vestibulum. Morbi nibh nisi, efficitur a velit ac, efficitur vulputate enim.</p></div>
+  </section>
+
+  <footer class="foot flex flex--space-around align-center columns">
+    <div class="col">
+      <h1>you hungry?</h1>
+      <p>Email Address: aishaskitchen@mail.com</p>
+      <p>Telephone: 000-0000-0000</p>
+
+    </div>
+
+    <div class="un ">
+    <p><span>©AISHA'S KITCHEN</span> <br>2017 Copyright Holder All Rights Reserved.</p>
+
+  </div>
+
+  </footer>
+  <footer class="vyco flex flex--center align-center ">
+    <p>DEVELOPED BY <span class="logo">vyco</span></p>
+  </footer>
+
+</div>
+</body>
+
+</html>

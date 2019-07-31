@@ -6,7 +6,6 @@ body{
   font-weight: 900;
   background-color:#151516;
   color: white;
-  height:100vh;
 }
 h1{
   margin: 0px;
@@ -32,7 +31,7 @@ height:56.2px;
 
 }
 .middlesection{
-  padding-top: 290px;
+ height:100vh;
   background-color:#151516;
 }
 a{cursor:pointer;}
@@ -74,7 +73,9 @@ cursor:pointer;
   padding: 10px 25px;
 }
 .review{
-  margin-left: 900px;
+  position: absolute;
+  bottom: 120px;
+  right: 100px;
   padding-bottom: 100px;
 
   h1{
@@ -163,13 +164,16 @@ a{
   text-decoration: none;
   color: white;
 }
+
 @media only screen and (max-width: 600px) {
   .review{
     margin-left: 0px;
+    top: 440px;
+    right: 100px;
   }
   .middlesection{
-    padding-top: 200px;
     background-color:#151516;
+
   }
   .da{width: 200px;}
 }
