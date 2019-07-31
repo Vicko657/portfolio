@@ -10,14 +10,38 @@
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400&display=swap" rel="stylesheet">
 </head>
-<body class="pneumabackground">
+<body class="outsetbackground">
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script type="text/javascript" src="js/script.js"></script>
+  <div class="nav flex flex--space-between align-center">
+    <div class="lg flex flex--start align-start">
+      <a href="index.html"><div class="boxlogo white">
+        VICTORIA OLUSEGUN
+    </div></a>
+    </div>
+    <div class="top flex align-center">
+    </div>
+    <div class=" flex flex--space-between align-end">
+      <div class="mi" id="miTopnav">
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <h1 class="sizemw white">My Work <i class="fas fa-angle-down"></i></h1>
+        </a>
+        <a class="r2 white" href="#aboutme">aboutme</a>
+        <a class="r1 white" href="#web">website designs &amp; app development</a>
+        <a class="r3 white" href="#ux">ux &amp; design</a>
+      </div>
+
+
+      <div class="cm">
+        <a class="white" href="mailto:victoriaolusegun@btinternet.com?Subject=From%20Website">contact me</a>
+      </div>
+    </div>
+  </div>
 
   <div class="info3 flex flex--space-around align-center columns">
-    <div class="flex flex--space-around align-center rows">
-      <div class="pneumainfo flex align-center columns">
-        <h1>3D ANIMATION</h1>
+    <div class="om flex flex--space-around align-center rows">
+      <div class="outsetinfo flex align-start columns">
+        <h1>GRAPHICS</h1>
         <h2>A ROBOT BOWLING</h2>
         <p>I produced a 3D Animation based on a Factory Robot.
 <br><br>
@@ -25,23 +49,51 @@ To create the 3D Animation for the website
 I used Maya &amp; Adobe Premiere Pro.
   </p>
       </div>
-
-    </div>
-
-  </div>
-
-  <div class="info4 flex flex--space-around align-center columns">
-    <div class="flex flex--space-around align-center rows">
       <div class="pneumainfo flex flex--start columns">
         <video width="420" height="340" controls>
         <source src="imgs/arobotbowling.mp4" type="video/mp4">
         </video>
       </div>
     </div>
+
   </div>
+
+
 
   <footer>
   </footer>
+  <script>
+  function myFunction() {
+      var x = document.getElementById("miTopnav");
+      if (x.className === "mi") {
+          x.className += " responsive";
+      } else {
+          x.className = "mi";
+      }
+  }
+  </script>
+
+  <script>
+  function myFunction2() {
+      var x = document.getElementById("bar1");
+      if (x.className === "bars1") {
+          x.className += " responsive";
+      } else {
+          x.className = "bars1";
+      }
+  }
+  </script>
+
+  <script>
+  function myFunction3() {
+      var x = document.getElementById("bar2");
+      if (x.className === "bars2") {
+          x.className += " responsive";
+      } else {
+          x.className = "bars2";
+      }
+  }
+  </script>
 </body>
 
 </html>
