@@ -1580,5 +1580,104 @@ and (orientation : landscape) {
   .po{
     width: 20%;
   }
+  //outset//
+  .om{
+    padding-top: 100px;
+    display:flex;
+    flex-direction: column;
+  }
+  .boxo3{
+    padding: 5px 5px 10px 10px;
+  }
+
+  //pure//
+  .outsetinfo{
+    padding-top: 100px;
+    align-items: center;
+    text-align: center;
+    p{font-size: 1rem;}
+    margin-right: 0px !important;
+  }
+  .pm{
+    display:flex;
+    flex-direction: column;
+  }
+  .rimg{
+    margin-top: 10px;
+    width:420px;
+  }
+
+  .lp{
+    display:flex;
+    flex-direction: column;
+  }
+  .pp{
+    display:flex;
+    flex-direction: column;
+  }
+  .widthforbigscreen{
+  width:400px;
+  }
+  .heightforbigscreen{
+  height: 500px;
+  }
+  video{
+    width:400px;
+  }
+  //drive//
+  .dm{
+    display:flex;
+    flex-direction:column;
+  }
+  .deinfo{
+  padding-top: 400px;
+    align-items: center;
+    text-align: center;
+    p{font-size: 1rem;}
+    margin-right: 0px !important;
+    display: flex;
+    flex-direction: column;
+  }
+  .deinfo2{
+  padding-top: 0px;
+    align-items: center;
+    text-align: center;
+    p{font-size: 1rem;}
+    margin-right: 0px !important;
+    display: flex;
+    flex-direction: column;
+  }
+  .driveposter{
+    height:270px;}
+  .ds{
+    height:120px;
+  }
+  .ab{
+    display: flex;
+    flex-direction: column;
+  }
+  .akinfo{
+    margin-right: 0px;
+    align-items: center;
+    text-align: center;
+  }
+  .info3{
+      padding-bottom: 300px;
+  }
+  .lfa{
+    font-family: "komu-b",sans-serif;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    letter-spacing: 20px;
+    padding-bottom: 30px;
+    padding-top: 40px !important;
+  }
+  .as{
+    font-size: 1.25rem;
+  }
+  .aminfo{
+    font-size: 13px;
+  }
 
   }
