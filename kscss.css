@@ -675,6 +675,238 @@ p {
   padding-bottom: 30px;
   padding-top: 0px; }
 
+.pneumabackground {
+  background-color: #FEFFF6; }
+
+.outsetbackground {
+  background-color: #191818; }
+
+.purebackground {
+  background-color: #A79BCA; }
+
+.plbackground {
+  background-color: #fff; }
+
+.debackground {
+  background-color: black; }
+
+.hsbcbackground {
+  background-color: #fff; }
+
+.ctbackground {
+  background-color: #fff; }
+
+.info1 {
+  padding: 80px 0px; }
+
+.info2 h1 {
+  color: white;
+  font-family: "komu-b",sans-serif;
+  font-weight: 200;
+  font-size: 28px; }
+
+.outsetinfo {
+  color: white;
+  font-family: "komu-b",sans-serif;
+  font-weight: 200;
+  margin-right: 50px; }
+  .outsetinfo h1 {
+    font-size: 50px;
+    letter-spacing: 2px;
+    margin: 0px; }
+  .outsetinfo h2 {
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin: 0px !important; }
+  .outsetinfo p {
+    font-family: "brandon-grotesque",sans-serif;
+    font-weight: 200;
+    font-size: 1.125rem;
+    width: 500px; }
+
+.generalinfo {
+  color: white;
+  font-family: "komu-b",sans-serif;
+  font-weight: 200;
+  padding: 20px 0px; }
+  .generalinfo h1 {
+    font-size: 50px;
+    letter-spacing: 2px;
+    margin: 0px; }
+  .generalinfo h2 {
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin: 0px; }
+  .generalinfo p {
+    font-family: "brandon-grotesque",sans-serif;
+    font-weight: 200;
+    font-size: 1.125rem;
+    width: 500px;
+    text-align: center; }
+
+a {
+  margin: 0px; }
+
+.info4 {
+  font-family: "komu-b",sans-serif;
+  color: #3D3836; }
+
+.pneumainfo {
+  color: #3D3836;
+  font-family: "komu-b",sans-serif;
+  font-weight: 200; }
+  .pneumainfo h1 {
+    font-size: 50px;
+    letter-spacing: 2px;
+    margin: 0px; }
+  .pneumainfo h2 {
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin: 0px; }
+  .pneumainfo p {
+    font-family: "brandon-grotesque",sans-serif;
+    font-weight: 200;
+    font-size: 1.125rem;
+    width: 500px; }
+
+.info5 {
+  font-family: "komu-b",sans-serif;
+  color: #fff;
+  height: 100vh; }
+
+.pureinfo {
+  color: #fff;
+  font-family: "komu-b",sans-serif;
+  font-weight: 200;
+  margin-left: 110px; }
+  .pureinfo h1 {
+    font-size: 50px;
+    letter-spacing: 2px;
+    margin: 0px; }
+  .pureinfo h2 {
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin: 0px;
+    margin-bottom: 30px; }
+  .pureinfo p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    width: 500px; }
+
+.info6 {
+  font-family: "komu-b",sans-serif;
+  color: #fff;
+  margin: 0px; }
+  .info6 h3 {
+    font-size: 18px; }
+
+.info7 {
+  font-family: "komu-b",sans-serif;
+  color: #fff; }
+  .info7 h1 {
+    font-size: 50px;
+    letter-spacing: 2px;
+    margin: 0px; }
+  .info7 h2 {
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin: 0px;
+    margin-bottom: 30px; }
+  .info7 p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    width: 500px;
+    text-align: center; }
+
+.info8 {
+  font-family: "komu-b",sans-serif;
+  color: black; }
+  .info8 h1 {
+    font-size: 50px;
+    letter-spacing: 2px;
+    margin: 0px; }
+  .info8 h2 {
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin: 0px;
+    margin-bottom: 30px; }
+  .info8 p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    width: 500px;
+    text-align: center; }
+
+.plinfo {
+  color: black;
+  font-family: "komu-b",sans-serif;
+  font-weight: 200;
+  margin-left: 110px;
+  padding: 80px 0px; }
+  .plinfo h1 {
+    font-size: 50px;
+    letter-spacing: 2px;
+    margin: 0px; }
+  .plinfo h2 {
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin: 0px;
+    margin-bottom: 30px; }
+  .plinfo p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    width: 500px; }
+
+.deinfo {
+  color: white;
+  font-family: "komu-b",sans-serif;
+  font-weight: 200; }
+  .deinfo h1 {
+    font-size: 50px;
+    letter-spacing: 2px;
+    margin: 0px; }
+  .deinfo h2 {
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin: 0px;
+    margin-bottom: 30px; }
+  .deinfo p {
+    font-family: "brandon-grotesque",sans-serif;
+    font-weight: 200;
+    font-size: 1.125rem;
+    width: 500px; }
+
+.HSBCinfo {
+  color: red !important;
+  font-family: "komu-b",sans-serif;
+  font-weight: 200; }
+  .HSBCinfo a.color {
+    color: red !important; }
+  .HSBCinfo h1 {
+    font-size: 50px;
+    letter-spacing: 2px;
+    margin: 0px; }
+  .HSBCinfo h2 {
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin: 0px;
+    margin-bottom: 30px; }
+  .HSBCinfo p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    width: 500px;
+    text-align: center; }
+
+.akbackground {
+  background-color: #DBD5B9; }
+
+.brown {
+  color: #8D581E !important; }
+
 @media only screen and (max-width: 1280px) {
   .food1 {
     width: 620px;
@@ -1120,235 +1352,3 @@ p {
     font-size: 14px; }
   .po {
     width: 20%; } }
-
-.pneumabackground {
-  background-color: #FEFFF6; }
-
-.outsetbackground {
-  background-color: #191818; }
-
-.purebackground {
-  background-color: #A79BCA; }
-
-.plbackground {
-  background-color: #fff; }
-
-.debackground {
-  background-color: black; }
-
-.hsbcbackground {
-  background-color: #fff; }
-
-.ctbackground {
-  background-color: #fff; }
-
-.info1 {
-  padding: 80px 0px; }
-
-.info2 h1 {
-  color: white;
-  font-family: "komu-b",sans-serif;
-  font-weight: 200;
-  font-size: 28px; }
-
-.outsetinfo {
-  color: white;
-  font-family: "komu-b",sans-serif;
-  font-weight: 200;
-  margin-right: 50px; }
-  .outsetinfo h1 {
-    font-size: 50px;
-    letter-spacing: 2px;
-    margin: 0px; }
-  .outsetinfo h2 {
-    font-size: 20px;
-    letter-spacing: 1px;
-    margin: 0px !important; }
-  .outsetinfo p {
-    font-family: "brandon-grotesque",sans-serif;
-    font-weight: 200;
-    font-size: 1.125rem;
-    width: 500px; }
-
-.generalinfo {
-  color: white;
-  font-family: "komu-b",sans-serif;
-  font-weight: 200;
-  padding: 20px 0px; }
-  .generalinfo h1 {
-    font-size: 50px;
-    letter-spacing: 2px;
-    margin: 0px; }
-  .generalinfo h2 {
-    font-size: 20px;
-    letter-spacing: 1px;
-    margin: 0px; }
-  .generalinfo p {
-    font-family: "brandon-grotesque",sans-serif;
-    font-weight: 200;
-    font-size: 1.125rem;
-    width: 500px;
-    text-align: center; }
-
-a {
-  margin: 0px; }
-
-.info4 {
-  font-family: "komu-b",sans-serif;
-  color: #3D3836; }
-
-.pneumainfo {
-  color: #3D3836;
-  font-family: "komu-b",sans-serif;
-  font-weight: 200; }
-  .pneumainfo h1 {
-    font-size: 50px;
-    letter-spacing: 2px;
-    margin: 0px; }
-  .pneumainfo h2 {
-    font-size: 20px;
-    letter-spacing: 1px;
-    margin: 0px; }
-  .pneumainfo p {
-    font-family: "brandon-grotesque",sans-serif;
-    font-weight: 200;
-    font-size: 1.125rem;
-    width: 500px; }
-
-.info5 {
-  font-family: "komu-b",sans-serif;
-  color: #fff;
-  height: 100vh; }
-
-.pureinfo {
-  color: #fff;
-  font-family: "komu-b",sans-serif;
-  font-weight: 200;
-  margin-left: 110px; }
-  .pureinfo h1 {
-    font-size: 50px;
-    letter-spacing: 2px;
-    margin: 0px; }
-  .pureinfo h2 {
-    font-size: 20px;
-    letter-spacing: 1px;
-    margin: 0px;
-    margin-bottom: 30px; }
-  .pureinfo p {
-    font-family: 'Lato', sans-serif;
-    font-weight: 200;
-    font-size: 14px;
-    width: 500px; }
-
-.info6 {
-  font-family: "komu-b",sans-serif;
-  color: #fff;
-  margin: 0px; }
-  .info6 h3 {
-    font-size: 18px; }
-
-.info7 {
-  font-family: "komu-b",sans-serif;
-  color: #fff; }
-  .info7 h1 {
-    font-size: 50px;
-    letter-spacing: 2px;
-    margin: 0px; }
-  .info7 h2 {
-    font-size: 20px;
-    letter-spacing: 1px;
-    margin: 0px;
-    margin-bottom: 30px; }
-  .info7 p {
-    font-family: 'Lato', sans-serif;
-    font-weight: 200;
-    font-size: 14px;
-    width: 500px;
-    text-align: center; }
-
-.info8 {
-  font-family: "komu-b",sans-serif;
-  color: black; }
-  .info8 h1 {
-    font-size: 50px;
-    letter-spacing: 2px;
-    margin: 0px; }
-  .info8 h2 {
-    font-size: 20px;
-    letter-spacing: 1px;
-    margin: 0px;
-    margin-bottom: 30px; }
-  .info8 p {
-    font-family: 'Lato', sans-serif;
-    font-weight: 200;
-    font-size: 14px;
-    width: 500px;
-    text-align: center; }
-
-.plinfo {
-  color: black;
-  font-family: "komu-b",sans-serif;
-  font-weight: 200;
-  margin-left: 110px;
-  padding: 80px 0px; }
-  .plinfo h1 {
-    font-size: 50px;
-    letter-spacing: 2px;
-    margin: 0px; }
-  .plinfo h2 {
-    font-size: 20px;
-    letter-spacing: 1px;
-    margin: 0px;
-    margin-bottom: 30px; }
-  .plinfo p {
-    font-family: 'Lato', sans-serif;
-    font-weight: 200;
-    font-size: 14px;
-    width: 500px; }
-
-.deinfo {
-  color: white;
-  font-family: "komu-b",sans-serif;
-  font-weight: 200; }
-  .deinfo h1 {
-    font-size: 50px;
-    letter-spacing: 2px;
-    margin: 0px; }
-  .deinfo h2 {
-    font-size: 20px;
-    letter-spacing: 1px;
-    margin: 0px;
-    margin-bottom: 30px; }
-  .deinfo p {
-    font-family: "brandon-grotesque",sans-serif;
-    font-weight: 200;
-    font-size: 1.125rem;
-    width: 500px; }
-
-.HSBCinfo {
-  color: red !important;
-  font-family: "komu-b",sans-serif;
-  font-weight: 200; }
-  .HSBCinfo a.color {
-    color: red !important; }
-  .HSBCinfo h1 {
-    font-size: 50px;
-    letter-spacing: 2px;
-    margin: 0px; }
-  .HSBCinfo h2 {
-    font-size: 20px;
-    letter-spacing: 1px;
-    margin: 0px;
-    margin-bottom: 30px; }
-  .HSBCinfo p {
-    font-family: 'Lato', sans-serif;
-    font-weight: 200;
-    font-size: 14px;
-    width: 500px;
-    text-align: center; }
-
-.akbackground {
-  background-color: #DBD5B9; }
-
-.brown {
-  color: #8D581E !important; }
