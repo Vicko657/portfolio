@@ -1500,6 +1500,12 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/imgs\/banner.pdf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/imgs\/banner.pdf",
+		"oF": 0
+		},
 	"\/imgs\/bars-01.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -2118,6 +2124,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/imgs\/NAIGANATURALSBANNER-01.png": {
+		"ft": 32768,
+		"iS": 1805139,
+		"oA": 0,
+		"oAP": "\/imgs\/NAIGANATURALSBANNER-01.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/imgs\/ndcprototype.mp4": {
 		"ft": 8192,
 		"oA": 2,
@@ -2131,6 +2145,14 @@
 		"oAP": "\/imgs\/newlogotp.png",
 		"oF": 0,
 		"opt": 1
+		},
+	"\/imgs\/nn.png": {
+		"ft": 32768,
+		"iS": 13521,
+		"oA": 0,
+		"oAP": "\/imgs\/nn.png",
+		"oF": 0,
+		"opt": 0
 		},
 	"\/imgs\/ORANGETANG.png": {
 		"ft": 32768,
@@ -2588,7 +2610,7 @@
 		"oA": 0,
 		"oAP": "\/imgs\/THEFOURCOLLECTION-01.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/imgs\/typopure.png": {
 		"ft": 32768,
@@ -3010,6 +3032,12 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/nn.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/nn.html",
+		"oF": 0
 		},
 	"\/outset.html": {
 		"ft": 8192,
