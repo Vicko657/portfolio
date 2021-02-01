@@ -2,15 +2,12 @@
 body{
   padding: 0;
   margin:0;
-  font-family: "brandon-grotesque",sans-serif;
-  font-weight: 400;
   background-color: white;
 }
 
 .aboutmeskills{
   height:100vh;
 }
-=
 h1{
   margin: 0px;
 }
@@ -23,7 +20,7 @@ h1{
   z-index: 1;
   width:100%;
   color: white;
-  padding-top: 30px;
+  padding-top: 25px;
 }
 .m_logo{
   font-weight: 700;
@@ -32,15 +29,15 @@ h1{
 }
 .mi{
   cursor:pointer;
-  font-family: "komu-b",sans-serif;
+  font-family: sofia-pro, sans-serif;
+  font-style: normal;
+  font-weight: 400;
   color: black;
-  font-weight: 100;
   letter-spacing: 1px;
   margin-right: 10px;
+  font-size: 15px;
 }
-.mi .icon {
-  display: none;
-}
+
 .UXT .show {
   display: none;
 }
@@ -50,21 +47,23 @@ h1{
 a{
   margin-left: 5px;
   text-decoration: none;
-  color: black;
+  color: white;
   &:hover{
     color: #ddc139;
   }
 }
 .boxlogo{
   margin-left: 20px;
-  font-size: 23px;
-  font-family: "komu-b",sans-serif;
-  font-weight: 400;
-  letter-spacing: 10px;
-  color: black;
-font-weight:
+  font-size: 13px;
+  font-family: sofia-pro, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  letter-spacing: 7px;
+  color: white;
 }
-
+.m{
+  margin-right: 70px;
+}
 .amt{
   font-family: "komu-b",sans-serif;
   font-weight: 400;
@@ -95,7 +94,8 @@ font-weight:
 }
 .cm{
   margin-right: 20px;
-  font-family: "komu-b",sans-serif;
+  font-family: sofia-pro, sans-serif;
+  font-style: normal;
   font-weight: 400;
   font-size: 15px;
   letter-spacing: 1px;
@@ -150,7 +150,7 @@ font-weight:
   height:703px;
 }
 .left{
-  margin-left: 130px;
+  margin-left: 120px;
 }
 .name{
   color: #d8d4c0;
@@ -272,28 +272,32 @@ a{
   cursor: pointer;
 }
 .food1{
-  width:720px;
+  width:100%;
   opacity: 0.9;
 }
 .shop1{
-  width:720px;
+  width:100%;
   opacity: 0.9;
 }
 .law1{
-  width:720px;
+  width:100%;
   opacity: 0.9;
 }
 .vy1{
-  width:720px;
+  width:100%;
   opacity: 0.9;
 }
 .aik1{
-  width:720px;
+  width:100%;
   opacity: 0.9;
 }
 .poo{
-  width:720px;
+  width:100%;
   opacity: 0.9;
+}
+.dv{
+  width:639.91px;
+
 }
 
 .md{
@@ -367,10 +371,7 @@ img{
   width: 156.534724px;
   height: 277.777778px;
 }
-.wholesection{
-  margin-right: 10px;
-  margin-bottom: 20px;
-}
+
 .t3{
   font-size: 19px;
   font-family: "komu-b",sans-serif;
@@ -509,9 +510,6 @@ background-repeat: no-repeat;
   cursor: pointer;
 }
 
-img {
-  margin-bottom: -4px;
-}
 
 .caption-container {
   text-align: center;
@@ -613,8 +611,9 @@ p{
   margin: 0px;
 }
 .back{
-  background: #fff;
-  padding:50px 0px 0px 0px;
+  background: #191818;
+  padding:70px 0px 0px 0px;
+  font-size: 0;
 }
 .rimg{
   width:900px;
@@ -952,9 +951,264 @@ a{
 .brown{
   color: #8D581E !important;
 }
+//new page layout//
+.parallaximage{
+display:none;
+}
+.topdescription{
+  font-size: 13px;
+  font-family: sofia-pro, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  color: white;
+  padding: 70px 70px 70px 70px;
+  .1{height: 200px;}
+  .web{
+    padding: 70px 70px 70px 70px;
+  }
+  h1{
+    letter-spacing: 2px;
+    margin-bottom: 180px;
+  }
+  h2{
+    font-weight: 200;
+    font-size: 18px;
+  }
+  h3{
+    margin: 0px;
 
+  }
+  p{
+    font-family: "brandon-grotesque",sans-serif;
+    font-weight: 200;
+  }
+  .left{
+    padding: 60px 60px 60px 90px;
+    width: 100%;
+    img{
+      width: 40px;
+    }
+  }
+  .d{
+    margin-bottom: 0px!important;
+  }
+  .right{
+    padding: 60px 60px 60px 60px;
+  }
+  .left1{
+    padding: 60px 60px 60px 60px;
+    width: 100%;
+    img{
+      width: 40px;
+    margin-bottom: 120px;
+    }
+  }
+  .middle1{
+    padding: 60px 60px 60px 60px;
+    width: 100%;
+  }
+  .right1{
+    padding: 60px 60px 60px 60px;
+    width: 100%;
+  }
+}
+.twosections{
+  background-color:#191818;
+  font-family: sofia-pro, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  color: white;
+  padding-bottom: 20px;
+  h1{
+    letter-spacing: 2px;
+    margin-bottom: 180px;
+  }
+  h2{
+    font-weight: 200;
+    font-size: 18px;
+
+  }
+  h3{
+    margin: 0px;
+    font-size: 14px;
+  }
+  img{
+    width: 640px;
+  }
+  .App{
+    background-color: #9d8bc2;
+    .left{
+    padding: 50px 80px 0px 40px;
+    }
+  }
+  .middledescription{
+    padding: 70px 70px 70px 70px;
+    h2{
+      font-weight: 200;
+      font-size: 18px;
+    }
+    p{
+      font-family: "brandon-grotesque",sans-serif;
+      font-weight: 200;
+      font-size: 14px;
+    }
+    .left{
+      padding: 60px 60px 60px 90px;
+    }
+    .right{
+      padding: 60px 60px 60px 60px;
+    }
+  }
+  .Website{
+    padding: 70px 70px 70px 70px;
+    background-color: #23243d;
+    text-align: center;
+  }
+}
+.outside{
+  background-color: white;
+  padding: 50px;
+}
+.middle{
+  border: 1px solid black;
+  fill: white;
+  width: 800px;
+  height: 400px;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 60%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+.container {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+// Relevant styles
+
+img {
+  width: 100%;
+  display: block;
+}
+
+.image-stack::after {
+    content: ' ';
+    display: table;
+    clear: both;
+  }
+
+  .image-stack__item--top {
+      float: left;
+      width: 66%;
+      margin-right: -100%;
+      position: relative;
+      z-index: 1; // tells the browser to make this image on top
+  }
+
+  .image-stack__item--bottom {
+      float: right;
+      width: 75%;
+  }
+
+@supports (display: grid) {
+  .image-stack {
+    display: grid;
+    position: relative; // imperative for the overlapping to work
+    grid-template-columns: repeat(12, 1fr);
+  }
+
+  .image-stack__item--bottom {
+    grid-column: 7 / -1;
+    grid-row: 1;
+    width: 100%;
+    z-index: 2;
+  }
+
+  .image-stack__item--top {
+    grid-row: 1;
+    grid-column: 1 / span 8;
+    padding-top: 20%; // slightly arbitrary, keeps proportion once resized
+    width: 100%;
+  }
+}
 //media queries//
-@media only screen and (max-width: 1280px) {
+@media only screen and (max-width: 768px) {
   .food1{
     width:620px;
     opacity: 0.9;
@@ -978,9 +1232,6 @@ a{
   .poo{
     width:620px;
     opacity: 0.9;
-  }
-  .websec{
-  padding-top: 40px;
   }
   .boxo{
     border: 2px black solid;
@@ -1100,34 +1351,22 @@ a{
       font-size: 30px;
     }
     .food1{
-      width:240px;
-      height:131.90625px;
-      opacity: 0.5;
+      width: 100%;
     }
     .shop1{
-      width:234.65625px;
-      height:132px;
-      opacity: 0.5;
+      width: 100%;
     }
     .law1{
-      width:240px;
-      height:131.90625px;
-      opacity: 0.5;
+      width: 100%;
     }
     .vy1{
-      width:232.875px;
-      height:131.90625px;
-      opacity: 0.5;
+      width: 100%;
     }
     .aik1{
-      width:240px;
-      height:131.90625px;
-      opacity: 0.5;
+      width: 100%;
     }
     .poo{
-      width:240px;
-      height:131.90625px;
-      opacity: 0.5;
+      width: 100%;
     }
     .t3{
       font-size: 10px;
@@ -1395,303 +1634,117 @@ padding-top: 0px;
 .aminfo{
   font-size: 13px;
 }
+
+//otherpages//
+.parallax{
+display:none;
 }
-@media only screen
-and (max-width: 600px)
-and (orientation : landscape) {
+.parallaximage{
+display: block;
+overflow: hidden;
+}
+.parallax2{
+  display: none;
+}
+.topdescription{
+  display: flex;
+  flex-direction: column!important;
+  align-items: flex-start;
+  text-align: left;
+  .1{height: 400px;}
+  .left img {
+    margin-bottom: 30px;
+}
 
-  //aboutme//
-    .main_txt{
-      text-align: center;
-      padding: 0px 20px;
-      color: white;
-    h1{
-      font-size: 30px;
-
-    }
-    h2{
-      font-size: 13px;
-      font-weight: 300;
-    }
-    p{
-      font-size: 10px;
-      font-weight: 100;
-    }
-    .smallerh1{
-      font-size: 18px;
-    }
-    }
-
-      //websitedevelopment//
-      .wdadt{
-        font-size: 30px;
-      }
-      .food1{
-        width:240px;
-        height:131.90625px;
-        opacity: 0.5;
-      }
-      .shop1{
-        width:234.65625px;
-        height:132px;
-        opacity: 0.5;
-      }
-      .law1{
-        width:240px;
-        height:131.90625px;
-        opacity: 0.5;
-      }
-      .vy1{
-        width:232.875px;
-        height:131.90625px;
-        opacity: 0.5;
-      }
-      .aik1{
-        width:240px;
-        height:131.90625px;
-        opacity: 0.5;
-      }
-      .t3{
-        font-size: 12px;
-      }
-      .t1{
-        font-size: 12px;
-      }
-      .t2{
-        font-size: 12px;
-      }
-      .t4{
-        font-size: 12px;
-      }
-
-        //photography//
-        .categories{
-          text-align: center;
-          flex-direction: column;
-          button{
-            margin-bottom: 5px;
-            padding: 10px 20px;
-          }
-
-        }
-
-        //UX and Design//
-        .UXt{
-            text-align: center;
-        }
-        .difcategories{
-          text-align: center;
-          flex-direction: column;
-
-        }
-  #section-4 button{
-    margin-bottom: 5px;
-    padding: 10px 20px;
-  }
-
-  .mi a{display: none;}
-    .mi a.icon {
-      display: block;
-    }
-
-    .mi.responsive {position: relative;}
-    .topnav.responsive .icon {
-      position: absolute;
-
-      top: 0;
-    }
-    .mi.responsive a {
-      float: none;
-      display: block;
-      text-align: center;
-
-    }
-    .sizemw{
-      text-align: center;
-      font-family: "komu-b",sans-serif;
-      font-size: 15px;
-      letter-spacing: 2px;
-      font-weight: 400;
-    }
-
-    .logoo{
-
-      }
-
-      .vib1{
-        width:140.75px;
-        height:84.375px;
-      }
-      .vib2{
-        width:140.75px;
-        height:84.375px;
-      }
-      .vyy{
-        width:137.285156px;
-        height:87.3632812px;
-      }
-      .ia2i1{
-        width:128.8125px;
-        height:73.125px;
-      }
-      .ia2i2{
-        width:112.5px;
-      }
-      .po2{
-        width:77.088541px;
-        height:110.273488px;
-      }
-      .ch1{
-        width:89.16667px;
-        height:119.333333px;
-      }
-      #Level1 p{
-        font-size: 10px;
-      }
-      #Level2 p{
-        font-size: 10px;
-          margin: 0;
-      }
-      #Level2 h3{
-        font-size: 12px;
-        margin: 0;
-      }
-      #Level2 video{
-        width: 240px;
-        height: 180px;
-      }
-      .UXt{
-        text-align: center;
-      }
-      .pl1{
-        width:234.5px;
-        height:129.25px;
-      }
-      .pl2{
-        width: 156.534724px;
-        height: 277.777778px;
-      }
-      .part1{
-      h1{
-        font-size: 14px;
-      }
-    }
-    .part2{
-    h1{
-      font-size: 14px;
-    }
-  }
-      .part3{
-      h1{
-        font-size: 14px;
-      }
-    }
-    .part4{
-    h1{
-      font-size: 14px;
-    }
-  }
-  .po{
-    width: 20%;
-  }
-  //outset//
-  .om{
-    padding-top: 100px;
-    display:flex;
-    flex-direction: column;
-  }
-  .boxo3{
-    padding: 5px 5px 10px 10px;
+  h2 {
+    font-weight: 200;
+    font-size: 14px;
+}
+h3 {
+   margin: 0px;
+   font-size: 17px;
+}
+h4{
+  font-size: 15px;
+}
+}
+.vid{
+  width: 300px!important;
+  height: 300px!important;
+}
+.inside{
+  flex-direction: column!important;
+  align-items: flex-start;
+}
+.inside2{
+  flex-direction: column!important;
+  align-items: center;
+}
+.m{
+  margin: 0px;
+}
+.left{
+  padding: 0px!important;
+  margin: 0px;
+}
+.right{
+  padding: 0px!important;
+}
+.imgsize1{
+  width: 310px!important;
+}
+.imgsize2{
+  width: 200px!important;
+}
+.imgsize3{
+  width: 415px!important;
+  height: 415px!important;
+}
+.imgoverflow{
+  overflow: hidden;
+}
+.bs{
+  width: 400px!important;
+}
+.web{
+  padding: 30px 40px 70px 40px!important;
+}
+.textw{
+  margin-bottom: 40px;
+}
+.rs{
+  width: 300px!important;
+  text-align: left!important;
+}
+.container{
+  padding: 0px;
+  margin-bottom: 30px;
+}
+.subsec{
+  flex-direction: column!important;
+  align-items: flex-start;
+  text-align: left!important;
+}
+@supports (display: grid) {
+  .image-stack {
+    display: grid;
+    position: relative; // imperative for the overlapping to work
+    grid-template-columns: repeat(12, 1fr);
   }
 
-  //pure//
-  .outsetinfo{
-    padding-top: 100px;
-    align-items: center;
-    text-align: center;
-    p{font-size: 1rem;}
-    margin-right: 0px !important;
-  }
-  .pm{
-    display:flex;
-    flex-direction: column;
-  }
-  .rimg{
-    margin-top: 10px;
-    width:420px;
+  .image-stack__item--bottom {
+    grid-column: 6 / -1;
+    grid-row: 1;
+    width: 100%;
+    z-index: 2;
   }
 
-  .lp{
-    display:flex;
-    flex-direction: column;
+  .image-stack__item--top {
+    grid-row: 1;
+    grid-column: 1 / span 8;
+    padding-top: 20%; // slightly arbitrary, keeps proportion once resized
+    width: 100%;
   }
-  .pp{
-    display:flex;
-    flex-direction: column;
-  }
-  .widthforbigscreen{
-  width:400px;
-  }
-  .heightforbigscreen{
-  height: 500px;
-  }
-  video{
-    width:400px;
-  }
-  //drive//
-  .dm{
-    display:flex;
-    flex-direction:column;
-  }
-  .deinfo{
-  padding-top: 400px;
-    align-items: center;
-    text-align: center;
-    p{font-size: 1rem;}
-    margin-right: 0px !important;
-    display: flex;
-    flex-direction: column;
-  }
-  .deinfo2{
-  padding-top: 0px;
-    align-items: center;
-    text-align: center;
-    p{font-size: 1rem;}
-    margin-right: 0px !important;
-    display: flex;
-    flex-direction: column;
-  }
-  .driveposter{
-    height:270px;}
-  .ds{
-    height:120px;
-  }
-  .ab{
-    display: flex;
-    flex-direction: column;
-  }
-  .akinfo{
-    margin-right: 0px;
-    align-items: center;
-    text-align: center;
-  }
-  .info3{
-      padding-bottom: 300px;
-  }
-  .lfa{
-    font-family: "komu-b",sans-serif;
-    font-size: 20px;
-    text-align: center;
-    align-items: center;
-    letter-spacing: 20px;
-    padding-bottom: 30px;
-    padding-top: 40px !important;
-  }
-  .as{
-    font-size: 1.25rem;
-  }
-  .aminfo{
-    font-size: 13px;
-  }
+}
 
-  }
+}
