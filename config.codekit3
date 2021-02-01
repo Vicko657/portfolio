@@ -1580,11 +1580,27 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/imgs\/mimopackaging.jpg": {
+		"ft": 16384,
+		"iS": 4843723,
+		"oA": 0,
+		"oAP": "\/imgs\/mimopackaging.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/imgs\/mimoshopbag.jpg": {
 		"ft": 16384,
 		"iS": 14846241,
 		"oA": 0,
 		"oAP": "\/imgs\/mimoshopbag.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/imgs\/mimotags.jpg": {
+		"ft": 16384,
+		"iS": 2461220,
+		"oA": 0,
+		"oAP": "\/imgs\/mimotags.jpg",
 		"oF": 0,
 		"opt": 0
 		},
