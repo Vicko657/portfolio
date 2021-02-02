@@ -1728,6 +1728,12 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/imgs\/OTNweb.mp4": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/imgs\/OTNweb.mp4",
+		"oF": 0
+		},
 	"\/imgs\/OurManinHavana.png": {
 		"ft": 32768,
 		"iS": 431668,
@@ -1797,6 +1803,14 @@
 		"iS": 3822083,
 		"oA": 0,
 		"oAP": "\/imgs\/outsetnewgrid2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/imgs\/outsetnewimg-01.jpg": {
+		"ft": 16384,
+		"iS": 522940,
+		"oA": 0,
+		"oAP": "\/imgs\/outsetnewimg-01.jpg",
 		"oF": 0,
 		"opt": 0
 		},
