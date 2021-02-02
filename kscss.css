@@ -86,8 +86,9 @@ h1 {
   font-weight: 400;
   color: black;
   letter-spacing: 1px;
-  margin-right: 10px;
-  font-size: 15px; }
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px; }
 
 .UXT .show {
   display: none; }
@@ -143,12 +144,15 @@ a {
 
 .cm {
   margin-right: 20px;
+  margin-left: 20px;
   font-family: sofia-pro, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 15px;
   letter-spacing: 1px;
-  color: black; }
+  color: black;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 3px; }
 
 .user {
   font-size: 10px;
