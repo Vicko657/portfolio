@@ -19,7 +19,7 @@ h1{
   position:fixed;
   z-index: 1;
   width:100%;
-  color: white;
+  color: black;
   padding-top: 25px;
 }
 .m_logo{
@@ -47,7 +47,7 @@ h1{
 a{
   margin-left: 5px;
   text-decoration: none;
-  color: white;
+  color: black;
   &:hover{
     color: #ddc139;
   }
@@ -59,7 +59,7 @@ a{
   font-style: normal;
   font-weight: 100;
   letter-spacing: 7px;
-  color: white;
+  color: black;
 }
 .m{
   margin-right: 70px;
@@ -611,7 +611,7 @@ p{
   margin: 0px;
 }
 .back{
-  background: #191818;
+  background: #fff;
   padding:70px 0px 0px 0px;
   font-size: 0;
 }
