@@ -203,7 +203,9 @@ p{
 .top_work{
   color: #968130;
 }
-
+.add{
+  width: max-content !important;
+}
 .categories{
   font-size: 15px;
 }
@@ -1207,6 +1209,9 @@ img {
 }
 //media queries//
 @media only screen and (max-width: 768px) {
+  .add{
+    width: 100% !important;
+  }
   .food1{
     width:620px;
     opacity: 0.9;
