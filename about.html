@@ -1,71 +1,99 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>About Me</title>
-  <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
-  <link rel="stylesheet" href="kscss.css">
-  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-  <link rel="stylesheet" href="https://use.typekit.net/qjc4xqb.css">
-  <link rel="stylesheet" href="https://use.typekit.net/cgm7mfp.css">
-  <link href="https://fonts.googleapis.com/css?family=Gaegu" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Four Collection</title>
+<link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+<link rel="stylesheet" href="kscss.css">
+<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+<link rel="stylesheet" href="https://use.typekit.net/qjc4xqb.css">
+<link rel="stylesheet" href="https://use.typekit.net/cgm7mfp.css">
+<link href="https://fonts.googleapis.com/css?family=Gaegu" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400&display=swap" rel="stylesheet">
+<style>
+.parallax {
+  /* The image used */
+  background-image: url("imgs/t4cpb.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
 </head>
-<body class="outsetbackground">
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script type="text/javascript" src="js/script.js"></script>
+<body>
   <div class="nav flex flex--space-between align-center">
     <div class="lg flex flex--start align-start">
-      <a href="index.html"><div class="boxlogo white">
+      <a href="index.html"><div class="boxlogo">
         VICTORIA OLUSEGUN
     </div></a>
     </div>
     <div class="top flex align-center">
     </div>
     <div class=" flex flex--space-between align-end">
-      <div class="mi" id="miTopnav">
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <h1 class="sizemw white">My Work <i class="fas fa-angle-down"></i></h1>
-        </a>
-        <a class="r2 white" href="about.html">aboutme</a>
-        <a class="r1 white" href="index.html#web">website designs &amp; app development</a>
-        <a class="r3 white" href="index.html#ux">ux &amp; design</a>
+      <div class="mi">
+        <a class="r2" href="about.html">about me</a>
       </div>
-
-
       <div class="cm">
-        <a class="white" href="mailto:victoriaolusegun@btinternet.com?Subject=From%20Website">contact me</a>
+        <a href="mailto:victoriaolusegun@googlemail.com?Subject=From%20Website">Contact</a>
       </div>
+      <a href="javascript:void(0);" class="icon" onclick="openNav()">
+        <div class="bar"></div>
+        <div class="bar" style="margin-bottom: 0px;"></div>
+      </a>
     </div>
   </div>
 
-  <section id="aboutme" class="aboutmeskills flex flex--space-around align-center">
+  <div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+  <a href="index.html">Work</a>
+  <a href="about.html">About</a>
+  <a href="mailto:victoriaolusegun@googlemail.com?Subject=From%20Website">Contact</a>
+  </div>
+  </div>
 
-  <div class="mid_sec flex flex--space-around align-center columns">
-    <div>
-</div>
-  <br>
-<div class="whole flex flex--space-around columns">
-<div class="am flex flex--space-around columns">
-  <div class="white lfa" >
-    VICTORIA OLUSEGUN
-</div>
-<h1 class="as flex flex--space-around align-center">About Me</h1>
-<br>
-<br>
-<p class="aminfo white">
-  Hello I'm Victoria Olusegun,<br>a digital designer in London.</p>
-  <br>
-  <p class="aminfo white">I have recently graduated studying BSc Digital Design at <br>Brunel University London.<br><br>Some of the coding languages<br>I have learnt are HTML, CSS &amp; Javascript.<br> <br>The other software's I have used are Adobe<br>Photoshop, Illustrator &amp; Adobe InDesign.
-</p>
-</div>
-<br>
-</div>
-</div>
-</section>
 
-  <footer>
-  </footer>
+  <section class="back"></section>
+
+
+  <div class="topdescription flex flex--start align-start" style="background-color:#fff;color:black;font-size:14px">
+    <div class="inside flex flex--space-around align-start">
+      <div class="m flex flex--start columns">
+        <h2 style="font-size:18px;">About Me</h2>
+
+        <p>Victoria Olusegun is a Freelance Designer &amp; Developer in London.</p>
+        <br>
+        <p class=""> Victoria graduated from Brunel University London studying BSc Digital Design.<br><br>
+
+        The softwares she utilises day to day are Adobe Photoshop, Illustrator &amp; Indesign.
+
+        <br><br>
+
+        She provides services in UI &amp; UX, Web Design &amp; Development and Graphics.
+
+      </p>
+
+
+      </div>
+    </div>
+</div>
+
+
+<script>
+function openNav() {
+document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+document.getElementById("myNav").style.width = "0%";
+}
+</script>
 </body>
-
 </html>
