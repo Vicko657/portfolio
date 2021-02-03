@@ -1497,7 +1497,8 @@ img {
     display: flex;
     flex-direction: column !important;
     align-items: flex-start;
-    text-align: left; }
+    text-align: left;
+    padding: 70px 70px 70px 40px; }
     .topdescription .1 {
       height: 400px; }
     .topdescription .left img {
