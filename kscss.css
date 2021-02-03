@@ -922,6 +922,9 @@ a {
 .brown {
   color: #8D581E !important; }
 
+.nav .icon {
+  display: none; }
+
 .parallaximage {
   display: none; }
 
@@ -1127,6 +1130,18 @@ img {
     width: 100%; } }
 
 @media only screen and (max-width: 768px) {
+  .nav .icon {
+    display: block;
+    margin-right: 20px; }
+  .bar {
+    border-bottom: 1px solid black;
+    margin-bottom: 6px;
+    line-height: 20px;
+    width: 20px; }
+  .cm {
+    display: none; }
+  .mi {
+    display: none; }
   .add {
     width: 100% !important; }
   .food1 {
