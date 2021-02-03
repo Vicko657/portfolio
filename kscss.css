@@ -86,7 +86,7 @@ h1 {
   font-weight: 400;
   color: black;
   letter-spacing: 1px;
-  font-size: 12px;
+  font-size: 10px;
   text-transform: uppercase;
   letter-spacing: 2px; }
 
@@ -105,7 +105,7 @@ a {
 
 .boxlogo {
   margin-left: 20px;
-  font-size: 13px;
+  font-size: 10px;
   font-family: sofia-pro, sans-serif;
   font-style: normal;
   font-weight: 100;
@@ -150,7 +150,7 @@ a {
   font-weight: 400;
   letter-spacing: 1px;
   color: black;
-  font-size: 12px;
+  font-size: 10px;
   text-transform: uppercase;
   letter-spacing: 3px; }
 
