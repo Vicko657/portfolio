@@ -1176,6 +1176,8 @@ img {
     margin-bottom: 6px;
     line-height: 20px;
     width: 20px; }
+  .bottom {
+    margin-bottom: 30px; }
   .cm {
     display: none; }
   .mi {
