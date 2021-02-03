@@ -1228,6 +1228,8 @@ img {
     padding-top: 40px !important; } }
 
 @media only screen and (max-width: 600px) {
+  .bottom {
+    margin-bottom: 30px; }
   .main_txt {
     text-align: center;
     padding: 0px 20px;
