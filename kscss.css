@@ -983,6 +983,8 @@ a {
   .topdescription h2 {
     font-weight: 200;
     font-size: 18px; }
+  .topdescription .h2 {
+    font-size: 14px !important; }
   .topdescription h3 {
     margin: 0px; }
   .topdescription p {

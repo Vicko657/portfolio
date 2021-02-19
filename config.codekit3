@@ -1604,6 +1604,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/imgs\/Mimowebsitegrid.jpg": {
+		"ft": 16384,
+		"iS": 5790735,
+		"oA": 0,
+		"oAP": "\/imgs\/Mimowebsitegrid.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/imgs\/mixmatchhoarding.png": {
 		"ft": 32768,
 		"iS": 2554073,
@@ -2385,6 +2393,14 @@
 		"iS": 50232,
 		"oA": 0,
 		"oAP": "\/imgs\/typopure.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/imgs\/valentinescard.jpg": {
+		"ft": 16384,
+		"iS": 2411766,
+		"oA": 0,
+		"oAP": "\/imgs\/valentinescard.jpg",
 		"oF": 0,
 		"opt": 0
 		},
