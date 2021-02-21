@@ -1572,6 +1572,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/imgs\/mimofrontend.jpg": {
+		"ft": 16384,
+		"iS": 5789686,
+		"oA": 0,
+		"oAP": "\/imgs\/mimofrontend.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/imgs\/mimologo.png": {
 		"ft": 32768,
 		"iS": 3926,
@@ -1765,6 +1773,14 @@
 		"oA": 2,
 		"oAP": "\/imgs\/OTNweb.mp4",
 		"oF": 0
+		},
+	"\/imgs\/otnwebsite.jpg": {
+		"ft": 16384,
+		"iS": 5037269,
+		"oA": 0,
+		"oAP": "\/imgs\/otnwebsite.jpg",
+		"oF": 0,
+		"opt": 0
 		},
 	"\/imgs\/OurManinHavana.png": {
 		"ft": 32768,
