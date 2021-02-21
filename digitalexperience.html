@@ -11,6 +11,21 @@
 <link href="https://fonts.googleapis.com/css?family=Gaegu" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400&display=swap" rel="stylesheet">
+<style>
+.parallax {
+  /* The image used */
+  background-image: url("imgs/drivemockup.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
 </head>
 <body>
   <div class="nav flex flex--space-between align-center">
@@ -49,6 +64,11 @@
 
   <section class="back"></section>
 
+  <div class="parallax"></div>
+
+  <div class="parallaximage">
+    <img class="d"src="imgs/drivemockup.jpg" style="width:500px;">
+  </div>
 
   <div class="topdescription flex flex--space-around align-center rows" style="background-color:#131313;color:#fff;font-size:14px">
     <div class="inside flex flex--space-around align-center rows">
@@ -95,142 +115,4 @@ document.getElementById("myNav").style.width = "0%";
 }
 </script>
 </body>
-</html>
-
-
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Digital Experience</title>
-  <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
-  <link rel="stylesheet" href="kscss.css">
-  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-  <link rel="stylesheet" href="https://use.typekit.net/qjc4xqb.css">
-  <link rel="stylesheet" href="https://use.typekit.net/cgm7mfp.css">
-  <link href="https://fonts.googleapis.com/css?family=Gaegu" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400&display=swap" rel="stylesheet">
-</head>
-<body class="debackground">
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script type="text/javascript" src="js/script.js"></script>
-  <div class="nav flex flex--space-between align-center">
-    <div class="lg flex flex--start align-start">
-      <a href="index.html"><div class="boxlogo white">
-        VICTORIA OLUSEGUN
-    </div></a>
-    </div>
-    <div class="top flex align-center">
-    </div>
-    <div class=" flex flex--space-between align-end">
-      <div class="mi" id="miTopnav">
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <h1 class="sizemw white">My Work <i class="fas fa-angle-down"></i></h1>
-        </a>
-        <a class="r2 white" href="about.html">aboutme</a>
-        <a class="r1 white" href="index.html#web">website designs &amp; app development</a>
-        <a class="r3 white" href="index.html#ux">ux &amp; design</a>
-      </div>
-
-
-      <div class="cm">
-        <a class="white" href="mailto:victoriaolusegun@btinternet.com?Subject=From%20Website">contact me</a>
-      </div>
-    </div>
-  </div>
-  <div class="info3 flex flex--space-around align-center">
-    <div class="dm flex flex--space-around align-center rows">
-      <div class="deinfo flex align-start columns">
-        <h1>DIGITAL EXPERIENCE</h1>
-        <h2>DRIVE</h2>
-        <p>For my Digital Experience module I created A Healthy Energy Drink Campaign. This is a Digital Experience that aims to
-provide an alternative healthier energy drink for people who work daily, students etc... There is a range of five different drinks that are advertised which
-have healthy ingredients that boost their energy. <br><br> I designed the logo, website and the questionaire for the website had questions based on how people study, complete their work and their health.<br><br>
-I used Adobe Photoshop &amp; Illustrator.
-  </p>
-      </div>
-      <div class="flex flex--space-between flex--end ">
-            <img style="width:400px;" src="imgs/DRIVElogo-19.png" alt="img"></img>
-</div>
-
-    </div>
-</div>
-
-  <div class="info4 flex flex--space-around align-center columns">
-    <div class="flex flex--space-around align-center columns">
-      <h2 class="white">Branding</h2>
-      <div class="deinfo2 flex flex--space-around align-center rows">
-        <div class="flex align-center columns">
-        <img style="height:100px;" src="imgs/DRIVEFONT.png" alt="img"></img>
-      </div>
-        <br>
-        <div class="flex align-center columns">
-        <img style="height:180px; width:390px;" src="imgs/drivecs.png" alt="img"></img>
-  </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="info4 flex flex--space-around align-center columns">
-    <div class="flex flex--space-around align-center columns">
-      <div class="deinfo2 flex flex--space-around align-center columns">
-        <h2 class="white">The Poster</h2>
-        <img class="driveposter" src="imgs/driveposter-16.png" alt="img"></img>
-      </div>
-      <br>
-      <br>
-      <div class="pneumainfo flex align-center columns">
-        <h2 class="white">The Drinks</h2>
-        <div class="flex align-center rows">
-        <img class="ds" src="imgs/FRUITPUNCH.png" alt="img"></img>
-        <img class="ds" src="imgs/GREENDRAGON.png" alt="img"></img>
-      </div>
-      <div class="flex align-center rows">
-        <img class="ds" src="imgs/ORANGETANG.png" alt="img"></img>
-        <img class="ds" src="imgs/REDBOOST.png" alt="img"></img>
-        <img class="ds" src="imgs/REFRESH.png" alt="img"></img>
-      </div>
-      </div>
-    </div>
-  </div>
-
-
-
-
-  <footer>
-  </footer>
-  <script>
-  function myFunction() {
-      var x = document.getElementById("miTopnav");
-      if (x.className === "mi") {
-          x.className += " responsive";
-      } else {
-          x.className = "mi";
-      }
-  }
-  </script>
-
-  <script>
-  function myFunction2() {
-      var x = document.getElementById("bar1");
-      if (x.className === "bars1") {
-          x.className += " responsive";
-      } else {
-          x.className = "bars1";
-      }
-  }
-  </script>
-
-  <script>
-  function myFunction3() {
-      var x = document.getElementById("bar2");
-      if (x.className === "bars2") {
-          x.className += " responsive";
-      } else {
-          x.className = "bars2";
-      }
-  }
-  </script>
-</body>
-
 </html>
