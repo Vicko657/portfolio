@@ -26,6 +26,21 @@
   background-size: cover;
 }
 </style>
+<script>
+var isNS = (navigator.appName == "Netscape") ? 1 : 0;
+if(navigator.appName == "Netscape") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);
+function mischandler(){
+return false;
+}
+function mousehandler(e){
+var myevent = (isNS) ? e : event;
+var eventbutton = (isNS) ? myevent.which : myevent.button;
+if((eventbutton==2)||(eventbutton==3)) return false;
+}
+document.oncontextmenu = mischandler;
+document.onmousedown = mousehandler;
+document.onmouseup = mousehandler;
+</script>
 </head>
 <body>
   <div class="nav flex flex--space-between align-center">
@@ -120,6 +135,11 @@
     </div>
   </div>
 </div>
+<footer class="flex flex--space-around align-center"style="padding:20px;">
+  <div class="boxlogo">
+    <p>© 2021 VICTORIA OLUSEGUN</p>
+  </div>
+</footer>
 <script>
 function openNav() {
 document.getElementById("myNav").style.width = "100%";
