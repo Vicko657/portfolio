@@ -348,7 +348,12 @@ a{
 .md{
   margin:0;
 }
-
+.hideiphone{
+display:block;
+}
+.linkoutset{
+  display:none;
+}
 img:hover{
   opacity: 1;
   transition: 0.5s;
@@ -1347,7 +1352,12 @@ img {
 }
 //Iphone//
   @media only screen and (max-width: 600px) {
-
+    .hideiphone{
+      display:none;
+    }
+    .linkoutset{
+      display:block;
+    }
     .bottom{
       margin-bottom:30px;
     }
