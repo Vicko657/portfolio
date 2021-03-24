@@ -1,67 +1,147 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>AK</title>
-  <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
-  <link rel="stylesheet" href="kscss.css">
-  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-  <link rel="stylesheet" href="https://use.typekit.net/qjc4xqb.css">
-  <link rel="stylesheet" href="https://use.typekit.net/cgm7mfp.css">
-  <link href="https://fonts.googleapis.com/css?family=Gaegu" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AK</title>
+<link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+<link rel="stylesheet" href="kscss.css">
+<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+<link rel="stylesheet" href="https://use.typekit.net/qjc4xqb.css">
+<link rel="stylesheet" href="https://use.typekit.net/cgm7mfp.css">
+<link href="https://fonts.googleapis.com/css?family=Gaegu" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400&display=swap" rel="stylesheet">
+<style>
+.parallax {
+  /* The image used */
+  background-image: url("imgs/akwebdesign.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+<script>
+var isNS = (navigator.appName == "Netscape") ? 1 : 0;
+if(navigator.appName == "Netscape") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);
+function mischandler(){
+return false;
+}
+function mousehandler(e){
+var myevent = (isNS) ? e : event;
+var eventbutton = (isNS) ? myevent.which : myevent.button;
+if((eventbutton==2)||(eventbutton==3)) return false;
+}
+document.oncontextmenu = mischandler;
+document.onmousedown = mousehandler;
+document.onmouseup = mousehandler;
+</script>
 </head>
-<body class="akbackground">
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script type="text/javascript" src="js/script.js"></script>
+<body>
   <div class="nav flex flex--space-between align-center">
     <div class="lg flex flex--start align-start">
-      <a href="index.html"><div class="boxlogo brown">
+      <a href="index.html"><div class="boxlogo">
         VICTORIA OLUSEGUN
     </div></a>
     </div>
     <div class="top flex align-center">
     </div>
     <div class=" flex flex--space-between align-end">
-      <div class="mi" id="miTopnav">
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <h1 class="sizemw brown">My Work <i class="fas fa-angle-down"></i></h1>
-        </a>
-        <a class="r2 brown" href="#aboutme">aboutme</a>
-        <a class="r1 brown" href="index.html#web">website designs &amp; app development</a>
-        <a class="r3 brown" href="index.html#ux">ux &amp; design</a>
-      </div>
-
-
       <div class="cm">
-        <a class="brown" href="mailto:victoriaolusegun@btinternet.com?Subject=From%20Website">contact me</a>
+        <a class="" href="index.html">WORK</a>
       </div>
+      <div class="mi">
+        <a class="r2" href="about.html">about</a>
+      </div>
+      <div class="cm">
+        <a href="mailto:victoriaolusegun@googlemail.com?Subject=From%20Website">Contact</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="openNav()">
+        <div class="bar"></div>
+        <div class="bar" style="margin-bottom: 0px;"></div>
+      </a>
     </div>
   </div>
 
-  <div class="info3 flex flex--space-around align-center columns">
-    <div class="om flex flex--space-around align-center rows">
-      <div class="akinfo flex align-start columns">
-        <h1>WEB DESIGN &amp; DEVELOPMENT</h1>
-        <h2>Aisha's Kitchen Website Initial Design</h2>
-        <br><br>
-        <p>This was my attempt at designing and coding a catering website.
-        <br>
+  <div id="myNav" class="overlay">
+<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<div class="overlay-content">
+<a href="index.html">Work</a>
+<a href="about.html">About</a>
+<a href="mailto:victoriaolusegun@googlemail.com?Subject=From%20Website">Contact</a>
+</div>
+</div>
+
+  <section class="back"></section>
+
+  <div class="parallax"></div>
+
+  <div class="parallaximage">
+    <img class="d"src="imgs/killsmokingwebsite.jpg" style="width:500px;">
+  </div>
+
+  <div class="topdescription flex flex--space-around align-center rows" style="background-color:#2f2f2f;color:#fff;font-size:14px;">
+    <div class="inside flex flex--space-around align-center rows">
+      <div class="m flex flex--start columns">
+        <h3>AK</h3>
+        <h4 style="font-weight: 200;">Web Design &amp; Development </h4>
+        <h4 style="font-weight: 200; font-style:italic;">2018-2021</h4>
+      </div>
+      <div class="m flex flex--space-between columns" style="width: 300px;">
+        <h2 class="h2">Description:</h2>
+        <p>Aisha's Kitchen Website Initial Design
+        This was my attempt at designing and coding a catering website.
         I also created the logo using Adobe Illustrator.
-        <br>
         The font that I used was FF Prater Sans  &amp; Europa.
+        As part of my module in university, I worked in a group to create the 'Kill Smoking' campaign. The main aim of this campaign was to highlight the negative effects that smoking can have on your health and wellbeing. I created the website for this campaign which included the design of the interactive infographics as seen below. <br><br>
         </p>
-        <a style="color: white;"href="akindex.html"><p>Click for Website</p></a>
       </div>
-<img class="rimg" src="imgs/akim.png" alt="img"></img>
+      <div class="m flex flex--end columns" style="width: 300px;">
+        <h2 class="h2">Software Used:</h2>
+        <p>The software I use is Adobe Illustrator &amp; Adobe Photoshop for the design.
+        <br><br>
+        </p>
+
+      </div>
     </div>
+</div>
 
+<div class="topdescription" style="background-color:fff;color:#666666;font-size:14px;">
+  <div class="inside flex flex--space-around align-center rows">
+    <div class=" flex flex--space-between columns">
+      <video class="vid" width="500" height="350" autoplay loop controls controlsList="nodownload">
+<source src="imgs/killsmoking.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+    </div>
+    <div class="right flex flex--end columns" style="width:350px;">
+      <h2>Web Design &amp; Development</h2>
+      <p>We decided as a team that displaying facts/figures on the website about smoking would be the most effective method of getting the users attention when they first enter the site. Therefore, I created the text slideshow you see when you first land on the page. This was further supported by the use of dark/smoky image illustrations to create a negative association with smoking in the users mind.<br><br>
+      </p>
+      <a style="color:#666666;" href="">View the prototype</a>
+      <a style="color:#666666;" href="akindex.html">Visit The Site</a>
+
+    </div>
   </div>
+</div>
+<footer class="flex flex--space-around align-center"style="padding:20px;">
+  <div class="boxlogo">
+    <p>&#169; 2021 VICTORIA OLUSEGUN</p>
+  </div>
+</footer>
+<script>
+function openNav() {
+document.getElementById("myNav").style.width = "100%";
+}
 
-
-
-  <footer>
-  </footer>
+function closeNav() {
+document.getElementById("myNav").style.width = "0%";
+}
+</script>
 </body>
-
 </html>
