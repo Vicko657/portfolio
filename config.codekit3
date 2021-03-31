@@ -3433,6 +3433,40 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/imgs\/resources.png" : {
+      "ft" : 32768,
+      "iS" : 479075,
+      "oA" : 0,
+      "oAP" : "\/imgs\/resources.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/imgs\/ResourcesFilter.png" : {
+      "ft" : 32768,
+      "iS" : 6723820,
+      "oA" : 0,
+      "oAP" : "\/imgs\/ResourcesFilter.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/imgs\/resourcespage.pdf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/imgs\/resourcespage.pdf",
+      "oF" : 0
+    },
     "\/imgs\/Retreat.pdf" : {
       "cB" : 0,
       "ft" : 8192,
@@ -3808,6 +3842,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/imgs\/Webdesign.png" : {
+      "ft" : 32768,
+      "iS" : 154903,
+      "oA" : 0,
+      "oAP" : "\/imgs\/Webdesign.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/imgs\/whitepapereigen.png" : {
       "ft" : 32768,
       "iS" : 1526667,
@@ -3826,6 +3873,19 @@
       "iS" : 173685,
       "oA" : 0,
       "oAP" : "\/imgs\/wireframe.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/imgs\/Wireframe1.png" : {
+      "ft" : 32768,
+      "iS" : 128852,
+      "oA" : 0,
+      "oAP" : "\/imgs\/Wireframe1.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -3917,6 +3977,19 @@
       "iS" : 203769,
       "oA" : 0,
       "oAP" : "\/imgs\/wireframe2-07.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/imgs\/Wireframe2.png" : {
+      "ft" : 32768,
+      "iS" : 109815,
+      "oA" : 0,
+      "oAP" : "\/imgs\/Wireframe2.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -4373,6 +4446,14 @@
       "hM" : 0,
       "oA" : 2,
       "oAP" : "\/outsetapp.html",
+      "oF" : 0
+    },
+    "\/outsetdesignprocess.ai" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/outsetdesignprocess.ai",
       "oF" : 0
     },
     "\/outsetold.html" : {
