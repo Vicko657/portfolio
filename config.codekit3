@@ -3267,6 +3267,14 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/imgs\/posterpresentation.pdf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/imgs\/posterpresentation.pdf",
+      "oF" : 0
+    },
     "\/imgs\/prototypeexample.png" : {
       "ft" : 32768,
       "iS" : 154903,
