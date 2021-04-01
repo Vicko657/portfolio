@@ -2806,6 +2806,14 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/imgs\/outsetdesignprocess.pdf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/imgs\/outsetdesignprocess.pdf",
+      "oF" : 0
+    },
     "\/imgs\/outsetlogo.png" : {
       "ft" : 32768,
       "iS" : 3493,
@@ -3267,7 +3275,7 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/imgs\/Posterpresentation.pdf" : {
+    "\/imgs\/posterpresentation.pdf" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
@@ -4454,14 +4462,6 @@
       "hM" : 0,
       "oA" : 2,
       "oAP" : "\/outsetapp.html",
-      "oF" : 0
-    },
-    "\/outsetdesignprocess.ai" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/outsetdesignprocess.ai",
       "oF" : 0
     },
     "\/outsetold.html" : {
