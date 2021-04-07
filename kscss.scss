@@ -15,6 +15,14 @@ h1{
 .main-body{
   z-index: -1;
 }
+.navigation{
+  font-size: 13px;
+  font-family: sofia-pro, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  color: black;
+  padding: 20px;
+}
 .nav{
   z-index: 1;
   width:100%;
@@ -724,33 +732,7 @@ p{
   padding-bottom: 30px;
   padding-top: 0px;
 }
-.pneumabackground{
-  background-color: #FEFFF6;
-}
-.outsetbackground{
-  background-color: #191818;
-}
-.purebackground{
-  background-color: #A79BCA;
-}
-.plbackground{
-  background-color: #fff;
-}
-.debackground{
-  background-color: black;
-}
-.hsbcbackground{
-  background-color: #fff;
-}
-.ctbackground{
-  background-color: #fff;
-}
-.ksbackground{
-  background-color: #666666;
-}
-.tfcbackground{
-  background-color: #fff;
-}
+
 .lightgrey{
   color: #B5B5B5;
 }
@@ -770,231 +752,11 @@ p{
   }
 }
 
-.outsetinfo{
-  color: white;
-  font-family: "komu-b",sans-serif;
-  font-weight: 200;
-  margin-right: 50px;
-  h1{
-    font-size: 50px;
-    letter-spacing: 2px;
-    margin: 0px;
-  }
-  h2{
-    font-size: 20px;
-    letter-spacing: 1px;
-    margin: 0px !important;
-  }
-  p{
-    font-family: "brandon-grotesque",sans-serif;
-    font-weight: 200;
-    font-size: 1.125rem;
-    width:500px;
-  }
-}
-.generalinfo{
-  color: white;
-  font-family: "komu-b",sans-serif;
-  font-weight: 200;
-  padding: 20px 0px;
-  h1{
-    font-size: 50px;
-    letter-spacing: 2px;
-    margin: 0px;
-  }
-  h2{
-    font-size: 20px;
-    letter-spacing: 1px;
-    margin: 0px;
-  }
-  p{
-    font-family: "brandon-grotesque",sans-serif;
-    font-weight: 200;
-    font-size: 1.125rem;
-    width:500px;
-    text-align: center;
-  }
-}
 a{
   margin: 0px;
 }
-.info4{
-  font-family: "komu-b",sans-serif;
-  color: #3D3836;
-}
-.pneumainfo{
-  color: #3D3836;
-  font-family: "komu-b",sans-serif;
-  font-weight: 200;
-  h1{
-    font-size: 50px;
-    letter-spacing: 2px;
-    margin: 0px;
-  }
-  h2{
-    font-size: 20px;
-    letter-spacing: 1px;
-    margin: 0px;
-  }
-  p{
-    font-family: "brandon-grotesque",sans-serif;
-    font-weight: 200;
-    font-size: 1.125rem;
-    width:500px;
-  }
-}
-.info5{
-  font-family: "komu-b",sans-serif;
-  color: #fff;
-  height: 100vh;
-}
-.pureinfo{
-  color: #fff;
-  font-family: "komu-b",sans-serif;
-  font-weight: 200;
-  margin-left: 110px;
-  h1{
-    font-size: 50px;
-    letter-spacing: 2px;
-    margin: 0px;
-  }
-  h2{
-    font-size: 20px;
-    letter-spacing: 1px;
-    margin: 0px;
-    margin-bottom: 30px;
-  }
-  p{
-    font-family: 'Lato', sans-serif;
-    font-weight: 200;
-    font-size: 14px;
-    width:500px;
-  }
-}
-.info6{
-  font-family: "komu-b",sans-serif;
-  color: #fff;
-  margin:0px;
-  h3{
-  font-size: 18px;
-  }
-}
-.info7{
-  font-family: "komu-b",sans-serif;
-  color: #fff;
-  h1{
-    font-size: 50px;
-    letter-spacing: 2px;
-    margin: 0px;
-  }
-  h2{
-    font-size: 20px;
-    letter-spacing: 1px;
-    margin: 0px;
-    margin-bottom: 30px;
-  }
-  p{
-    font-family: 'Lato', sans-serif;
-    font-weight: 200;
-    font-size: 14px;
-    width:500px;
-        text-align: center;
-  }
-}
-.info8{
-  font-family: "komu-b",sans-serif;
-  color: black;
-  h1{
-    font-size: 50px;
-    letter-spacing: 2px;
-    margin: 0px;
-  }
-  h2{
-    font-size: 20px;
-    letter-spacing: 1px;
-    margin: 0px;
-    margin-bottom: 30px;
-  }
-  p{
-    font-family: 'Lato', sans-serif;
-    font-weight: 200;
-    font-size: 14px;
-    width:500px;
-        text-align: center;
-  }
-}
-.plinfo{
-  color: black;
-  font-family: "komu-b",sans-serif;
-  font-weight: 200;
-  margin-left: 110px;
-  padding: 80px 0px;
-  h1{
-    font-size: 50px;
-    letter-spacing: 2px;
-    margin: 0px;
-  }
-  h2{
-    font-size: 20px;
-    letter-spacing: 1px;
-    margin: 0px;
-    margin-bottom: 30px;
-  }
-  p{
-    font-family: 'Lato', sans-serif;
-    font-weight: 200;
-    font-size: 14px;
-    width:500px;
-  }
-}
-.deinfo{
-  color: white;
-  font-family: "komu-b",sans-serif;
-  font-weight: 200;
-  h1{
-    font-size: 50px;
-    letter-spacing: 2px;
-    margin: 0px;
-  }
-  h2{
-    font-size: 20px;
-    letter-spacing: 1px;
-    margin: 0px;
-    margin-bottom: 30px;
-  }
-  p{
-    font-family: "brandon-grotesque",sans-serif;
-    font-weight: 200;
-    font-size: 1.125rem;
-    width:500px;
-  }
-}
-.HSBCinfo{
-  color: red!important;
-  font-family: "komu-b",sans-serif;
-  font-weight: 200;
-  a.color{
-    color:red!important;
-  }
-  h1{
-    font-size: 50px;
-    letter-spacing: 2px;
-    margin: 0px;
-  }
-  h2{
-    font-size: 20px;
-    letter-spacing: 1px;
-    margin: 0px;
-    margin-bottom: 30px;
-  }
-  p{
-    font-family: 'Lato', sans-serif;
-    font-weight: 200;
-    font-size: 14px;
-    width:500px;
-    text-align: center;
-  }
-}
+
+
 .akbackground{
   background-color: #DBD5B9;
 }

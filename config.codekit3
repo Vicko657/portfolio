@@ -1739,6 +1739,32 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/imgs\/drivemockup4.jpg" : {
+      "ft" : 16384,
+      "iS" : 961251,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/imgs\/drivemockup4.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/imgs\/driveport2.jpg" : {
+      "ft" : 16384,
+      "iS" : 2146795,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/imgs\/driveport2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/imgs\/driveposter-16.png" : {
       "ft" : 32768,
       "iS" : 1004444,
@@ -1915,7 +1941,7 @@
     },
     "\/imgs\/eigentech.png" : {
       "ft" : 32768,
-      "iS" : 46730,
+      "iS" : 4602167,
       "oA" : 0,
       "oAP" : "\/imgs\/eigentech.png",
       "oF" : 0,
