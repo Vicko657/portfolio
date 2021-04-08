@@ -3338,14 +3338,6 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/imgs\/portmimo.ai" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/imgs\/portmimo.ai",
-      "oF" : 0
-    },
     "\/imgs\/portmimo.jpg" : {
       "ft" : 16384,
       "iS" : 913356,
@@ -3411,6 +3403,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/imgs\/portmimoe3-01.jpg" : {
+      "ft" : 16384,
+      "iS" : 1066513,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/imgs\/portmimoe3-01.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/imgs\/portmimoePHOTO.png" : {
       "ft" : 32768,
       "iS" : 4040964,
@@ -3433,6 +3438,27 @@
       "oIPL" : 0,
       "opt" : 0,
       "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/imgs\/portnn.ai" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/imgs\/portnn.ai",
+      "oF" : 0
+    },
+    "\/imgs\/portnnn-01.jpg" : {
+      "ft" : 16384,
+      "iS" : 337405,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/imgs\/portnnn-01.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -3599,7 +3625,7 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/imgs\/Posterpresentation.pdf" : {
+    "\/imgs\/posterpresentation.pdf" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
