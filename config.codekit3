@@ -3724,6 +3724,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/imgs\/portpure1-01.jpg" : {
+      "ft" : 16384,
+      "iS" : 1255796,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/imgs\/portpure1-01.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/imgs\/porttfc-01.jpg" : {
       "ft" : 16384,
       "iS" : 201674,
@@ -3846,6 +3859,19 @@
       "iS" : 11479,
       "oA" : 0,
       "oAP" : "\/imgs\/purelogo.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/imgs\/purephoto.png" : {
+      "ft" : 32768,
+      "iS" : 10921389,
+      "oA" : 0,
+      "oAP" : "\/imgs\/purephoto.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
