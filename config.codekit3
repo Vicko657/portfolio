@@ -3270,6 +3270,32 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/imgs\/port0tnn-01.jpg" : {
+      "ft" : 16384,
+      "iS" : 823507,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/imgs\/port0tnn-01.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/imgs\/portak-01.jpg" : {
+      "ft" : 16384,
+      "iS" : 553937,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/imgs\/portak-01.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/imgs\/portdrive.ai" : {
       "cB" : 0,
       "ft" : 8192,
@@ -3371,6 +3397,19 @@
       "oA" : 2,
       "oAP" : "\/imgs\/portkill.ai",
       "oF" : 0
+    },
+    "\/imgs\/portkills-01.jpg" : {
+      "ft" : 16384,
+      "iS" : 451899,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/imgs\/portkills-01.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/imgs\/portmimo.jpg" : {
       "ft" : 16384,
@@ -3719,6 +3758,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/imgs\/porttfc1-01.jpg" : {
+      "ft" : 16384,
+      "iS" : 451910,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/imgs\/porttfc1-01.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/imgs\/postercanon.png" : {
       "ft" : 32768,
       "iS" : 16364313,
@@ -3732,7 +3784,7 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/imgs\/Posterpresentation.pdf" : {
+    "\/imgs\/posterpresentation.pdf" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
@@ -4151,6 +4203,19 @@
       "iS" : 18800,
       "oA" : 0,
       "oAP" : "\/imgs\/tfcim.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/imgs\/tfcphoto.png" : {
+      "ft" : 32768,
+      "iS" : 1339053,
+      "oA" : 0,
+      "oAP" : "\/imgs\/tfcphoto.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
