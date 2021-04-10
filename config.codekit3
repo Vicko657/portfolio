@@ -3278,19 +3278,6 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/imgs\/portdrivee-01.jpg" : {
-      "ft" : 16384,
-      "iS" : 384283,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/imgs\/portdrivee-01.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/imgs\/portdrivePHOTO.png" : {
       "ft" : 32768,
       "iS" : 3150784,
@@ -3651,7 +3638,7 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/imgs\/posterpresentation.pdf" : {
+    "\/imgs\/Posterpresentation.pdf" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
