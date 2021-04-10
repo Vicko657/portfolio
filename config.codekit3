@@ -3278,19 +3278,6 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/imgs\/portdrivee-01.jpg" : {
-      "ft" : 16384,
-      "iS" : 288200,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/imgs\/portdrivee-01.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/imgs\/portdrivePHOTO.png" : {
       "ft" : 32768,
       "iS" : 3150784,
@@ -3422,19 +3409,6 @@
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/imgs\/portmimoe3-01.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/imgs\/portmimoe4-01.jpg" : {
-      "ft" : 16384,
-      "iS" : 208807,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/imgs\/portmimoe4-01.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
