@@ -3578,6 +3578,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/imgs\/portoutset1-01.jpg" : {
+      "ft" : 16384,
+      "iS" : 557660,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/imgs\/portoutset1-01.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/imgs\/portpure-01.jpg" : {
       "ft" : 16384,
       "iS" : 165275,
@@ -3638,7 +3651,7 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/imgs\/Posterpresentation.pdf" : {
+    "\/imgs\/posterpresentation.pdf" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
