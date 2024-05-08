@@ -1,0 +1,75 @@
+@import url("src/cabinet-grotesk.css");
+
+body {
+  font-family: neue-haas-grotesk-display, sans-serif;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h1 .title {
+  font-family: "CabinetGrotesk-Extralight";
+  font-weight: 100;
+  font-display: swap;
+  font-style: normal;
+  color: black !important;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 100;
+  font-style: italic;
+  color: black !important;
+}
+
+h3 {
+  font-size: 26px;
+  font-weight: 200;
+  padding-left: 0px;
+  color: black !important;
+}
+
+p {
+  font-weight: 100;
+  font-size: 18px;
+  padding-left: 0px;
+  color: black !important;
+}
+
+img {
+  max-width: 100%;
+}
+video {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+}
+
+a .navbar-brand {
+  font-size: 20px;
+  font-family: "CabinetGrotesk-Extralight";
+  font-weight: 100;
+  font-display: swap;
+  font-style: normal;
+  color: black !important;
+  text-transform: uppercase;
+}
+a .nav-link {
+  font-size: 15px;
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-weight: 100;
+  font-display: swap;
+  font-style: normal;
+  color: black !important;
+  text-transform: uppercase;
+}
+
+footer {
+  text-align: center;
+}

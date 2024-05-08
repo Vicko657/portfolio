@@ -1,275 +1,214 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Eigen</title>
-<link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
-<link rel="stylesheet" href="kscss.css">
-<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-<link rel="stylesheet" href="https://use.typekit.net/qjc4xqb.css">
-<link rel="stylesheet" href="https://use.typekit.net/cgm7mfp.css">
-<link href="https://fonts.googleapis.com/css?family=Gaegu" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400&display=swap" rel="stylesheet">
-<style>
-.parallax {
-  /* The image used */
-  background-image: url("imgs/businesscard3transparent.png");
+  <head>
+    <title>Eigen</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <link href="src/styles.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+      integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+      crossorigin="anonymous"
+    />
+    <script src="https://use.fontawesome.com/5a3a7fdc30.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+      integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+      crossorigin="anonymous"
+    />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"
+    ></script>
+    <link rel="stylesheet" href="https://use.typekit.net/qjc4xqb.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/cgm7mfp.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-  /* Set a specific height */
-  min-height: 340px;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.parallax2 {
-  /* The image used */
-  background-image: url("imgs/prototypeexample.png");
-
-  /* Set a specific height */
-  min-height: 500px;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-</style>
-<script>
-var isNS = (navigator.appName == "Netscape") ? 1 : 0;
-if(navigator.appName == "Netscape") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);
-function mischandler(){
-return false;
-}
-function mousehandler(e){
-var myevent = (isNS) ? e : event;
-var eventbutton = (isNS) ? myevent.which : myevent.button;
-if((eventbutton==2)||(eventbutton==3)) return false;
-}
-document.oncontextmenu = mischandler;
-document.onmousedown = mousehandler;
-document.onmouseup = mousehandler;
-</script>
-</head>
-<body>
-  <div class="nav flex flex--space-between align-center">
-    <div class="lg flex flex--start align-start">
-      <a href="index.html"><div class="boxlogo">
-        VICTORIA OLUSEGUN
-    </div></a>
-    </div>
-    <div class="top flex align-center">
-    </div>
-    <div class=" flex flex--space-between align-end">
-      <div class="mi">
-        <a class="" href="index.html">WORK</a>
-      </div>
-      <div class="cm">
-        <a class="" href="archive.html">ARCHIVE</a>
-      </div>
-      <div class="mi">
-        <a class="r2" href="about.html">About</a>
-      </div>
-      <div class="cm">
-        <a href="mailto:victoriaolusegun@googlemail.com?Subject=From%20Website">Contact</a>
-      </div>
-      <a href="javascript:void(0);" class="icon" onclick="openNav()">
-        <div class="bar"></div>
-        <div class="bar" style="margin-bottom: 0px;"></div>
-      </a>
-    </div>
-  </div>
-
-  <div id="myNav" class="overlay">
-<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-<div class="overlay-content">
-<a href="index.html">Work</a>
-<a href="archive.html">Archive</a>
-<a href="about.html">About</a>
-<a href="mailto:victoriaolusegun@googlemail.com?Subject=From%20Website">Contact</a>
-</div>
-</div>
-
-<section class="back"></section>
-
-<div class="parallax"></div>
-
-<div class="parallaximage">
-  <img class="d"src="imgs/businesscard3transparent.png" style="width:500px;">
-</div>
-<div class="topdescription" style="background-color:#005464;font-size:14px;">
-  <div class="inside flex flex--space-around align-center rows">
-    <div class="m flex flex--start columns">
-      <h3>Eigen Technologies</h3>
-      <h4 style="font-weight: 200;">Visual Design Intern</h4>
-      <h4 style="font-weight: 200; font-style:italic;">2020</h4>
-    </div>
-    <div class="m flex flex--space-between columns" style="width: 350px;">
-      <h2 class="h2">Description:</h2>
-      <p>Eigen Technologies is an artificial intelligence company that provides natural language processing (NLP) technology, with headquarters based in London and New York. As part of my role as 'Visual Design Intern', I worked closely with the Senior Brand Designer on various projects such as; wireframing, designing and creating prototypes for the company website, UX &amp; UI design for business cards, social media campaigns and whitepapers.<br><br>
-      </p>
-    </div>
-    <div class="m flex flex--end columns"style="width: 300px;">
-      <h2 class="h2">Software Used:</h2>
-      <p>The software I used was Adobe Illustrator, Adobe Photoshop, Adobe XD and Adobe Indesign.
-      <br><br>
-      </p>
-    </div>
-  </div>
-</div>
-
-<div class="topdescription" style="background-color:#063642;color: #BFE2E0; font-size:14px;">
-  <div class="inside flex flex--space-around align-center rows">
-    <div class="flex flex--space-between columns">
-      <div class="container">
-
-        <div class="mySlides">
-          <img class="d imgsize1"src="imgs/etmockup.png" style="width:500px;">
+  <body>
+    <div class="container p-3">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="index.html">Victoria Olusegun</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarTogglerDemo02"
+        >
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html"
+                >CASE STUDIES <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="archive.html">ARCHIVE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="mailto:victoriaolusegun@googlemail.com?Subject=From%20Website"
+                >CONTACT</a
+              >
+            </li>
+          </ul>
         </div>
-
-  <div class="mySlides">
-    <img class="d imgsize1"src="imgs/whitepapereigen.png" style="width:500px;">
-  </div>
-
-  <div class="mySlides">
-    <img class="d imgsize1"src="imgs/buinesscard1.png" style="width:500px;">
-  </div>
-
-
-  <a class="prev" onclick="plusSlides(-1)"><i class="fas fa-angle-left"></i></a>
-  <a class="next" onclick="plusSlides(1)"><i class="fas fa-angle-right"></i></a>
-
-</div>
+      </nav>
     </div>
-    <div class="right rs flex flex--end columns" style="width:350px;">
-      <h2>Graphic Design</h2>
-      <p>Eigen Technologies had a clear design guideline for their brand which I adapted into visual assets to communicate various different brand messages. I was able to experiment with different types of design techniques such as isometric illustrations, shapes, typography, images and layout etc. Below are examples of the designs I produced.<br><br>
-      </p>
-      <br>
-      <a style="color:#BFE2E0;" href="imgs/Posterpresentation.pdf" target="_blank">View the poster design process</a>
 
-    </div>
-  </div>
-</div>
-
-<div class="topdescription 2" style="background-color: white;font-size:14px;">
-  <div class="inside flex flex--space-around align-center rows">
-    <img class="rs bottom"src="imgs/isoe.png" alt="img" style="width:500px;">
-    <img class="rs"src="imgs/resourceiso1.png" alt="img" style="width:500px;">
-  </div>
-</div>
-<div class="topdescription" style="background-color:#F0F8F8;color:#005464;font-size:14px;">
-  <div class="subsec flex flex--space-around align-center columns">
-    <div class="rs inside flex flex--space-around align-center columns" style="text-align:center; width:500px;">
-      <h2>Web Design &amp; Prototyping</h2>
-      <p>Eigen Technologies were optimising their website in order to meet user needs therefore I created prototypes for various webpages to see how functions (e.g. buttons and layout) look on the website before development. <br>Here are some examples of the work I produced:<br><br>
-      </p>
-
-    </div>
-    <div class="subsec flex flex--space-around align-center rows">
-    <div class="flex flex--start columns" style="margin-right:60px; width:300px;">
-        <h4 style="font-weight:200;">Desktop/Mobile Naviagtion Bar</h4>
-        <p>As part of the webpage review, I was able to simplify the navigation bar in order to make it more user friendly. (Desktop and mobile)<br>
-        </p>
-    </div>
-    <div class="flex flex--space-around rows">
-        <video class="vid" width="500" height="350" autoplay loop controls controlsList="nodownload">
-          <source src="imgs/eigennav.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-    </div>
-    </div>
-    <div class="subsec flex flex--space-around align-center rows" style="margin-bottom: 80px;">
-    <div class="flex flex--start columns" style="margin-right:60px; width:300px;">
-        <h4 style="font-weight:200;"></h4>
-        <p></p><br>
-
-    </div>
-    <div class="flex flex--space-around rows">
-        <video class="vid" width="500" height="350" autoplay loop controls controlsList="nodownload">
-          <source src="imgs/mobilenav.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-    </div>
+    <div class="container p-3">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-xs-4 mb-4 mb-md-0">
+          <h1 class="title">Eigen<br />Technologies</h1>
+          <h2>Visual Design Intern<br />2020</h2>
+        </div>
+        <div class="col-lg-7 col-md-7 col-xs-7">
+          <h3>
+            Eigen Technologies is an artificial intelligence company that
+            provides natural language processing (NLP) technology, with
+            headquarters based in London and New York.
+          </h3>
+          <p>
+            As part of my role as 'Visual Design Intern', I worked closely with
+            the Senior Brand Designer on various projects such as; wireframing,
+            designing and creating prototypes for the company website, UX &amp;
+            UI design for business cards, social media campaigns and
+            whitepapers.
+          </p>
+          <br />
+          <h2>Graphic Design</h2>
+          <p>
+            Eigen Technologies had a clear design guideline for their brand
+            which I adapted into visual assets to communicate various different
+            brand messages. I was able to experiment with different types of
+            design techniques such as isometric illustrations, shapes,
+            typography, images and layout etc. Below are examples of the designs
+            I produced.
+          </p>
+          <p>
+            Click
+            <a
+              style="color: #9d8df1; padding: 0px"
+              href="imgs/Posterpresentation.pdf"
+              target="_blank"
+              >here</a
+            >
+            to view the design process for the poster
+          </p>
+          <br />
+          <h2>Web design &amp; prototyping</h2>
+          <p>
+            Eigen Technologies were optimising their website in order to meet
+            user needs therefore I created prototypes for various webpages to
+            see how functions (e.g. buttons and layout) look on the website
+            before development.
+          </p>
+          <p>
+            Click
+            <a
+              style="color: #9d8df1; padding: 0px"
+              href="imgs/resourcespage.pdf"
+              target="_blank"
+              >here</a
+            >
+            to view the design process for the Resources page
+          </p>
+          <br />
+        </div>
+      </div>
     </div>
 
 
-<div class="subsec flex flex--space-around align-center rows">
-<div class="flex flex--start columns" style="margin-right:60px; width:300px;">
-    <h4 style="font-weight:200;">Resources Web Page</h4>
-    <p>I created a solution to ensure that when consumers visit the website, they are able to access the resources easily.<br>
-    </p>
-    <br>
-    <a style="color:#005464;" href="imgs/resourcespage.pdf">View the design process</a>
-</div>
-<div class="flex flex--space-around rows">
-    <video class="vid" width="500" height="350" autoplay loop controls controlsList="nodownload">
-      <source src="imgs/desktopversionresourcesxd.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-</div>
-</div>
-  </div>
-</div>
-<div class="navigation flex flex--space-around align-center rows" style="background: lightgrey;">
-  <div class="flex flex--start columns">
-    <a href="mimoempire.html"><p>Previous Project</p></a>
-  </div>
-  <div class="flex flex--space-between columns" style="">
-    <p></p>
-  </div>
-  <div class="flex flex--end columns" style="">
-    <a href="otn.html"><p>Next Project</p></a>
-  </div>
-</div>
-<footer class="flex flex--space-around align-center"style="padding:20px;">
-  <div class="boxlogo">
-    <p>&#169; 2021 VICTORIA OLUSEGUN</p>
-  </div>
-</footer>
-<script>
-var slideIndex = 1;
-showSlides(slideIndex);
+    <div class="container p-3">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-xs-6 mb-4 mb-md-0">
+          <img src="imgs/e_3.png"></img>
+        </div>
+        <div class="col-lg-6 col-md-6 col-xs-6">
+            <img src="imgs/e_4.png"></img>
+        </div>
+      </div>
+    </div>
 
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
+    <div class="container p-3">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-xs-12">
+          <img class="overlay_img" src="imgs/e_1.png" alt="img" />
+        </div>
+      </div>
+    </div>
 
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
+    <div class="container p-3">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-xs-12">
+          <img class="overlay_img" src="imgs/e_2.png" alt="img" />
+        </div>
+      </div>
+    </div>
 
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo");
-  var captionText = document.getElementById("caption");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-  captionText.innerHTML = dots[slideIndex-1].alt;
-}
-</script>
-<script>
-function openNav() {
-document.getElementById("myNav").style.width = "100%";
-}
+    <div class="container p-3">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-xs-6 mb-4 mb-md-0">
+          <video src="video/eigen_nav.mp4" autoplay loop></video>
+        </div>
+        <div class="col-lg-6 col-md-6 col-xs-6">
+            <video src="video/eigen_mob_vid.mp4" autoplay loop></video>
+        </div>
+      </div>
+    </div>
 
-function closeNav() {
-document.getElementById("myNav").style.width = "0%";
-}
-</script>
-</body>
+    <div class="container p-3">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-xs-12">
+          <video src="video/eigen_web_vid.mp4" autoplay loop></video>
+        </div>
+      </div>
+    </div>
+
+    <footer class="">
+      <div class="container p-3">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-xs-4">
+            <p>victoriaolusegun@gmail.com</p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-xs-4">
+            <p>LinkedIn</p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-xs-4">
+            <p>&#169; 2024</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="src/index.js"></script>
+  </body>
 </html>

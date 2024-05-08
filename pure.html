@@ -1,218 +1,199 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Pure</title>
-<link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
-<link rel="stylesheet" href="kscss.css">
-<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-<link rel="stylesheet" href="https://use.typekit.net/qjc4xqb.css">
-<link rel="stylesheet" href="https://use.typekit.net/cgm7mfp.css">
-<link href="https://fonts.googleapis.com/css?family=Gaegu" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400&display=swap" rel="stylesheet">
-<style>
-.parallax {
-  /* The image used */
-  background-image: url("imgs/360Camp.png");
+  <head>
+    <title>Pure</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <link href="src/styles.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+      integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+      crossorigin="anonymous"
+    />
+    <script src="https://use.fontawesome.com/5a3a7fdc30.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+      integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+      crossorigin="anonymous"
+    />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"
+    ></script>
+    <link rel="stylesheet" href="https://use.typekit.net/qjc4xqb.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/cgm7mfp.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-  /* Set a specific height */
-  min-height: 340px;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-</style>
-<script>
-var isNS = (navigator.appName == "Netscape") ? 1 : 0;
-if(navigator.appName == "Netscape") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);
-function mischandler(){
-return false;
-}
-function mousehandler(e){
-var myevent = (isNS) ? e : event;
-var eventbutton = (isNS) ? myevent.which : myevent.button;
-if((eventbutton==2)||(eventbutton==3)) return false;
-}
-document.oncontextmenu = mischandler;
-document.onmousedown = mousehandler;
-document.onmouseup = mousehandler;
-</script>
-</head>
-<body>
-  <div class="nav flex flex--space-between align-center">
-    <div class="lg flex flex--start align-start">
-      <a href="index.html"><div class="boxlogo">
-        VICTORIA OLUSEGUN
-    </div></a>
+  <body>
+    <div class="container p-3">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="index.html">Victoria Olusegun</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarTogglerDemo02"
+        >
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html"
+                >CASE STUDIES <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="archive.html">ARCHIVE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="mailto:victoriaolusegun@googlemail.com?Subject=From%20Website"
+                >CONTACT</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
     </div>
-    <div class="top flex align-center">
-    </div>
-    <div class=" flex flex--space-between align-end">
-      <div class="mi">
-        <a class="" href="index.html">WORK</a>
-      </div>
-      <div class="cm">
-        <a class="" href="archive.html">ARCHIVE</a>
-      </div>
-      <div class="mi">
-        <a class="r2" href="about.html">About</a>
-      </div>
-      <div class="cm">
-        <a href="mailto:victoriaolusegun@googlemail.com?Subject=From%20Website">Contact</a>
-      </div>
-      <a href="javascript:void(0);" class="icon" onclick="openNav()">
-        <div class="bar"></div>
-        <div class="bar" style="margin-bottom: 0px;"></div>
-      </a>
-    </div>
-  </div>
 
-  <div id="myNav" class="overlay">
-<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-<div class="overlay-content">
-<a href="index.html">Work</a>
-<a href="archive.html">Archive</a>
-<a href="about.html">About</a>
-<a href="mailto:victoriaolusegun@googlemail.com?Subject=From%20Website">Contact</a>
-</div>
-</div>
-
-  <section class="back"></section>
-
-  <div class="parallax"></div>
-
-  <div class="parallaximage">
-    <img class="d"src="imgs/360Camp.png" style="width:500px;">
-  </div>
-
-  <div class="topdescription flex flex--space-around align-center rows" style="background-color:#a79bca;color:fff;font-size:14px;">
-    <div class="inside flex flex--space-around align-center rows">
-      <div class="m flex flex--start columns">
-        <h3>Pure</h3>
-        <h4 style="font-weight: 200;">University 360 Marketing Campaign</h4>
-        <h4 style="font-weight: 200; font-style: italic;">2019</h4>
-      </div>
-      <div class="m flex flex--space-between columns" style="width: 300px;">
-        <h2 class="h2">Description:</h2>
-        <p >The main aim of this project was to create a 360-marketing campaign pitch. The campaigns target audience were young girls/women of African origin with textured hair. The campaign sought to empower these young women whilst providing a solution in the form of a product to maintain the health of their hair.
-        </p>
-      </div>
-      <div class="m flex flex--end columns" style="width: 300px;">
-        <h2 class="h2">Software Used:</h2>
-        <p>The software I used was Adobe Illustrator &amp; Adobe After Effects.
-        <br><br>
-        </p>
-
+    <div class="container p-3">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-xs-4 mb-4 mb-md-0">
+          <h1 class="title">Pure</h1>
+          <h2>Branding, Social Media,
+              <br>Product Branding, Animation, <br>Outdoor Signage Advertisement</h2>
+        </div>
+        <div class="col-lg-7 col-md-7 col-xs-7">
+          <h3>The main aim of this project was to create a 360-marketing campaign pitch. The campaigns target audience were young girls/women of African origin with textured hair. The campaign sought to empower these young women whilst providing a solution in the form of a product to maintain the health of their hair.</h3> 
+              <br/>
+          <h2>Branding</h2>
+              <p>As part of the brand strategy, I created different products which were advertised as a 3-step curly hair routine, as shown below. Each step included a quote which was used to communicate an empowering message about their hair. This helped create a positive relationship with the customer and the brand. The accompanying illustrations were used to mirror the products text. For example 'Step 1' focuses on the word 'fresh' therefore, the lemon/coconut illustrations were used to further portray this message. <br><br>As part of the positioning for the campaign, I had to consider which locations had the most foot traffic from our target audience. One of which was underground stations in urban areas and bus stops near school districts. In order to visualise how the promotional material would look like in different outdoor locations, I created the mock-ups displayed.
+</p>
+              <br>
+              <h2>Animation</h2>
+              <p>Another aspect of the campaign was to create a promotional video to showcase the product. I created this animation using Adobe After Effects and repurposed the illustrations to create content for the video.</p>
+        </div>
       </div>
     </div>
-</div>
 
-<div class="topdescription" style="background-color:#131313;font-size:14px;padding-bottom: 0px;">
-  <div class="subsec flex flex--space-around align-center columns">
-    <div class="rs flex flex--space-around align-center columns" style="text-align: center; width:600px;">
-      <h2>Branding &amp; Graphics</h2>
-      <p>As part of the brand strategy, I created different products which were advertised as a 3-step curly hair routine, as shown below. Each step included a quote which was used to communicate an empowering message about their hair. This helped create a positive relationship with the customer and the brand. The accompanying illustrations were used to mirror the products text. For example 'Step 1' focuses on the word 'fresh' therefore, the lemon/coconut illustrations were used to further portray this message.<br><br>
-      </p>
-    </div>
-  </div>
-</div>
 
-<div class="topdescription flex flex--space-around align-center columns" style="background-color:#131313;font-size:14px;padding-top: 45px;padding-bottom: 0px;">
-  <div>
-    <h2>Landscape Version</h2>
-  </div>
-  <div class="subsec flex flex--space-around align-center rows">
-    <div class=" flex flex--start columns">
-      <img class="imgsize1"src="imgs/360LV-03-03.png" alt="img" style="width:350px;">
+    <div class="container p-3">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-xs-6 mb-4 mb-md-0">
+          <img src="imgs/mimoempire_logo.gif"></img>
+        </div>
+        <div class="col-lg-6 col-md-6 col-xs-6">
+            <img src="imgs/me_colour_scheme.png"></img>
+        </div>
+      </div>
     </div>
-    <div class="flex flex--space-between columns">
-      <img class="imgsize1"src="imgs/360LV-01.png" alt="img" style="width:350px;">
-    </div>
-    <div class="flex flex--end columns">
-    <img class="imgsize1"src="imgs/360LV-02.png" alt="img" style="width:350px;">
-    </div>
-  </div>
-</div>
 
-<div class="topdescription flex flex--space-around align-center columns" style="background-color:#131313;font-size:14px;padding-top: 45px;">
-  <div>
-    <h2>Portrait Version</h2>
-  </div>
-  <div class="subsec flex flex--space-around align-center rows">
-    <div class=" flex flex--start columns">
-      <img class="imgsize1"src="imgs/360PV-11.png" alt="img" style="width:350px;">
+    <div class="container p-3">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-xs-12">
+          <img class="overlay_img" src="imgs/me_5.png" alt="img" />
+        </div>
+      </div>
     </div>
-    <div class="flex flex--space-between columns">
-      <img class="imgsize1"src="imgs/360PV-09.png" alt="img" style="width:350px;">
-    </div>
-    <div class="flex flex--end columns">
-    <img class="imgsize1"src="imgs/360PV-10.png" alt="img" style="width:350px;">
-    </div>
-  </div>
-</div>
 
-<div class="topdescription" style="background-color:#c7898e;color:#fff;font-size:14px;">
-  <div class="inside flex flex--space-around align-center rows">
-    <div class="left flex flex--end columns" style="width:350px;">
-      <h2>Animation</h2>
-      <p>Another aspect of the campaign was to create a promotional video to showcase the product. I created this animation using Adobe After Effects and repurposed the illustrations to create content for the video.<br><br>
-      </p>
+    <div class="container p-3">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-xs-6 mb-4 mb-md-0">
+          <img src="imgs/me_3.png"></img>
+        </div>
+        <div class="col-lg-6 col-md-6 col-xs-6">
+            <img src="imgs/me_4.png"></img>
+        </div>
+      </div>
+    </div>
 
+    <div class="container p-3">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-xs-12">
+          <img src="imgs/me_2.png"></img>
+        </div>
+      </div>
     </div>
-    <div class="right flex flex--space-between columns">
-      <video class="vid" width="350" height="350" autoplay loop controls controlsList="nodownload">
-<source src="imgs/SUGARANIMATION.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video>
-    </div>
-  </div>
-</div>
 
-<div class="topdescription" style="background-color:#B15E6C;color:#fff;font-size:14px;">
-  <div class="inside flex flex--space-around align-center rows">
-    <div class=" flex flex--start columns">
-      <img class="poo imgsize1"src="imgs/sugarbusstop.png" alt="img" style="width:350px;">
+    <div class="container p-3">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-xs-12">
+          <video src="video/mimopictures.mp4" autoplay loop></video>
+        </div>
+      </div>
     </div>
-    <div class="rs flex flex--space-around align-center columns"style="width:350px;">
-      <h2>The Location</h2>
-      <p style="text-align:center;">As part of the positioning for the campaign, I had to consider which locations had the most foot traffic from our target audience. One of which was underground stations in urban areas and bus stops near school districts. In order to visualise how the promotional material would look like in different outdoor locations, I created the mock-ups displayed.<br><br>
-      </p>
 
+    <div class="container p-3">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-xs-6 mb-4 mb-md-0">
+          <video src="video/mimo_web_mob_vid.mp4" autoplay loop></video>
+        </div>
+        <div class="col-lg-6 col-md-6 col-xs-6">
+            <video src="video/mimo_bf_vid.mp4" autoplay loop></video>
+        </div>
+      </div>
     </div>
-    <div class="flex flex--end columns">
-        <img class="poo imgsize1"src="imgs/versatiletrainbillboardposter.png" alt="img" style="width:350px;">
-    </div>
-  </div>
-</div>
-<div class="parallax2"></div>
-<div class="navigation flex flex--space-around align-center rows" style="background: lightgrey;">
-  <div class="flex flex--start columns">
-    <a href="vb.html"><p>Previous Project</p></a>
-  </div>
-  <div class=" flex flex--space-between columns" style="">
-    <p></p>
-  </div>
-  <div class=" flex flex--end columns" style="">
-    <a href="nn.html"><p>Next Project</p></a>
-  </div>
-</div>
-<footer class="flex flex--space-around align-center"style="padding:20px;">
-  <div class="boxlogo">
-    <p>&#169; 2021 VICTORIA OLUSEGUN</p>
-  </div>
-</footer>
-<script>
-function openNav() {
-document.getElementById("myNav").style.width = "100%";
-}
 
-function closeNav() {
-document.getElementById("myNav").style.width = "0%";
-}
-</script>
-</body>
+    <div class="container p-3">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-xs-12">
+          <video src="video/mimo_web_vid.mp4" autoplay loop></video>
+        </div>
+      </div>
+    </div>
+
+    <div class="container p-3">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-xs-12">
+          <img src="imgs/me_6.png"></img>
+        </div>
+      </div>
+    </div>
+
+    <footer class="">
+      <div class="container p-3">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-xs-4">
+            <p>victoriaolusegun@gmail.com</p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-xs-4">
+            <a href="www.linkedin.com/in/victoria-olusegun-52a609100"><p>LinkedIn</p></a>
+          </div>
+          <div class="col-lg-4 col-md-4 col-xs-4">
+            <p>&#169; 2024</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="src/index.js"></script>
+  </body>
 </html>
